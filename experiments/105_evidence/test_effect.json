@@ -1,0 +1,48 @@
+{
+  "V0": {
+    "changed_vs_submitted": 4,
+    "predicted_counts": {
+      "youtube": 14,
+      "x": 21,
+      "google": 33,
+      "instagram": 2,
+      "facebook": 2,
+      "mozilla": 9
+    },
+    "changes": {
+      "flow_000095": "youtube -> x",
+      "flow_000223": "facebook -> youtube",
+      "flow_000906": "google -> youtube",
+      "flow_001187": "facebook -> google"
+    }
+  },
+  "V1": {
+    "changed_vs_submitted": 4,
+    "predicted_counts": {
+      "youtube": 14,
+      "x": 21,
+      "google": 33,
+      "instagram": 2,
+      "facebook": 2,
+      "mozilla": 9
+    },
+    "changes": {
+      "flow_000095": "youtube -> x",
+      "flow_000223": "facebook -> youtube",
+      "flow_000906": "google -> youtube",
+      "flow_001187": "facebook -> google"
+    }
+  },
+  "V2": {
+    "changed_vs_submitted": 0,
+    "predicted_counts": {
+      "youtube": 13,
+      "x": 20,
+      "google": 33,
+      "instagram": 2,
+      "facebook": 4,
+      "mozilla": 9
+    },
+    "changes": {}
+  }
+}

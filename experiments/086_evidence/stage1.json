@@ -1,0 +1,56 @@
+{
+  "task1_static:N0": {
+    "base_macro": 0.8371,
+    "macro": 0.8222,
+    "delta": -0.015,
+    "changed": 223,
+    "removed": 63,
+    "broken": 129,
+    "gate": false
+  },
+  "task1_static:DR": {
+    "base_macro": 0.8371,
+    "macro": 0.8172,
+    "delta": -0.0199,
+    "changed": 290,
+    "removed": 82,
+    "broken": 168,
+    "gate": false
+  },
+  "task1_static:CO": {
+    "base_macro": 0.8371,
+    "macro": 0.8149,
+    "delta": -0.0222,
+    "changed": 268,
+    "removed": 61,
+    "broken": 162,
+    "gate": false
+  },
+  "task2_realtime_prefix5:N0": {
+    "base_macro": 0.7692,
+    "macro": 0.7701,
+    "delta": 0.0009,
+    "changed": 23,
+    "removed": 6,
+    "broken": 6,
+    "gate": false
+  },
+  "task2_realtime_prefix5:DR": {
+    "base_macro": 0.7692,
+    "macro": 0.7703,
+    "delta": 0.0011,
+    "changed": 37,
+    "removed": 15,
+    "broken": 13,
+    "gate": false
+  },
+  "task2_realtime_prefix5:CO": {
+    "base_macro": 0.7692,
+    "macro": 0.7678,
+    "delta": -0.0013,
+    "changed": 29,
+    "removed": 9,
+    "broken": 18,
+    "gate": false
+  }
+}

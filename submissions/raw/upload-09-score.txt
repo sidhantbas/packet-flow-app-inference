@@ -1,0 +1,1 @@
+{"submitted_at": "2026-10-16T23:11:53.858112Z", "Task 1 Macro F1": 0.8571, "Task 1 Accuracy": 0.91358, "Task 1 Score": 42.855023, "Task 2 Macro F1": 0.905055, "Task 2 Accuracy": 0.888889, "Task 2 Score": 45.252727, "Total": 88.10775}

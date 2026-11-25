@@ -1,0 +1,7 @@
+view,run,n_cols,macro_f1,fixes,fix_share,breaks,break_share,fixes_meta,fixes_google_youtube,fix_break_ratio
+V0_opening_reference,20261009T200741Z_076_V0_opening_reference,12,0.7362,49,0.119,161,0.056,12,37,0.304
+V1_rest,20261009T200745Z_076_V1_rest,11,0.7056,161,0.391,501,0.173,6,114,0.321
+V2_cross_view_shape,20261009T200748Z_076_V2_cross_view_shape,8,0.6912,92,0.223,435,0.151,8,63,0.211
+V3_opening_fingerprint,20261009T200750Z_076_V3_opening_fingerprint,13,0.7347,74,0.18,167,0.058,19,51,0.443
+V4_timing,20261009T200753Z_076_V4_timing,6,0.577,127,0.308,928,0.321,9,95,0.137
+V5_size,20261009T200756Z_076_V5_size,11,0.6545,126,0.306,480,0.166,1,97,0.263

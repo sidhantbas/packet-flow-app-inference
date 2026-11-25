@@ -1,0 +1,29 @@
+{
+  "git_head": "30f0adbe20bb8d0bab14c8e3eefeabb01db6791d",
+  "src_uncommitted_changes": "M src/make_final_candidate.py\n M src/models.py",
+  "code_sha256": {
+    "src/models.py": "93bc08c2c0894e9479c8ee0f52eb74c76e0a16c7ee3d3d33b15454942604fddc",
+    "src/cv.py": "3be83d1ea813ad0ea3c53f68b8f348e6f6fb9c30c276caa1392b5eba057706eb",
+    "src/make_submission.py": "56b45826951653a09330a1bd498dfad23bf4821596434cae6904bc15733ad4f8",
+    "src/make_final_candidate.py": "9cecc21ee28fa19bfe21e7f260c140dd7e8718914dd677b3d7d722a01e592a1c",
+    "requirements.txt": "f416a9d5120e94401f51e157a20f8bac0f14728488f3f7ab4938554ff559b4f0"
+  },
+  "data_sha256": {
+    "task1_static/sample_submission.csv": "29165877c8de21b57edcbd18740a37a9a03cb50753ed93955bcf873987bb43fe",
+    "task1_static/test_features.csv": "3f0c175699299649e48edd09167d707b61935f695d659a6d65eb843b11001a2b",
+    "task1_static/train_features.csv": "9a272ae67890f0903b96576273c5381f59df6a9384ef2c43df1d3832943999ec",
+    "task1_static/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+    "task1_static/validation_features.csv": "6ee5423541d72766fdf16e223b569a2dc19d2bc72844cec9245f9d6b50947a52",
+    "task1_static/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6",
+    "task2_realtime_prefix5/sample_submission.csv": "29165877c8de21b57edcbd18740a37a9a03cb50753ed93955bcf873987bb43fe",
+    "task2_realtime_prefix5/test_features.csv": "4b848ef886f976968628c1a821650f25f8f4e7a65496ea96eea7159325708f42",
+    "task2_realtime_prefix5/train_features.csv": "c4ee7ef94d56cf5df32b48ab36154b98c68f3961b876627157add17445497730",
+    "task2_realtime_prefix5/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+    "task2_realtime_prefix5/validation_features.csv": "2ec2f5b80308371281a63bd4fcab16b84ae2d93f078dc39efc191d4f814851c2",
+    "task2_realtime_prefix5/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6"
+  },
+  "output_sha256": {
+    "submission.json": "8069ed258c3477f9604d2ec7b091f13a475dcc78de9768dc72b9ed9403bad62c",
+    "submission.zip": "02ea4690bb6ca7362845491fcfa2c9c1a7560656dbabcbfee08d57d8101253d7"
+  }
+}

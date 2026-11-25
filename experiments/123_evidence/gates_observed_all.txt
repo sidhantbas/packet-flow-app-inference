@@ -1,0 +1,37 @@
+364 candidate flows; apps {'youtube': 158, 'instagram': 157, 'facebook': 49}
+== Gate 1: extractor identities
+  Task 2 opening consistent with Task 1 flow: 364/364
+  Gate 1 PASS
+
+== Opening shapes (Task 2), captured vs original
+  tcp up/down: captured {(3, 2): 0.1, (4, 1): 0.87, (5, 0): 0.03} | original {(2, 3): 0.11, (3, 2): 0.66, (4, 1): 0.23}
+  udp up/down: captured {(2, 3): 0.48, (3, 2): 0.1, (4, 1): 0.07, (5, 0): 0.35} | original {(1, 4): 0.04, (2, 3): 0.7, (3, 2): 0.23, (4, 1): 0.02, (5, 0): 0.01}
+  captured: smaller of 2 TCP up packets [] (original first TCP packet 145-175 B)
+  captured: UDP up sizes (all equal) [(1242, 59), (1294, 58), (1274, 16), (1292, 7)]
+  original: smaller of 2 TCP up packets [(145, 10), (147, 2), (148, 2), (133, 1), (156, 1)] (original first TCP packet 145-175 B)
+  original: UDP up sizes (all equal) [(1381, 30), (1366, 20), (1375, 18), (1365, 13), (1377, 9), (1363, 7)]
+
+== Gate 2: proximity to the original labelled flows (16 Task 1 columns without min_iat, log1p, standardised on originals)
+  min_iat == 0: captured 76% vs original 98% (timestamp batching; reported, not gated)
+  app facebook                           n= 49  median NN distance 1.99 (orig 90th pct 2.15)  same-label 5-NN 0.02 (orig 0.16)  FAR
+  app instagram                          n=157  median NN distance 2.08 (orig 90th pct 2.01)  same-label 5-NN 0.15 (orig 0.41)  FAR
+  app youtube                            n=158  median NN distance 1.12 (orig 90th pct 1.25)  same-label 5-NN 0.32 (orig 0.59)  FAR
+  facebook / QUIC burst                  n= 18  median NN distance 2.46 (orig 90th pct 2.15)  same-label 5-NN 0.04 (orig 0.16)  FAR
+  facebook / QUIC media download         n=  3  median NN distance 2.12 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / QUIC upload-heavy           n=  1  median NN distance 2.95 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / TCP keep-alive              n=  1  median NN distance 1.14 (orig 90th pct 2.15)  same-label 5-NN 0.40 (orig 0.16)  ok
+  facebook / short QUIC fetch            n= 14  median NN distance 0.35 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / short TCP                   n= 12  median NN distance 1.76 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  instagram / QUIC burst                 n= 44  median NN distance 20.00 (orig 90th pct 2.01)  same-label 5-NN 0.35 (orig 0.41)  FAR
+  instagram / QUIC media download        n=  2  median NN distance 1.56 (orig 90th pct 2.01)  same-label 5-NN 0.60 (orig 0.41)  ok
+  instagram / QUIC upload-heavy          n=  2  median NN distance 2.07 (orig 90th pct 2.01)  same-label 5-NN 0.80 (orig 0.41)  FAR
+  instagram / TCP keep-alive             n=  1  median NN distance 2.00 (orig 90th pct 2.01)  same-label 5-NN 0.00 (orig 0.41)  FAR
+  instagram / short QUIC fetch           n= 13  median NN distance 1.13 (orig 90th pct 2.01)  same-label 5-NN 0.08 (orig 0.41)  FAR
+  instagram / short TCP                  n= 85  median NN distance 1.52 (orig 90th pct 2.01)  same-label 5-NN 0.02 (orig 0.41)  FAR
+  instagram / slow QUIC trickle          n= 10  median NN distance 1.78 (orig 90th pct 2.01)  same-label 5-NN 0.34 (orig 0.41)  FAR
+  label discovery: label of the nearest original flow, per captured session app (which app makes 'facebook'-like flows?)
+    facebook  -> google 21, youtube 10, instagram 9, x 5, facebook 3, mozilla 1
+    instagram -> google 72, x 41, youtube 20, instagram 12, facebook 7, mozilla 5
+    youtube   -> google 76, youtube 39, x 27, instagram 10, mozilla 4, facebook 2
+  adversarial AUC original vs captured: 0.965 (gate <= 0.70)
+  Gate 2 FAIL (per-app rows and AUC decide; type rows are diagnostics)

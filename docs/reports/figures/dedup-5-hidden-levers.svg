@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='600' viewBox='0 0 980 600' role='img' aria-label='5. What the leaders may not disclose'>
+<style>:root { color-scheme: dark; }</style>
+<rect width='980' height='600' fill='#0f172a' rx='14'/>
+<text x='28' y='42' fill='#e2e8f0' font-size='22' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>5. What the leaders may not disclose</text>
+<text x='28' y='68' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>What might really be behind the leaders' scores, what our tests say, and whether we may use it.</text>
+<rect x='28.0' y='88.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='44' y='118' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Leaderboard feedback</text>
+<text x='44' y='142' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>5 uploads a day on the set that ranks the competition</text>
+<text x='44' y='172' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Their v9 jump = exactly +2 flows;</text>
+<text x='44' y='192' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>a blind swap gives that 1-2% of the time (105)</text>
+<text x='462' y='118' fill='#f59e0b' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ Condition 1</text>
+<rect x='498.0' y='88.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='514' y='118' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Published test counts</text>
+<text x='514' y='142' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Constrained assignment to metadata counts</text>
+<text x='514' y='172' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>No gain for our models:</text>
+<text x='514' y='192' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>−0.005 / +0.001 (102, 104)</text>
+<text x='932' y='118' fill='#f59e0b' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ Our rule</text>
+<rect x='28.0' y='254.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#c026d3' stroke-width='1.5'/>
+<text x='44' y='284' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Same-moment flow labels</text>
+<text x='44' y='308' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Copy labels of labelled flows opened within ~1 s</text>
+<text x='44' y='338' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Best: Task 1 -0.056 (N05),</text>
+<text x='44' y='358' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 -0.046 (N10) (107)</text>
+<text x='462' y='284' fill='#c026d3' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ Our rule (capture time)</text>
+<rect x='498.0' y='254.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#94a3b8' stroke-width='1.5'/>
+<text x='514' y='284' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Luck on 81 flows</text>
+<text x='514' y='308' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>One rare-class flow = about 2 points</text>
+<text x='514' y='338' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>A Task 1 of 0.94 is our model's 98.7th</text>
+<text x='514' y='358' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>percentile on 81-flow draws (040)</text>
+<text x='932' y='284' fill='#94a3b8' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>Cannot be acted on</text>
+<rect x='28.0' y='420.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='44' y='450' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Outside data / pretrained</text>
+<text x='44' y='474' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Allowed by the challenge if disclosed</text>
+<text x='44' y='504' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>No team discloses any;</text>
+<text x='44' y='524' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>TabPFN gave +0.003 (078)</text>
+<text x='462' y='450' fill='#f59e0b' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ Our rule</text>
+<rect x='498.0' y='420.0' width='450.0' height='150.0' rx='12' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<text x='514' y='450' fill='#e2e8f0' font-size='17' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Prior correction β = 0.25</text>
+<text x='514' y='474' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Described by LLM_ops</text>
+<text x='514' y='504' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>On our production: +0.0010</text>
+<text x='514' y='524' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>(106, BETTER on 1 of 5 seeds)</text>
+<text x='932' y='450' fill='#10b981' font-size='12' font-weight='700' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>✅ Allowed, no gain</text>
+</svg>

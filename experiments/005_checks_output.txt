@@ -1,0 +1,48 @@
+official evaluate() on validation (json submission):
+{
+  "Task 1 Macro F1": 0.74466,
+  "Task 1 Accuracy": 0.879518,
+  "Task 1 Score": 37.232992,
+  "Task 2 Macro F1": 0.73807,
+  "Task 2 Accuracy": 0.783133,
+  "Task 2 Score": 36.903486,
+  "Total": 74.136478
+}
+official evaluate() on validation (zip submission):
+{
+  "Task 1 Macro F1": 0.74466,
+  "Task 1 Accuracy": 0.879518,
+  "Task 1 Score": 37.232992,
+  "Task 2 Macro F1": 0.73807,
+  "Task 2 Accuracy": 0.783133,
+  "Task 2 Score": 36.903486,
+  "Total": 74.136478
+}
+submission.json: parsed by official loader, 81/81 test IDs per task, all labels valid
+submission.zip: parsed by official loader, 81/81 test IDs per task, all labels valid
+=== task1_static: 1/81 test flows change label across 10 seeds
+ flows that change (predicted label per seed 0-9):
+   flow_000095: {'google': 8, 'youtube': 2}
+           predicted (seed 0)  unstable flows min–max over seeds
+facebook                  1                0              1–1
+google                   40                1            39–40
+instagram                 2                0              2–2
+mozilla                   7                0              7–7
+x                        22                0            22–22
+youtube                   9                0             9–10
+=== task2_realtime_prefix5: 0/81 test flows change label across 10 seeds
+           predicted (seed 0)  unstable flows min–max over seeds
+facebook                  2                0              2–2
+google                   33                0            33–33
+instagram                 5                0              5–5
+mozilla                   7                0              7–7
+x                        24                0            24–24
+youtube                  10                0            10–10
+=== task1_static: train 330 flows x 17 features, predict 81 flows
+  training time   median 3.44 s  (runs [3.45, 3.44, 3.41])
+  inference time  median 54 ms for 81 flows (0.67 ms/flow, batch)
+  model size (pickle): total 24.4 MB; RandomForestClassifier 6.2 MB, ExtraTreesClassifier 16.0 MB, LGBMClassifier 2.2 MB
+=== task2_realtime_prefix5: train 330 flows x 17 features, predict 81 flows
+  training time   median 4.04 s  (runs [4.04, 4.04, 4.04])
+  inference time  median 55 ms for 81 flows (0.67 ms/flow, batch)
+  model size (pickle): total 25.9 MB; RandomForestClassifier 7.0 MB, ExtraTreesClassifier 16.3 MB, LGBMClassifier 2.6 MB

@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='600' viewBox='0 0 980 600' role='img' aria-label='6. Decisions and alternatives'>
+<style>:root { color-scheme: dark; }</style>
+<rect width='980' height='600' fill='#0f172a' rx='14'/>
+<text x='28' y='42' fill='#e2e8f0' font-size='22' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>6. Decisions and alternatives</text>
+<text x='28' y='68' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Highlighted: the path our evidence takes. Grey: the alternatives and why they are closed (report, section 6).</text>
+<line x1='490' y1='144' x2='165' y2='200' stroke='#f59e0b' stroke-width='3'/>
+<line x1='490' y1='144' x2='490' y2='200' stroke='#f59e0b' stroke-width='3'/>
+<line x1='490' y1='144' x2='815' y2='200' stroke='#f59e0b' stroke-width='3'/>
+<line x1='165' y1='260' x2='490' y2='310' stroke='#f59e0b' stroke-width='3'/>
+<line x1='490' y1='260' x2='490' y2='310' stroke='#f59e0b' stroke-width='3'/>
+<line x1='815' y1='260' x2='490' y2='310' stroke='#f59e0b' stroke-width='3'/>
+<line x1='490' y1='370' x2='490' y2='420' stroke='#f59e0b' stroke-width='3'/>
+<rect x='340.0' y='90.0' width='300.0' height='54.0' rx='10' fill='#1e293b' stroke='#0ea5e9' stroke-width='1.5'/>
+<text x='490.0' y='114' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Leaders reproduced (102-105)</text>
+<text x='490.0' y='134' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>none beats production</text>
+<rect x='30.0' y='200.0' width='270.0' height='60.0' rx='10' fill='#1e293b' stroke='#ef4444' stroke-width='1.5'/>
+<text x='165.0' y='224' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>106 prior correction (T1)</text>
+<text x='165.0' y='244' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>+0.001, BETTER 1 of 5</text>
+<rect x='355.0' y='200.0' width='270.0' height='60.0' rx='10' fill='#1e293b' stroke='#ef4444' stroke-width='1.5'/>
+<text x='490.0' y='224' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>107 same-moment labels</text>
+<text x='490.0' y='244' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>WORSE on every seed</text>
+<rect x='680.0' y='200.0' width='270.0' height='60.0' rx='10' fill='#1e293b' stroke='#ef4444' stroke-width='1.5'/>
+<text x='815.0' y='224' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>108 lookup on our Task 2</text>
+<text x='815.0' y='244' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>+0.0003, 0 test changes</text>
+<rect x='330.0' y='310.0' width='320.0' height='60.0' rx='10' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<text x='490.0' y='334' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Keep production (100 + 014)</text>
+<text x='490.0' y='354' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>no upload: nothing meets the rule</text>
+<rect x='330.0' y='420.0' width='320.0' height='54.0' rx='10' fill='#1e293b' stroke='#3b82f6' stroke-width='1.5'/>
+<text x='490.0' y='444' fill='#e2e8f0' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Technical report + final checks by 23 Oct</text>
+<rect x='30.0' y='420.0' width='270.0' height='70.0' rx='10' fill='#0f172a' stroke='#94a3b8' stroke-width='1.5'/>
+<text x='165.0' y='444' fill='#94a3b8' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Alt: use published counts</text>
+<text x='165.0' y='464' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>no CV gain; condition 1 risk</text>
+<rect x='680.0' y='420.0' width='270.0' height='70.0' rx='10' fill='#0f172a' stroke='#94a3b8' stroke-width='1.5'/>
+<text x='815.0' y='444' fill='#94a3b8' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Alt: prefix predictions for Task 1</text>
+<text x='815.0' y='464' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>= choosing by test score</text>
+<rect x='30.0' y='510.0' width='270.0' height='70.0' rx='10' fill='#0f172a' stroke='#94a3b8' stroke-width='1.5'/>
+<text x='165.0' y='534' fill='#94a3b8' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Alt: own captures</text>
+<text x='165.0' y='554' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>label and setup mismatch (056-063)</text>
+<rect x='680.0' y='510.0' width='270.0' height='70.0' rx='10' fill='#0f172a' stroke='#94a3b8' stroke-width='1.5'/>
+<text x='815.0' y='534' fill='#94a3b8' font-size='13' font-weight='700' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Alt: tune on leaderboard feedback</text>
+<text x='815.0' y='554' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>condition 1 and Goodhart</text>
+</svg>

@@ -1,0 +1,4 @@
+Final Test Phase leaderboard row for our team, copied by Sid on 2026-10-21 (about 16:41 local), after upload 10 (candidate 127).
+Columns as shown: team, Task 1 macro F1, Task 1 accuracy, Task 1 points, Task 2 macro F1, Task 2 accuracy, Task 2 points, total.
+
+    Telex    0.91    0.90    45.60    0.91    0.89    45.25    90.85

@@ -1,0 +1,11 @@
+cell,points,share_on_mixed_groups,auc_knn,auc_softvote,f1_rise_75_to_100,category
+facebook -> instagram,3.544,0.92,0.608,0.567,"{'facebook': 0.095, 'instagram': 0.018}",irreducible
+youtube -> google,1.245,0.84,0.941,0.923,"{'youtube': 0.024, 'google': 0.024}",irreducible
+instagram -> facebook,1.211,1.0,0.608,0.567,"{'instagram': 0.018, 'facebook': 0.095}",irreducible
+facebook -> x,0.877,0.0,0.953,0.984,"{'facebook': 0.095, 'x': 0.03}",data-starved
+mozilla -> x,0.858,0.96,0.925,0.947,"{'mozilla': 0.019, 'x': 0.03}",irreducible
+google -> youtube,0.767,1.0,0.941,0.923,"{'google': 0.024, 'youtube': 0.024}",irreducible
+instagram -> youtube,0.448,0.57,0.934,0.973,"{'instagram': 0.018, 'youtube': 0.024}",irreducible
+mozilla -> google,0.359,0.41,0.984,0.99,"{'mozilla': 0.019, 'google': 0.024}",model-limited
+google -> mozilla,0.332,0.33,0.984,0.99,"{'google': 0.024, 'mozilla': 0.019}",model-limited
+youtube -> x,0.291,1.0,0.971,0.967,"{'youtube': 0.024, 'x': 0.03}",irreducible

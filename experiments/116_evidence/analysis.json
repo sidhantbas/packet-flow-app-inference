@@ -1,0 +1,246 @@
+{
+  "M": {
+    "task": "task1_static",
+    "mean_delta": -0.0207,
+    "positive_seeds": 0,
+    "better_seeds": 0,
+    "per_seed": [
+      {
+        "seed": 2161,
+        "delta": -0.0246,
+        "wins": 7,
+        "losses": 24,
+        "ties": 19,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2162,
+        "delta": -0.0234,
+        "wins": 3,
+        "losses": 19,
+        "ties": 28,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2163,
+        "delta": -0.0238,
+        "wins": 5,
+        "losses": 17,
+        "ties": 28,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2164,
+        "delta": -0.0156,
+        "wins": 6,
+        "losses": 15,
+        "ties": 29,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2165,
+        "delta": -0.0159,
+        "wins": 9,
+        "losses": 19,
+        "ties": 22,
+        "verdict": "INCONCLUSIVE"
+      }
+    ],
+    "per_class_mean_delta": {
+      "facebook": -0.0887,
+      "google": 0.0,
+      "instagram": -0.0352,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "changes_5_seeds": {
+      "changed": 155,
+      "fixed": 22,
+      "broken": 97
+    }
+  },
+  "MK": {
+    "task": "task1_static",
+    "mean_delta": -0.0164,
+    "positive_seeds": 0,
+    "better_seeds": 0,
+    "per_seed": [
+      {
+        "seed": 2161,
+        "delta": -0.0212,
+        "wins": 6,
+        "losses": 19,
+        "ties": 25,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2162,
+        "delta": -0.0152,
+        "wins": 6,
+        "losses": 15,
+        "ties": 29,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2163,
+        "delta": -0.0163,
+        "wins": 8,
+        "losses": 16,
+        "ties": 26,
+        "verdict": "INCONCLUSIVE"
+      },
+      {
+        "seed": 2164,
+        "delta": -0.0132,
+        "wins": 2,
+        "losses": 13,
+        "ties": 35,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2165,
+        "delta": -0.0163,
+        "wins": 4,
+        "losses": 17,
+        "ties": 29,
+        "verdict": "WORSE"
+      }
+    ],
+    "per_class_mean_delta": {
+      "facebook": -0.074,
+      "google": 0.0,
+      "instagram": -0.0246,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "changes_5_seeds": {
+      "changed": 149,
+      "fixed": 11,
+      "broken": 69
+    }
+  },
+  "J": {
+    "task": "task1_static",
+    "mean_delta": -0.0252,
+    "positive_seeds": 0,
+    "better_seeds": 0,
+    "per_seed": [
+      {
+        "seed": 2161,
+        "delta": -0.0298,
+        "wins": 3,
+        "losses": 20,
+        "ties": 27,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2162,
+        "delta": -0.0266,
+        "wins": 3,
+        "losses": 17,
+        "ties": 30,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2163,
+        "delta": -0.0251,
+        "wins": 4,
+        "losses": 21,
+        "ties": 25,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2164,
+        "delta": -0.0247,
+        "wins": 8,
+        "losses": 19,
+        "ties": 23,
+        "verdict": "WORSE"
+      },
+      {
+        "seed": 2165,
+        "delta": -0.0196,
+        "wins": 6,
+        "losses": 20,
+        "ties": 24,
+        "verdict": "WORSE"
+      }
+    ],
+    "per_class_mean_delta": {
+      "facebook": -0.1159,
+      "google": 0.0,
+      "instagram": -0.0351,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "changes_5_seeds": {
+      "changed": 167,
+      "fixed": 16,
+      "broken": 106
+    }
+  },
+  "J2": {
+    "task": "task2_realtime_prefix5",
+    "mean_delta": -0.0013,
+    "positive_seeds": 1,
+    "better_seeds": 0,
+    "per_seed": [
+      {
+        "seed": 2161,
+        "delta": -0.0007,
+        "wins": 2,
+        "losses": 3,
+        "ties": 45,
+        "verdict": "INCONCLUSIVE"
+      },
+      {
+        "seed": 2162,
+        "delta": 0.0015,
+        "wins": 5,
+        "losses": 2,
+        "ties": 43,
+        "verdict": "INCONCLUSIVE"
+      },
+      {
+        "seed": 2163,
+        "delta": -0.0028,
+        "wins": 1,
+        "losses": 5,
+        "ties": 44,
+        "verdict": "INCONCLUSIVE"
+      },
+      {
+        "seed": 2164,
+        "delta": -0.0024,
+        "wins": 2,
+        "losses": 3,
+        "ties": 45,
+        "verdict": "INCONCLUSIVE"
+      },
+      {
+        "seed": 2165,
+        "delta": -0.0019,
+        "wins": 0,
+        "losses": 2,
+        "ties": 48,
+        "verdict": "INCONCLUSIVE"
+      }
+    ],
+    "per_class_mean_delta": {
+      "facebook": -0.0034,
+      "google": 0.0,
+      "instagram": -0.0043,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "changes_5_seeds": {
+      "changed": 31,
+      "fixed": 10,
+      "broken": 13
+    }
+  }
+}

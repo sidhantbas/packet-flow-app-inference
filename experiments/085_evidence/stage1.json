@@ -1,0 +1,92 @@
+{
+  "T1-YI": {
+    "task": "task1_static",
+    "base_macro": 0.8371,
+    "macro": 0.8343,
+    "delta": -0.0028,
+    "changed": 7,
+    "removed": 0,
+    "broken": 5,
+    "gate": false
+  },
+  "T1-FG": {
+    "task": "task1_static",
+    "base_macro": 0.8371,
+    "macro": 0.8211,
+    "delta": -0.016,
+    "changed": 27,
+    "removed": 3,
+    "broken": 18,
+    "gate": false
+  },
+  "T1-XF": {
+    "task": "task1_static",
+    "base_macro": 0.8371,
+    "macro": 0.8358,
+    "delta": -0.0013,
+    "changed": 2,
+    "removed": 0,
+    "broken": 2,
+    "gate": false
+  },
+  "T2-XF": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7692,
+    "delta": 0.0,
+    "changed": 0,
+    "removed": 0,
+    "broken": 0,
+    "gate": false
+  },
+  "T2-XM": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7692,
+    "delta": 0.0,
+    "changed": 0,
+    "removed": 0,
+    "broken": 0,
+    "gate": false
+  },
+  "T2-XY": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7692,
+    "delta": 0.0,
+    "changed": 0,
+    "removed": 0,
+    "broken": 0,
+    "gate": false
+  },
+  "T2-YI": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7682,
+    "delta": -0.001,
+    "changed": 6,
+    "removed": 0,
+    "broken": 0,
+    "gate": false
+  },
+  "T2-GM": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7692,
+    "delta": 0.0,
+    "changed": 0,
+    "removed": 0,
+    "broken": 0,
+    "gate": false
+  },
+  "T2-MG": {
+    "task": "task2_realtime_prefix5",
+    "base_macro": 0.7692,
+    "macro": 0.7721,
+    "delta": 0.0029,
+    "changed": 13,
+    "removed": 10,
+    "broken": 0,
+    "gate": true
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "level": "warn",
+    "code": "dirty-tree",
+    "message": "Uncommitted changes in 6 file(s); the commit alone does not reproduce this run (code hashes are recorded)."
+  },
+  {
+    "level": "info",
+    "code": "cross-task-input",
+    "message": "task1_static also reads ['task2_realtime_prefix5/train_features.csv', 'task2_realtime_prefix5/validation_features.csv', 'task2_realtime_prefix5/test_features.csv']; allowed (condition 2 restricts Task 2 only) but must be disclosed in the report."
+  }
+]

@@ -1,0 +1,1306 @@
+{
+  "integrity": {
+    "exact": {
+      "groups": 123,
+      "singletons": 74,
+      "largest": [
+        37,
+        26,
+        14,
+        11,
+        10
+      ],
+      "largest_composition": {
+        "37": {
+          "x": 30,
+          "mozilla": 5,
+          "youtube": 2
+        },
+        "26": {
+          "youtube": 24,
+          "google": 2
+        },
+        "14": {
+          "google": 14
+        }
+      },
+      "mixed_label_groups": 7,
+      "groups_with_facebook": 10,
+      "groups_with_instagram": 12,
+      "groups_in_train_and_validation": 0,
+      "facebook_train_min_max": [
+        8,
+        9
+      ],
+      "facebook_validation_min_max": [
+        2,
+        3
+      ],
+      "instagram_validation_min_max": [
+        3,
+        4
+      ],
+      "validation_size_min_max": [
+        59,
+        76
+      ]
+    },
+    "near": {
+      "groups": 55,
+      "singletons": 26,
+      "largest": [
+        80,
+        45,
+        27,
+        20,
+        15
+      ],
+      "largest_composition": {
+        "80": {
+          "youtube": 25,
+          "google": 55
+        },
+        "45": {
+          "x": 30,
+          "youtube": 7,
+          "google": 3,
+          "mozilla": 5
+        },
+        "27": {
+          "x": 23,
+          "google": 4
+        }
+      },
+      "mixed_label_groups": 14,
+      "groups_with_facebook": 8,
+      "groups_with_instagram": 6,
+      "groups_in_train_and_validation": 0,
+      "facebook_train_min_max": [
+        8,
+        9
+      ],
+      "facebook_validation_min_max": [
+        2,
+        3
+      ],
+      "instagram_validation_min_max": [
+        1,
+        8
+      ],
+      "validation_size_min_max": [
+        48,
+        94
+      ]
+    }
+  },
+  "per_seed": {
+    "exact_s2166": {
+      "macro_f1": {
+        "P2": 0.4813,
+        "B": 0.5062
+      },
+      "delta": 0.0249,
+      "wins_losses_ties": [
+        21,
+        7,
+        22
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.431,
+            "recall": 0.255,
+            "f1": 0.32
+          },
+          "google": {
+            "precision": 0.636,
+            "recall": 0.696,
+            "f1": 0.665
+          },
+          "instagram": {
+            "precision": 0.482,
+            "recall": 0.763,
+            "f1": 0.591
+          },
+          "mozilla": {
+            "precision": 0.752,
+            "recall": 0.644,
+            "f1": 0.694
+          },
+          "x": {
+            "precision": 0.641,
+            "recall": 0.36,
+            "f1": 0.461
+          },
+          "youtube": {
+            "precision": 0.124,
+            "recall": 0.167,
+            "f1": 0.143
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.219,
+            "recall": 0.291,
+            "f1": 0.25
+          },
+          "google": {
+            "precision": 0.636,
+            "recall": 0.696,
+            "f1": 0.665
+          },
+          "instagram": {
+            "precision": 0.677,
+            "recall": 0.784,
+            "f1": 0.727
+          },
+          "mozilla": {
+            "precision": 0.752,
+            "recall": 0.644,
+            "f1": 0.694
+          },
+          "x": {
+            "precision": 0.641,
+            "recall": 0.36,
+            "f1": 0.461
+          },
+          "youtube": {
+            "precision": 0.124,
+            "recall": 0.167,
+            "f1": 0.143
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 4.9,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.5,
+          "instagram->google": 0.4,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        },
+        "B": {
+          "facebook->instagram": 4.5,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.1,
+          "instagram->google": 0.4,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 195,
+          "distinct_flows_wrong_in_most_repeats": 152
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 194,
+          "distinct_flows_wrong_in_most_repeats": 153
+        }
+      },
+      "changed_predictions": 113,
+      "fixed": 17,
+      "broken": 9,
+      "changed_distinct_flows": 24,
+      "changed_distinct_groups": 12,
+      "net_fixed_minus_broken": 8,
+      "largest_single_group_net": 4,
+      "largest_group_share_of_net_gain": 0.5
+    },
+    "exact_s2167": {
+      "macro_f1": {
+        "P2": 0.4772,
+        "B": 0.5227
+      },
+      "delta": 0.0455,
+      "wins_losses_ties": [
+        28,
+        3,
+        19
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.397,
+            "recall": 0.245,
+            "f1": 0.303
+          },
+          "google": {
+            "precision": 0.633,
+            "recall": 0.691,
+            "f1": 0.661
+          },
+          "instagram": {
+            "precision": 0.477,
+            "recall": 0.747,
+            "f1": 0.582
+          },
+          "mozilla": {
+            "precision": 0.737,
+            "recall": 0.644,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.642,
+            "recall": 0.359,
+            "f1": 0.46
+          },
+          "youtube": {
+            "precision": 0.12,
+            "recall": 0.162,
+            "f1": 0.138
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.25,
+            "recall": 0.327,
+            "f1": 0.283
+          },
+          "google": {
+            "precision": 0.633,
+            "recall": 0.691,
+            "f1": 0.661
+          },
+          "instagram": {
+            "precision": 0.703,
+            "recall": 0.821,
+            "f1": 0.757
+          },
+          "mozilla": {
+            "precision": 0.737,
+            "recall": 0.644,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.642,
+            "recall": 0.359,
+            "f1": 0.46
+          },
+          "youtube": {
+            "precision": 0.12,
+            "recall": 0.162,
+            "f1": 0.138
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 4.9,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.8,
+          "instagram->google": 0.4,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        },
+        "B": {
+          "facebook->instagram": 4.0,
+          "facebook->google": 0.0,
+          "instagram->facebook": 1.4,
+          "instagram->google": 0.4,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 194,
+          "distinct_flows_wrong_in_most_repeats": 155
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 192,
+          "distinct_flows_wrong_in_most_repeats": 151
+        }
+      },
+      "changed_predictions": 118,
+      "fixed": 28,
+      "broken": 5,
+      "changed_distinct_flows": 23,
+      "changed_distinct_groups": 11,
+      "net_fixed_minus_broken": 23,
+      "largest_single_group_net": 6,
+      "largest_group_share_of_net_gain": 0.261
+    },
+    "exact_s2168": {
+      "macro_f1": {
+        "P2": 0.4812,
+        "B": 0.5083
+      },
+      "delta": 0.0271,
+      "wins_losses_ties": [
+        21,
+        6,
+        23
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.42,
+            "recall": 0.264,
+            "f1": 0.324
+          },
+          "google": {
+            "precision": 0.634,
+            "recall": 0.692,
+            "f1": 0.662
+          },
+          "instagram": {
+            "precision": 0.482,
+            "recall": 0.758,
+            "f1": 0.589
+          },
+          "mozilla": {
+            "precision": 0.743,
+            "recall": 0.641,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.639,
+            "recall": 0.356,
+            "f1": 0.457
+          },
+          "youtube": {
+            "precision": 0.124,
+            "recall": 0.167,
+            "f1": 0.143
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.221,
+            "recall": 0.327,
+            "f1": 0.264
+          },
+          "google": {
+            "precision": 0.634,
+            "recall": 0.692,
+            "f1": 0.662
+          },
+          "instagram": {
+            "precision": 0.727,
+            "recall": 0.784,
+            "f1": 0.754
+          },
+          "mozilla": {
+            "precision": 0.743,
+            "recall": 0.641,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.639,
+            "recall": 0.356,
+            "f1": 0.457
+          },
+          "youtube": {
+            "precision": 0.124,
+            "recall": 0.167,
+            "f1": 0.143
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 4.8,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.6,
+          "instagram->google": 0.5,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        },
+        "B": {
+          "facebook->instagram": 4.1,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.1,
+          "instagram->google": 0.5,
+          "google->facebook": 1.0,
+          "google->instagram": 0.4
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 193,
+          "distinct_flows_wrong_in_most_repeats": 155
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 191,
+          "distinct_flows_wrong_in_most_repeats": 154
+        }
+      },
+      "changed_predictions": 126,
+      "fixed": 21,
+      "broken": 9,
+      "changed_distinct_flows": 24,
+      "changed_distinct_groups": 12,
+      "net_fixed_minus_broken": 12,
+      "largest_single_group_net": 5,
+      "largest_group_share_of_net_gain": 0.417
+    },
+    "exact_s2169": {
+      "macro_f1": {
+        "P2": 0.4844,
+        "B": 0.5077
+      },
+      "delta": 0.0233,
+      "wins_losses_ties": [
+        19,
+        5,
+        26
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.441,
+            "recall": 0.273,
+            "f1": 0.337
+          },
+          "google": {
+            "precision": 0.636,
+            "recall": 0.698,
+            "f1": 0.666
+          },
+          "instagram": {
+            "precision": 0.485,
+            "recall": 0.763,
+            "f1": 0.593
+          },
+          "mozilla": {
+            "precision": 0.75,
+            "recall": 0.637,
+            "f1": 0.689
+          },
+          "x": {
+            "precision": 0.652,
+            "recall": 0.367,
+            "f1": 0.47
+          },
+          "youtube": {
+            "precision": 0.121,
+            "recall": 0.162,
+            "f1": 0.138
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.218,
+            "recall": 0.327,
+            "f1": 0.262
+          },
+          "google": {
+            "precision": 0.636,
+            "recall": 0.698,
+            "f1": 0.666
+          },
+          "instagram": {
+            "precision": 0.723,
+            "recall": 0.768,
+            "f1": 0.745
+          },
+          "mozilla": {
+            "precision": 0.75,
+            "recall": 0.637,
+            "f1": 0.689
+          },
+          "x": {
+            "precision": 0.652,
+            "recall": 0.367,
+            "f1": 0.47
+          },
+          "youtube": {
+            "precision": 0.121,
+            "recall": 0.162,
+            "f1": 0.138
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 4.7,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.5,
+          "instagram->google": 0.3,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        },
+        "B": {
+          "facebook->instagram": 4.1,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.4,
+          "instagram->google": 0.3,
+          "google->facebook": 1.0,
+          "google->instagram": 0.4
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 190,
+          "distinct_flows_wrong_in_most_repeats": 154
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 189,
+          "distinct_flows_wrong_in_most_repeats": 155
+        }
+      },
+      "changed_predictions": 113,
+      "fixed": 12,
+      "broken": 5,
+      "changed_distinct_flows": 20,
+      "changed_distinct_groups": 9,
+      "net_fixed_minus_broken": 7,
+      "largest_single_group_net": 5,
+      "largest_group_share_of_net_gain": 0.714
+    },
+    "exact_s2170": {
+      "macro_f1": {
+        "P2": 0.481,
+        "B": 0.5134
+      },
+      "delta": 0.0324,
+      "wins_losses_ties": [
+        21,
+        7,
+        22
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.417,
+            "recall": 0.273,
+            "f1": 0.33
+          },
+          "google": {
+            "precision": 0.633,
+            "recall": 0.696,
+            "f1": 0.663
+          },
+          "instagram": {
+            "precision": 0.48,
+            "recall": 0.742,
+            "f1": 0.583
+          },
+          "mozilla": {
+            "precision": 0.763,
+            "recall": 0.637,
+            "f1": 0.694
+          },
+          "x": {
+            "precision": 0.648,
+            "recall": 0.373,
+            "f1": 0.473
+          },
+          "youtube": {
+            "precision": 0.119,
+            "recall": 0.158,
+            "f1": 0.136
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.25,
+            "recall": 0.345,
+            "f1": 0.29
+          },
+          "google": {
+            "precision": 0.633,
+            "recall": 0.696,
+            "f1": 0.663
+          },
+          "instagram": {
+            "precision": 0.696,
+            "recall": 0.784,
+            "f1": 0.738
+          },
+          "mozilla": {
+            "precision": 0.763,
+            "recall": 0.637,
+            "f1": 0.694
+          },
+          "x": {
+            "precision": 0.648,
+            "recall": 0.373,
+            "f1": 0.473
+          },
+          "youtube": {
+            "precision": 0.119,
+            "recall": 0.158,
+            "f1": 0.136
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 4.6,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.9,
+          "instagram->google": 0.4,
+          "google->facebook": 0.9,
+          "google->instagram": 0.5
+        },
+        "B": {
+          "facebook->instagram": 3.8,
+          "facebook->google": 0.0,
+          "instagram->facebook": 2.1,
+          "instagram->google": 0.4,
+          "google->facebook": 0.8,
+          "google->instagram": 0.6
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 193,
+          "distinct_flows_wrong_in_most_repeats": 156
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 192,
+          "distinct_flows_wrong_in_most_repeats": 153
+        }
+      },
+      "changed_predictions": 116,
+      "fixed": 22,
+      "broken": 6,
+      "changed_distinct_flows": 22,
+      "changed_distinct_groups": 10,
+      "net_fixed_minus_broken": 16,
+      "largest_single_group_net": 6,
+      "largest_group_share_of_net_gain": 0.375
+    },
+    "near_s2166": {
+      "macro_f1": {
+        "P2": 0.239,
+        "B": 0.2689
+      },
+      "delta": 0.03,
+      "wins_losses_ties": [
+        18,
+        2,
+        30
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.104,
+            "recall": 0.245,
+            "f1": 0.146
+          },
+          "google": {
+            "precision": 0.347,
+            "recall": 0.276,
+            "f1": 0.308
+          },
+          "instagram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "mozilla": {
+            "precision": 0.755,
+            "recall": 0.639,
+            "f1": 0.692
+          },
+          "x": {
+            "precision": 0.7,
+            "recall": 0.338,
+            "f1": 0.456
+          },
+          "youtube": {
+            "precision": 0.254,
+            "recall": 0.215,
+            "f1": 0.233
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.073,
+            "recall": 0.327,
+            "f1": 0.12
+          },
+          "google": {
+            "precision": 0.347,
+            "recall": 0.276,
+            "f1": 0.308
+          },
+          "instagram": {
+            "precision": 0.052,
+            "recall": 0.163,
+            "f1": 0.078
+          },
+          "mozilla": {
+            "precision": 0.755,
+            "recall": 0.639,
+            "f1": 0.692
+          },
+          "x": {
+            "precision": 0.7,
+            "recall": 0.338,
+            "f1": 0.456
+          },
+          "youtube": {
+            "precision": 0.254,
+            "recall": 0.215,
+            "f1": 0.233
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 2.0,
+          "facebook->google": 3.0,
+          "instagram->facebook": 11.3,
+          "instagram->google": 6.9,
+          "google->facebook": 1.1,
+          "google->instagram": 55.3
+        },
+        "B": {
+          "facebook->instagram": 1.1,
+          "facebook->google": 3.0,
+          "instagram->facebook": 8.2,
+          "instagram->google": 6.9,
+          "google->facebook": 23.4,
+          "google->instagram": 33.0
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 260,
+          "distinct_flows_wrong_in_most_repeats": 225
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 262,
+          "distinct_flows_wrong_in_most_repeats": 220
+        }
+      },
+      "changed_predictions": 318,
+      "fixed": 49,
+      "broken": 9,
+      "changed_distinct_flows": 99,
+      "changed_distinct_groups": 7,
+      "net_fixed_minus_broken": 40,
+      "largest_single_group_net": 18,
+      "largest_group_share_of_net_gain": 0.45
+    },
+    "near_s2167": {
+      "macro_f1": {
+        "P2": 0.2388,
+        "B": 0.2678
+      },
+      "delta": 0.029,
+      "wins_losses_ties": [
+        16,
+        2,
+        32
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.106,
+            "recall": 0.255,
+            "f1": 0.149
+          },
+          "google": {
+            "precision": 0.357,
+            "recall": 0.293,
+            "f1": 0.322
+          },
+          "instagram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "mozilla": {
+            "precision": 0.748,
+            "recall": 0.637,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.688,
+            "recall": 0.333,
+            "f1": 0.449
+          },
+          "youtube": {
+            "precision": 0.249,
+            "recall": 0.193,
+            "f1": 0.217
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.067,
+            "recall": 0.3,
+            "f1": 0.11
+          },
+          "google": {
+            "precision": 0.357,
+            "recall": 0.293,
+            "f1": 0.322
+          },
+          "instagram": {
+            "precision": 0.051,
+            "recall": 0.163,
+            "f1": 0.078
+          },
+          "mozilla": {
+            "precision": 0.748,
+            "recall": 0.637,
+            "f1": 0.688
+          },
+          "x": {
+            "precision": 0.688,
+            "recall": 0.333,
+            "f1": 0.449
+          },
+          "youtube": {
+            "precision": 0.249,
+            "recall": 0.193,
+            "f1": 0.217
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 2.0,
+          "facebook->google": 3.0,
+          "instagram->facebook": 11.4,
+          "instagram->google": 6.8,
+          "google->facebook": 1.3,
+          "google->instagram": 55.3
+        },
+        "B": {
+          "facebook->instagram": 1.5,
+          "facebook->google": 3.0,
+          "instagram->facebook": 8.3,
+          "instagram->google": 6.8,
+          "google->facebook": 23.5,
+          "google->instagram": 33.1
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 260,
+          "distinct_flows_wrong_in_most_repeats": 219
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 262,
+          "distinct_flows_wrong_in_most_repeats": 214
+        }
+      },
+      "changed_predictions": 311,
+      "fixed": 45,
+      "broken": 9,
+      "changed_distinct_flows": 99,
+      "changed_distinct_groups": 7,
+      "net_fixed_minus_broken": 36,
+      "largest_single_group_net": 14,
+      "largest_group_share_of_net_gain": 0.389
+    },
+    "near_s2168": {
+      "macro_f1": {
+        "P2": 0.2359,
+        "B": 0.2687
+      },
+      "delta": 0.0328,
+      "wins_losses_ties": [
+        17,
+        2,
+        31
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.111,
+            "recall": 0.264,
+            "f1": 0.156
+          },
+          "google": {
+            "precision": 0.35,
+            "recall": 0.285,
+            "f1": 0.314
+          },
+          "instagram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "mozilla": {
+            "precision": 0.754,
+            "recall": 0.634,
+            "f1": 0.689
+          },
+          "x": {
+            "precision": 0.681,
+            "recall": 0.336,
+            "f1": 0.45
+          },
+          "youtube": {
+            "precision": 0.251,
+            "recall": 0.198,
+            "f1": 0.221
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.068,
+            "recall": 0.3,
+            "f1": 0.111
+          },
+          "google": {
+            "precision": 0.35,
+            "recall": 0.285,
+            "f1": 0.314
+          },
+          "instagram": {
+            "precision": 0.064,
+            "recall": 0.205,
+            "f1": 0.097
+          },
+          "mozilla": {
+            "precision": 0.754,
+            "recall": 0.634,
+            "f1": 0.689
+          },
+          "x": {
+            "precision": 0.681,
+            "recall": 0.336,
+            "f1": 0.45
+          },
+          "youtube": {
+            "precision": 0.251,
+            "recall": 0.198,
+            "f1": 0.221
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 2.0,
+          "facebook->google": 3.0,
+          "instagram->facebook": 11.3,
+          "instagram->google": 6.8,
+          "google->facebook": 1.1,
+          "google->instagram": 55.3
+        },
+        "B": {
+          "facebook->instagram": 1.6,
+          "facebook->google": 3.0,
+          "instagram->facebook": 7.4,
+          "instagram->google": 6.8,
+          "google->facebook": 23.4,
+          "google->instagram": 33.0
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 260,
+          "distinct_flows_wrong_in_most_repeats": 225
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 262,
+          "distinct_flows_wrong_in_most_repeats": 220
+        }
+      },
+      "changed_predictions": 323,
+      "fixed": 53,
+      "broken": 10,
+      "changed_distinct_flows": 99,
+      "changed_distinct_groups": 7,
+      "net_fixed_minus_broken": 43,
+      "largest_single_group_net": 21,
+      "largest_group_share_of_net_gain": 0.488
+    },
+    "near_s2169": {
+      "macro_f1": {
+        "P2": 0.2361,
+        "B": 0.2674
+      },
+      "delta": 0.0313,
+      "wins_losses_ties": [
+        16,
+        1,
+        33
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.111,
+            "recall": 0.264,
+            "f1": 0.156
+          },
+          "google": {
+            "precision": 0.361,
+            "recall": 0.299,
+            "f1": 0.327
+          },
+          "instagram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "mozilla": {
+            "precision": 0.722,
+            "recall": 0.634,
+            "f1": 0.675
+          },
+          "x": {
+            "precision": 0.668,
+            "recall": 0.314,
+            "f1": 0.427
+          },
+          "youtube": {
+            "precision": 0.248,
+            "recall": 0.187,
+            "f1": 0.213
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.069,
+            "recall": 0.3,
+            "f1": 0.112
+          },
+          "google": {
+            "precision": 0.361,
+            "recall": 0.299,
+            "f1": 0.327
+          },
+          "instagram": {
+            "precision": 0.064,
+            "recall": 0.205,
+            "f1": 0.097
+          },
+          "mozilla": {
+            "precision": 0.722,
+            "recall": 0.634,
+            "f1": 0.675
+          },
+          "x": {
+            "precision": 0.668,
+            "recall": 0.314,
+            "f1": 0.427
+          },
+          "youtube": {
+            "precision": 0.248,
+            "recall": 0.187,
+            "f1": 0.213
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 2.0,
+          "facebook->google": 3.0,
+          "instagram->facebook": 11.3,
+          "instagram->google": 6.8,
+          "google->facebook": 1.1,
+          "google->instagram": 55.3
+        },
+        "B": {
+          "facebook->instagram": 1.6,
+          "facebook->google": 3.0,
+          "instagram->facebook": 7.4,
+          "instagram->google": 6.8,
+          "google->facebook": 23.4,
+          "google->instagram": 33.0
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 260,
+          "distinct_flows_wrong_in_most_repeats": 226
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 262,
+          "distinct_flows_wrong_in_most_repeats": 221
+        }
+      },
+      "changed_predictions": 321,
+      "fixed": 53,
+      "broken": 10,
+      "changed_distinct_flows": 99,
+      "changed_distinct_groups": 7,
+      "net_fixed_minus_broken": 43,
+      "largest_single_group_net": 21,
+      "largest_group_share_of_net_gain": 0.488
+    },
+    "near_s2170": {
+      "macro_f1": {
+        "P2": 0.2367,
+        "B": 0.2759
+      },
+      "delta": 0.0392,
+      "wins_losses_ties": [
+        18,
+        1,
+        31
+      ],
+      "verdict": "BETTER",
+      "per_class": {
+        "P2": {
+          "facebook": {
+            "precision": 0.112,
+            "recall": 0.264,
+            "f1": 0.158
+          },
+          "google": {
+            "precision": 0.357,
+            "recall": 0.295,
+            "f1": 0.323
+          },
+          "instagram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "mozilla": {
+            "precision": 0.736,
+            "recall": 0.632,
+            "f1": 0.68
+          },
+          "x": {
+            "precision": 0.668,
+            "recall": 0.325,
+            "f1": 0.437
+          },
+          "youtube": {
+            "precision": 0.242,
+            "recall": 0.184,
+            "f1": 0.209
+          }
+        },
+        "B": {
+          "facebook": {
+            "precision": 0.073,
+            "recall": 0.318,
+            "f1": 0.119
+          },
+          "google": {
+            "precision": 0.357,
+            "recall": 0.295,
+            "f1": 0.323
+          },
+          "instagram": {
+            "precision": 0.069,
+            "recall": 0.221,
+            "f1": 0.105
+          },
+          "mozilla": {
+            "precision": 0.736,
+            "recall": 0.632,
+            "f1": 0.68
+          },
+          "x": {
+            "precision": 0.668,
+            "recall": 0.325,
+            "f1": 0.437
+          },
+          "youtube": {
+            "precision": 0.242,
+            "recall": 0.184,
+            "f1": 0.209
+          }
+        }
+      },
+      "confusions_per_repeat": {
+        "P2": {
+          "facebook->instagram": 2.0,
+          "facebook->google": 3.0,
+          "instagram->facebook": 11.2,
+          "instagram->google": 7.0,
+          "google->facebook": 0.9,
+          "google->instagram": 55.3
+        },
+        "B": {
+          "facebook->instagram": 1.4,
+          "facebook->google": 3.0,
+          "instagram->facebook": 7.0,
+          "instagram->google": 7.0,
+          "google->facebook": 23.2,
+          "google->instagram": 33.0
+        }
+      },
+      "distinct_flows_wrong": {
+        "P2": {
+          "distinct_flows_wrong_at_least_once": 260,
+          "distinct_flows_wrong_in_most_repeats": 226
+        },
+        "B": {
+          "distinct_flows_wrong_at_least_once": 262,
+          "distinct_flows_wrong_in_most_repeats": 222
+        }
+      },
+      "changed_predictions": 330,
+      "fixed": 58,
+      "broken": 10,
+      "changed_distinct_flows": 99,
+      "changed_distinct_groups": 7,
+      "net_fixed_minus_broken": 48,
+      "largest_single_group_net": 21,
+      "largest_group_share_of_net_gain": 0.438
+    }
+  },
+  "summary": {
+    "exact": {
+      "mean_delta": 0.0306,
+      "sd_delta": 0.009,
+      "positive_seeds": 5,
+      "better_seeds": 5,
+      "worse_seeds": 0
+    },
+    "near": {
+      "mean_delta": 0.0324,
+      "sd_delta": 0.004,
+      "positive_seeds": 5,
+      "better_seeds": 5,
+      "worse_seeds": 0
+    }
+  },
+  "ordinary_folds_109": [
+    {
+      "seed": 2136,
+      "delta": 0.0203,
+      "wins": 15,
+      "losses": 7,
+      "ties": 28,
+      "verdict": "NEAR-MISS (inconclusive)"
+    },
+    {
+      "seed": 2137,
+      "delta": 0.0162,
+      "wins": 15,
+      "losses": 5,
+      "ties": 30,
+      "verdict": "BETTER"
+    },
+    {
+      "seed": 2138,
+      "delta": 0.0241,
+      "wins": 20,
+      "losses": 4,
+      "ties": 26,
+      "verdict": "BETTER"
+    },
+    {
+      "seed": 2139,
+      "delta": 0.0082,
+      "wins": 13,
+      "losses": 6,
+      "ties": 31,
+      "verdict": "NEAR-MISS (inconclusive)"
+    },
+    {
+      "seed": 2140,
+      "delta": 0.0295,
+      "wins": 17,
+      "losses": 6,
+      "ties": 27,
+      "verdict": "BETTER"
+    }
+  ]
+}

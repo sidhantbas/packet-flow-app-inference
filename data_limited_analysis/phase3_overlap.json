@@ -1,0 +1,142 @@
+{
+  "margin_threshold": 0.25,
+  "tasks": {
+    "task1_static": {
+      "flows_in_region": 59,
+      "low_margin": 36,
+      "by_class_in_region": {
+        "instagram": 19,
+        "google": 15,
+        "facebook": 11,
+        "youtube": 8,
+        "x": 3,
+        "mozilla": 3
+      },
+      "share_of_class_in_region": {
+        "facebook": 1.0,
+        "google": 0.115,
+        "instagram": 1.0,
+        "mozilla": 0.073,
+        "x": 0.041,
+        "youtube": 0.145
+      },
+      "low_margin_top2_pairs": {
+        "google/youtube": 15,
+        "google/mozilla": 6,
+        "google/x": 5,
+        "facebook/x": 2,
+        "facebook/instagram": 2,
+        "mozilla/youtube": 1,
+        "x/youtube": 1,
+        "instagram/x": 1
+      },
+      "transport_udp_share": {
+        "inside": 0.627,
+        "outside": 0.498
+      },
+      "top_smd_features_log1p": {
+        "burst_count": 0.893,
+        "packet_count_down": 0.685,
+        "bytes_up": 0.66,
+        "packet_count_up": 0.622,
+        "duration": 0.607,
+        "min_iat": 0.502,
+        "bytes_down": 0.471,
+        "p5_packet_count_up": -0.435
+      },
+      "median_inside_vs_outside": {
+        "burst_count": [
+          5.0,
+          2.0
+        ],
+        "packet_count_down": [
+          28.0,
+          14.0
+        ],
+        "bytes_up": [
+          8588.0,
+          5562.0
+        ],
+        "packet_count_up": [
+          24.0,
+          14.0
+        ],
+        "duration": [
+          116.434157848,
+          9.244592905
+        ]
+      }
+    },
+    "task2_realtime_prefix5": {
+      "flows_in_region": 46,
+      "low_margin": 20,
+      "by_class_in_region": {
+        "instagram": 19,
+        "facebook": 11,
+        "google": 10,
+        "youtube": 4,
+        "x": 2
+      },
+      "share_of_class_in_region": {
+        "facebook": 1.0,
+        "google": 0.076,
+        "instagram": 1.0,
+        "mozilla": 0.0,
+        "x": 0.027,
+        "youtube": 0.073
+      },
+      "low_margin_top2_pairs": {
+        "google/youtube": 12,
+        "facebook/instagram": 4,
+        "google/mozilla": 1,
+        "mozilla/x": 1,
+        "google/x": 1,
+        "facebook/mozilla": 1
+      },
+      "transport_udp_share": {
+        "inside": 0.696,
+        "outside": 0.493
+      },
+      "top_smd_features_log1p": {
+        "packet_count_up": -0.633,
+        "std_pkt_size_down": 0.45,
+        "transport": 0.405,
+        "up_down_packet_ratio": -0.399,
+        "packet_count_down": 0.38,
+        "std_pkt_size_up": 0.349,
+        "bytes_down": 0.262,
+        "up_down_byte_ratio": -0.221
+      },
+      "median_inside_vs_outside": {
+        "packet_count_up": [
+          2.0,
+          3.0
+        ],
+        "std_pkt_size_down": [
+          487.4059414135,
+          4.0
+        ],
+        "transport": [
+          1.0,
+          0.0
+        ],
+        "up_down_packet_ratio": [
+          0.666666667,
+          1.5
+        ],
+        "packet_count_down": [
+          3.0,
+          2.0
+        ]
+      },
+      "opening_shape_in_region": {
+        "udp 2/3": 19,
+        "tcp 3/2": 7,
+        "udp 1/4": 7,
+        "udp 3/2": 5,
+        "tcp 4/1": 4,
+        "tcp 2/3": 3
+      }
+    }
+  }
+}

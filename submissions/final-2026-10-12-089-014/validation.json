@@ -1,0 +1,57 @@
+{
+  "reproducible_rebuild_json_identical": true,
+  "task1_static": {
+    "n_predictions": 81,
+    "n_test_flows": 81,
+    "test_ids_unique": true,
+    "ids_equal_test_features": true,
+    "ids_equal_sample_submission": true,
+    "missing": 0,
+    "extra": 0,
+    "labels_allowed": true,
+    "predicted_label_counts": {
+      "youtube": 14,
+      "x": 20,
+      "google": 33,
+      "instagram": 2,
+      "facebook": 3,
+      "mozilla": 9
+    },
+    "model": "task1_bundle",
+    "features": "task1_with_prefix_features",
+    "n_feature_columns": 34,
+    "forbidden_columns_absent": true,
+    "files_read_outside_task_folder": [
+      "task2_realtime_prefix5/train_features.csv",
+      "task2_realtime_prefix5/validation_features.csv",
+      "task2_realtime_prefix5/test_features.csv"
+    ]
+  },
+  "task2_realtime_prefix5": {
+    "n_predictions": 81,
+    "n_test_flows": 81,
+    "test_ids_unique": true,
+    "ids_equal_test_features": true,
+    "ids_equal_sample_submission": true,
+    "missing": 0,
+    "extra": 0,
+    "labels_allowed": true,
+    "predicted_label_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "model": "task2_model",
+    "features": "no_timing_features",
+    "n_feature_columns": 12,
+    "forbidden_columns_absent": true,
+    "files_read_outside_task_folder": []
+  },
+  "task2_reads_only_task2_files": true,
+  "official_loader_submission.json": true,
+  "official_loader_submission.zip": true,
+  "no_metadata_or_label_counts_in_pipeline_code": true
+}

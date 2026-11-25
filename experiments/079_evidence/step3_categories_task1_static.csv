@@ -1,0 +1,11 @@
+cell,points,share_on_mixed_groups,auc_knn,auc_softvote,f1_rise_75_to_100,category
+facebook -> instagram,1.504,0.0,0.78,0.756,"{'facebook': 0.186, 'instagram': 0.068}",data-starved
+instagram -> facebook,1.36,0.0,0.78,0.756,"{'instagram': 0.068, 'facebook': 0.186}",data-starved
+youtube -> google,1.072,0.0,0.785,0.937,"{'youtube': 0.038, 'google': 0.024}",data-starved
+google -> youtube,0.646,0.0,0.785,0.937,"{'google': 0.024, 'youtube': 0.038}",data-starved
+instagram -> youtube,0.445,0.0,0.896,0.961,"{'instagram': 0.068, 'youtube': 0.038}",data-starved
+google -> x,0.404,0.0,0.963,0.989,"{'google': 0.024, 'x': 0.038}",data-starved
+google -> facebook,0.399,0.0,0.834,0.989,"{'google': 0.024, 'facebook': 0.186}",data-starved
+facebook -> x,0.392,0.0,0.95,0.978,"{'facebook': 0.186, 'x': 0.038}",data-starved
+google -> instagram,0.375,0.0,0.892,0.988,"{'google': 0.024, 'instagram': 0.068}",data-starved
+mozilla -> google,0.307,0.0,0.965,0.99,"{'mozilla': 0.02, 'google': 0.024}",model-limited

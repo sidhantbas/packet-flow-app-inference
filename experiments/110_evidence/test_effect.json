@@ -1,0 +1,58 @@
+{
+  "P": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {},
+    "inner_columns": [
+      "transport",
+      "packet_count_up",
+      "packet_count_down",
+      "bytes_up",
+      "bytes_down",
+      "mean_pkt_size_up",
+      "mean_pkt_size_down",
+      "std_pkt_size_up",
+      "std_pkt_size_down",
+      "burst_count",
+      "up_down_packet_ratio",
+      "up_down_byte_ratio"
+    ]
+  },
+  "C": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {},
+    "inner_columns": [
+      "s_up_min"
+    ]
+  },
+  "D": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {},
+    "inner_columns": [
+      "s_up_min"
+    ]
+  }
+}

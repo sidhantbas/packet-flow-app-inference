@@ -1,0 +1,48 @@
+{
+  "self_training": {
+    "threshold": 0.9,
+    "pool": "held-out fold features + 81 test feature rows (no labels)",
+    "task1_static": {
+      "score_mean": 80.736,
+      "score_sd": 5.002,
+      "delta_mean": -0.16,
+      "delta_sd": 1.065,
+      "wins": 5,
+      "losses": 11,
+      "verdict": "TIE",
+      "pseudo_labelled_rows_mean": 65.2
+    },
+    "task2_realtime_prefix5": {
+      "score_mean": 80.911,
+      "score_sd": 4.788,
+      "delta_mean": 0.015,
+      "delta_sd": 0.679,
+      "wins": 5,
+      "losses": 5,
+      "verdict": "TIE",
+      "pseudo_labelled_rows_mean": 101.56
+    }
+  },
+  "monotonic": {
+    "constraints_assumed": {
+      "x": {
+        "transport": -1,
+        "p5_mean_pkt_size_up": -1
+      },
+      "instagram": {
+        "burst_count": 1,
+        "bytes_down": 1
+      }
+    },
+    "scope": "LightGBM member of the two Task 1 pairwise verifiers only",
+    "task1_static": {
+      "score_mean": 80.864,
+      "score_sd": 4.743,
+      "delta_mean": -0.031,
+      "delta_sd": 0.387,
+      "wins": 3,
+      "losses": 3,
+      "verdict": "TIE"
+    }
+  }
+}

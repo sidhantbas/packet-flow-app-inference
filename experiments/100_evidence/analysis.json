@@ -1,0 +1,635 @@
+{
+  "ordinary": {
+    "2046": {
+      "REF": "20261012T151932Z_100_REF_ordinary_s2046",
+      "FB": {
+        "run": "20261012T151957Z_100_FB_ordinary_s2046",
+        "delta_mean": 0.0059,
+        "wins": 6,
+        "losses": 4,
+        "ties": 40,
+        "cases": 13,
+        "cases_truth": {
+          "facebook": 7,
+          "instagram": 6
+        },
+        "cases_right": 7,
+        "distinct_flows": {
+          "flow_001145": 6,
+          "flow_000477": 2,
+          "flow_000210": 2,
+          "flow_000215": 1,
+          "flow_000799": 1,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.018,
+          "google": 0.004,
+          "instagram": 0.0,
+          "mozilla": 0.002,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          4,
+          10
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          3
+        ]
+      },
+      "IG": {
+        "run": "20261012T152022Z_100_IG_ordinary_s2046",
+        "delta_mean": 0.0023,
+        "wins": 5,
+        "losses": 5,
+        "ties": 40,
+        "cases": 13,
+        "cases_truth": {
+          "facebook": 7,
+          "instagram": 6
+        },
+        "cases_right": 6,
+        "distinct_flows": {
+          "flow_001145": 6,
+          "flow_000477": 2,
+          "flow_000210": 2,
+          "flow_000215": 1,
+          "flow_000799": 1,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.0,
+          "google": 0.004,
+          "instagram": 0.005,
+          "mozilla": 0.002,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          4,
+          10
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          3
+        ]
+      }
+    },
+    "2047": {
+      "REF": "20261012T152043Z_100_REF_ordinary_s2047",
+      "FB": {
+        "run": "20261012T152109Z_100_FB_ordinary_s2047",
+        "delta_mean": 0.0062,
+        "wins": 7,
+        "losses": 5,
+        "ties": 38,
+        "cases": 13,
+        "cases_truth": {
+          "facebook": 7,
+          "instagram": 6
+        },
+        "cases_right": 7,
+        "distinct_flows": {
+          "flow_001145": 5,
+          "flow_000210": 4,
+          "flow_000799": 1,
+          "flow_000359": 1,
+          "flow_000360": 1,
+          "flow_001331": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.022,
+          "google": 0.005,
+          "instagram": 0.0,
+          "mozilla": 0.0,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          3,
+          9
+        ],
+        "facebook_share_in_other_folds": [
+          4,
+          4
+        ]
+      },
+      "IG": {
+        "run": "20261012T152135Z_100_IG_ordinary_s2047",
+        "delta_mean": 0.0021,
+        "wins": 5,
+        "losses": 7,
+        "ties": 38,
+        "cases": 13,
+        "cases_truth": {
+          "facebook": 7,
+          "instagram": 6
+        },
+        "cases_right": 6,
+        "distinct_flows": {
+          "flow_001145": 5,
+          "flow_000210": 4,
+          "flow_000799": 1,
+          "flow_000359": 1,
+          "flow_000360": 1,
+          "flow_001331": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.0,
+          "google": 0.005,
+          "instagram": 0.004,
+          "mozilla": 0.0,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          3,
+          9
+        ],
+        "facebook_share_in_other_folds": [
+          4,
+          4
+        ]
+      }
+    },
+    "2048": {
+      "REF": "20261012T152157Z_100_REF_ordinary_s2048",
+      "FB": {
+        "run": "20261012T152223Z_100_FB_ordinary_s2048",
+        "delta_mean": 0.015,
+        "wins": 10,
+        "losses": 5,
+        "ties": 35,
+        "cases": 20,
+        "cases_truth": {
+          "facebook": 15,
+          "instagram": 5
+        },
+        "cases_right": 15,
+        "distinct_flows": {
+          "flow_001145": 6,
+          "flow_000809": 3,
+          "flow_001168": 3,
+          "flow_000210": 2,
+          "flow_000477": 2,
+          "flow_000799": 2,
+          "flow_001331": 1,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.07,
+          "google": 0.007,
+          "instagram": 0.0,
+          "mozilla": 0.001,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          12,
+          17
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          3
+        ]
+      },
+      "IG": {
+        "run": "20261012T152249Z_100_IG_ordinary_s2048",
+        "delta_mean": -0.0013,
+        "wins": 5,
+        "losses": 10,
+        "ties": 35,
+        "cases": 20,
+        "cases_truth": {
+          "facebook": 15,
+          "instagram": 5
+        },
+        "cases_right": 5,
+        "distinct_flows": {
+          "flow_001145": 6,
+          "flow_000809": 3,
+          "flow_001168": 3,
+          "flow_000210": 2,
+          "flow_000477": 2,
+          "flow_000799": 2,
+          "flow_001331": 1,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.0,
+          "google": 0.007,
+          "instagram": -0.016,
+          "mozilla": 0.001,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          12,
+          17
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          3
+        ]
+      }
+    },
+    "2049": {
+      "REF": "20261012T152311Z_100_REF_ordinary_s2049",
+      "FB": {
+        "run": "20261012T152336Z_100_FB_ordinary_s2049",
+        "delta_mean": 0.0073,
+        "wins": 7,
+        "losses": 5,
+        "ties": 38,
+        "cases": 15,
+        "cases_truth": {
+          "instagram": 6,
+          "facebook": 9
+        },
+        "cases_right": 9,
+        "distinct_flows": {
+          "flow_001145": 5,
+          "flow_000477": 3,
+          "flow_000210": 2,
+          "flow_000799": 2,
+          "flow_001331": 2,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.033,
+          "google": 0.005,
+          "instagram": 0.0,
+          "mozilla": 0.002,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          6,
+          11
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          4
+        ]
+      },
+      "IG": {
+        "run": "20261012T152404Z_100_IG_ordinary_s2049",
+        "delta_mean": 0.0022,
+        "wins": 5,
+        "losses": 7,
+        "ties": 38,
+        "cases": 15,
+        "cases_truth": {
+          "instagram": 6,
+          "facebook": 9
+        },
+        "cases_right": 6,
+        "distinct_flows": {
+          "flow_001145": 5,
+          "flow_000477": 3,
+          "flow_000210": 2,
+          "flow_000799": 2,
+          "flow_001331": 2,
+          "flow_000359": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.0,
+          "google": 0.005,
+          "instagram": 0.001,
+          "mozilla": 0.002,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          6,
+          11
+        ],
+        "facebook_share_in_other_folds": [
+          3,
+          4
+        ]
+      }
+    },
+    "2050": {
+      "REF": "20261012T152426Z_100_REF_ordinary_s2050",
+      "FB": {
+        "run": "20261012T152452Z_100_FB_ordinary_s2050",
+        "delta_mean": 0.0206,
+        "wins": 14,
+        "losses": 3,
+        "ties": 33,
+        "cases": 25,
+        "cases_truth": {
+          "facebook": 17,
+          "instagram": 8
+        },
+        "cases_right": 17,
+        "distinct_flows": {
+          "flow_001145": 8,
+          "flow_000477": 4,
+          "flow_000799": 3,
+          "flow_000809": 3,
+          "flow_001168": 3,
+          "flow_000359": 2,
+          "flow_000210": 1,
+          "flow_000360": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.076,
+          "google": 0.007,
+          "instagram": 0.0,
+          "mozilla": 0.003,
+          "x": 0.0,
+          "youtube": 0.002
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          10,
+          17
+        ],
+        "facebook_share_in_other_folds": [
+          7,
+          8
+        ]
+      },
+      "IG": {
+        "run": "20261012T152518Z_100_IG_ordinary_s2050",
+        "delta_mean": 0.002,
+        "wins": 5,
+        "losses": 12,
+        "ties": 33,
+        "cases": 25,
+        "cases_truth": {
+          "facebook": 17,
+          "instagram": 8
+        },
+        "cases_right": 8,
+        "distinct_flows": {
+          "flow_001145": 8,
+          "flow_000477": 4,
+          "flow_000799": 3,
+          "flow_000809": 3,
+          "flow_001168": 3,
+          "flow_000359": 2,
+          "flow_000210": 1,
+          "flow_000360": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.0,
+          "google": 0.007,
+          "instagram": -0.01,
+          "mozilla": 0.003,
+          "x": 0.0,
+          "youtube": 0.002
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          10,
+          17
+        ],
+        "facebook_share_in_other_folds": [
+          7,
+          8
+        ]
+      }
+    }
+  },
+  "grouped": {
+    "2046": {
+      "REF": "20261012T152540Z_100_REF_grouped_s2046",
+      "FB": {
+        "run": "20261012T152606Z_100_FB_grouped_s2046",
+        "delta_mean": 0.0316,
+        "wins": 17,
+        "losses": 7,
+        "ties": 26,
+        "cases": 40,
+        "cases_truth": {
+          "instagram": 10,
+          "facebook": 26,
+          "google": 3,
+          "youtube": 1
+        },
+        "cases_right": 26,
+        "distinct_flows": {
+          "flow_000809": 10,
+          "flow_001168": 10,
+          "flow_001145": 5,
+          "flow_000210": 4,
+          "flow_000477": 3,
+          "flow_000215": 2,
+          "flow_000359": 1,
+          "flow_000559": 1,
+          "flow_000239": 1,
+          "flow_000240": 1,
+          "flow_000846": 1,
+          "flow_001331": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.125,
+          "google": 0.011,
+          "instagram": 0.0,
+          "mozilla": 0.005,
+          "x": 0.001,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          17,
+          27
+        ],
+        "facebook_share_in_other_folds": [
+          9,
+          13
+        ]
+      }
+    },
+    "2056": {
+      "REF": "20261012T152628Z_100_REF_grouped_s2056",
+      "FB": {
+        "run": "20261012T152653Z_100_FB_grouped_s2056",
+        "delta_mean": 0.0287,
+        "wins": 16,
+        "losses": 6,
+        "ties": 28,
+        "cases": 45,
+        "cases_truth": {
+          "google": 2,
+          "facebook": 27,
+          "instagram": 16
+        },
+        "cases_right": 27,
+        "distinct_flows": {
+          "flow_000809": 10,
+          "flow_001168": 10,
+          "flow_000210": 7,
+          "flow_001145": 6,
+          "flow_000215": 6,
+          "flow_000559": 2,
+          "flow_000477": 2,
+          "flow_000359": 1,
+          "flow_000799": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.113,
+          "google": 0.012,
+          "instagram": 0.0,
+          "mozilla": 0.002,
+          "x": 0.0,
+          "youtube": 0.001
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          22,
+          39
+        ],
+        "facebook_share_in_other_folds": [
+          5,
+          6
+        ]
+      }
+    },
+    "2066": {
+      "REF": "20261012T152714Z_100_REF_grouped_s2066",
+      "FB": {
+        "run": "20261012T152740Z_100_FB_grouped_s2066",
+        "delta_mean": 0.0307,
+        "wins": 18,
+        "losses": 3,
+        "ties": 29,
+        "cases": 45,
+        "cases_truth": {
+          "facebook": 30,
+          "google": 5,
+          "instagram": 9,
+          "youtube": 1
+        },
+        "cases_right": 30,
+        "distinct_flows": {
+          "flow_000809": 10,
+          "flow_001168": 10,
+          "flow_001145": 8,
+          "flow_000559": 3,
+          "flow_000477": 3,
+          "flow_000210": 3,
+          "flow_000215": 3,
+          "flow_000799": 2,
+          "flow_000239": 1,
+          "flow_000240": 1,
+          "flow_000846": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.131,
+          "google": 0.01,
+          "instagram": 0.0,
+          "mozilla": 0.005,
+          "x": 0.001,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          25,
+          37
+        ],
+        "facebook_share_in_other_folds": [
+          5,
+          8
+        ]
+      }
+    },
+    "2076": {
+      "REF": "20261012T152801Z_100_REF_grouped_s2076",
+      "FB": {
+        "run": "20261012T152826Z_100_FB_grouped_s2076",
+        "delta_mean": 0.0306,
+        "wins": 18,
+        "losses": 4,
+        "ties": 28,
+        "cases": 45,
+        "cases_truth": {
+          "facebook": 31,
+          "instagram": 12,
+          "google": 2
+        },
+        "cases_right": 31,
+        "distinct_flows": {
+          "flow_000809": 10,
+          "flow_001168": 10,
+          "flow_001145": 8,
+          "flow_000210": 5,
+          "flow_000477": 5,
+          "flow_000215": 2,
+          "flow_000559": 2,
+          "flow_000799": 2,
+          "flow_001331": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.153,
+          "google": 0.012,
+          "instagram": 0.0,
+          "mozilla": 0.005,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          17,
+          30
+        ],
+        "facebook_share_in_other_folds": [
+          14,
+          15
+        ]
+      }
+    },
+    "2086": {
+      "REF": "20261012T152848Z_100_REF_grouped_s2086",
+      "FB": {
+        "run": "20261012T152914Z_100_FB_grouped_s2086",
+        "delta_mean": 0.03,
+        "wins": 18,
+        "losses": 7,
+        "ties": 25,
+        "cases": 46,
+        "cases_truth": {
+          "facebook": 29,
+          "instagram": 14,
+          "youtube": 1,
+          "google": 2
+        },
+        "cases_right": 29,
+        "distinct_flows": {
+          "flow_000809": 10,
+          "flow_001168": 10,
+          "flow_001145": 6,
+          "flow_000210": 6,
+          "flow_000477": 4,
+          "flow_000215": 4,
+          "flow_000559": 2,
+          "flow_000368": 1,
+          "flow_000799": 1,
+          "flow_001331": 1,
+          "flow_000846": 1
+        },
+        "per_class_delta": {
+          "facebook": 0.12,
+          "google": 0.013,
+          "instagram": 0.0,
+          "mozilla": 0.001,
+          "x": 0.0,
+          "youtube": 0.0
+        },
+        "facebook_share_in_ig_deficit_folds": [
+          21,
+          37
+        ],
+        "facebook_share_in_other_folds": [
+          8,
+          9
+        ]
+      }
+    }
+  },
+  "grouped_FB_pooled": {
+    "folds": 250,
+    "delta_mean": 0.0303,
+    "wins": 87,
+    "losses": 27
+  }
+}

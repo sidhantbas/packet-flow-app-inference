@@ -1,0 +1,7 @@
+,fold_sd,seed_mean_min,seed_mean_max,flows_per_fold,detectable_per_fold_gain(0.52*fold_sd)
+facebook,0.264,0.558,0.674,2.2,0.137
+google,0.043,0.888,0.894,26.2,0.022
+instagram,0.153,0.728,0.754,3.8,0.08
+mozilla,0.083,0.902,0.926,8.2,0.043
+x,0.052,0.93,0.939,14.6,0.027
+youtube,0.099,0.805,0.816,11.0,0.051

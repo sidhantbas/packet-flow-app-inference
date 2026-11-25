@@ -1,0 +1,164 @@
+{
+  "means": {
+    "P": [
+      0.8514,
+      0.8576,
+      0.8401,
+      0.8652,
+      0.8496
+    ],
+    "S14": [
+      0.8362,
+      0.8432,
+      0.8261,
+      0.8545,
+      0.8396
+    ],
+    "S": [
+      0.8358,
+      0.8432,
+      0.8261,
+      0.8538,
+      0.8396
+    ]
+  },
+  "vs_P": {
+    "S14": {
+      "mean_delta": -0.0129,
+      "per_seed": [
+        {
+          "seed": 2146,
+          "delta": -0.0152,
+          "wins": 4,
+          "losses": 12,
+          "ties": 34,
+          "verdict": "WORSE"
+        },
+        {
+          "seed": 2147,
+          "delta": -0.0144,
+          "wins": 1,
+          "losses": 11,
+          "ties": 38,
+          "verdict": "WORSE"
+        },
+        {
+          "seed": 2148,
+          "delta": -0.014,
+          "wins": 6,
+          "losses": 10,
+          "ties": 34,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2149,
+          "delta": -0.0107,
+          "wins": 4,
+          "losses": 7,
+          "ties": 39,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2150,
+          "delta": -0.01,
+          "wins": 6,
+          "losses": 8,
+          "ties": 36,
+          "verdict": "INCONCLUSIVE"
+        }
+      ],
+      "per_class_mean_delta": {
+        "facebook": -0.0682,
+        "google": -0.0049,
+        "instagram": 0.0,
+        "mozilla": -0.0034,
+        "x": -0.0003,
+        "youtube": -0.0003
+      },
+      "changes_5_seeds": {
+        "changed": 102,
+        "fixed": 4,
+        "broken": 60
+      },
+      "transitions_true_was_now": {
+        "facebook: facebook -> google": 59,
+        "instagram: facebook -> google": 19,
+        "instagram: facebook -> mozilla": 9,
+        "youtube: facebook -> mozilla": 7,
+        "google: facebook -> google": 4,
+        "google: facebook -> x": 2,
+        "facebook: facebook -> youtube": 1,
+        "google: facebook -> youtube": 1
+      }
+    },
+    "S": {
+      "mean_delta": -0.0131,
+      "per_seed": [
+        {
+          "seed": 2146,
+          "delta": -0.0156,
+          "wins": 4,
+          "losses": 13,
+          "ties": 33,
+          "verdict": "WORSE"
+        },
+        {
+          "seed": 2147,
+          "delta": -0.0144,
+          "wins": 1,
+          "losses": 11,
+          "ties": 38,
+          "verdict": "WORSE"
+        },
+        {
+          "seed": 2148,
+          "delta": -0.014,
+          "wins": 6,
+          "losses": 10,
+          "ties": 34,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2149,
+          "delta": -0.0114,
+          "wins": 4,
+          "losses": 8,
+          "ties": 38,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2150,
+          "delta": -0.01,
+          "wins": 6,
+          "losses": 8,
+          "ties": 36,
+          "verdict": "INCONCLUSIVE"
+        }
+      ],
+      "per_class_mean_delta": {
+        "facebook": -0.0694,
+        "google": -0.0051,
+        "instagram": 0.0,
+        "mozilla": -0.0034,
+        "x": -0.0003,
+        "youtube": -0.0003
+      },
+      "changes_5_seeds": {
+        "changed": 104,
+        "fixed": 4,
+        "broken": 62
+      },
+      "transitions_true_was_now": {
+        "facebook: facebook -> google": 59,
+        "instagram: facebook -> google": 19,
+        "instagram: facebook -> mozilla": 9,
+        "youtube: facebook -> mozilla": 7,
+        "google: facebook -> google": 4,
+        "google: facebook -> x": 2,
+        "google: google -> facebook": 2,
+        "facebook: facebook -> youtube": 1,
+        "google: facebook -> youtube": 1
+      }
+    }
+  }
+}

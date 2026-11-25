@@ -1,0 +1,32 @@
+[
+  {
+    "level": "warn",
+    "code": "dirty-tree",
+    "message": "Uncommitted changes in 4 file(s); the commit alone does not reproduce this run (code hashes are recorded)."
+  },
+  {
+    "level": "info",
+    "code": "zero-f1-folds",
+    "message": "task1_static: facebook has F1 = 0 in 10/50 folds."
+  },
+  {
+    "level": "info",
+    "code": "noise-driver",
+    "message": "task1_static: facebook fold std 0.32 drives most of the macro F1 noise."
+  },
+  {
+    "level": "info",
+    "code": "zero-f1-folds",
+    "message": "task2_realtime_prefix5: facebook has F1 = 0 in 15/50 folds."
+  },
+  {
+    "level": "info",
+    "code": "noise-driver",
+    "message": "task2_realtime_prefix5: facebook fold std 0.30 drives most of the macro F1 noise."
+  },
+  {
+    "level": "todo",
+    "code": "missing-log",
+    "message": "No experiments/014_*.md yet; write it (see experiments/TEMPLATE.md)."
+  }
+]

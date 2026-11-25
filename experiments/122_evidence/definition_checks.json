@@ -1,0 +1,167 @@
+{
+  "experiment": "122",
+  "organisers_all_released_rows": {
+    "flows": 411,
+    "min_packets_task1": 5,
+    "task2_exactly_5_packets": 1.0,
+    "duration_eq_mean_iat_x_gaps": 1.0,
+    "bytes_eq_count_x_mean_up": 1.0,
+    "bytes_eq_count_x_mean_down": 1.0,
+    "integer_bytes": 1.0,
+    "min_frame_ge_60": 1.0,
+    "max_mean_frame": 1420.745588235,
+    "packet_ratio_eq_up_over_max_down_1": 1.0,
+    "byte_ratio_eq_up_over_max_down_1": 1.0,
+    "burst_1_when_max_iat_lt_1s": 1.0,
+    "burst_ge2_when_max_iat_ge_1s": 1.0,
+    "duration_on_1us_grid": 1.0,
+    "min_iat_zero_task1": 0.9732,
+    "min_iat_zero_task2": 0.3625,
+    "prefix_le_full_counts": 1.0,
+    "prefix_duration_le_full": 1.0,
+    "max_iat_le_duration": 1.0,
+    "std_zero_when_le_1_packet_up": NaN,
+    "transport_tcp_share": 0.4793,
+    "server_ports": {
+      "443": 409,
+      "80": 2
+    },
+    "task2_tcp_opening_shapes_up_down": {
+      "3/2": 127,
+      "4/1": 43,
+      "2/3": 27
+    }
+  },
+  "ours_clean_v2_all_rows": {
+    "flows": 661,
+    "min_packets_task1": 5,
+    "task2_exactly_5_packets": 1.0,
+    "duration_eq_mean_iat_x_gaps": 1.0,
+    "bytes_eq_count_x_mean_up": 1.0,
+    "bytes_eq_count_x_mean_down": 1.0,
+    "integer_bytes": 1.0,
+    "min_frame_ge_60": 1.0,
+    "max_mean_frame": 4699.477449455677,
+    "packet_ratio_eq_up_over_max_down_1": 1.0,
+    "byte_ratio_eq_up_over_max_down_1": 1.0,
+    "burst_1_when_max_iat_lt_1s": 1.0,
+    "burst_ge2_when_max_iat_ge_1s": 1.0,
+    "duration_on_1us_grid": 0.9985,
+    "min_iat_zero_task1": 0.6929,
+    "min_iat_zero_task2": 0.2269,
+    "prefix_le_full_counts": 1.0,
+    "prefix_duration_le_full": 1.0,
+    "max_iat_le_duration": 1.0,
+    "std_zero_when_le_1_packet_up": 1.0,
+    "transport_tcp_share": 0.5507,
+    "server_ports": {
+      "443": 661
+    },
+    "task2_tcp_opening_shapes_up_down": {
+      "4/1": 244,
+      "3/2": 94,
+      "5/0": 13,
+      "2/3": 9,
+      "1/4": 4
+    }
+  },
+  "ours_by_group": {
+    "sid-android-20261009T152334Z-check-macshare": {
+      "flows": 119,
+      "min_packets_task1": 5,
+      "task2_exactly_5_packets": 1.0,
+      "duration_eq_mean_iat_x_gaps": 1.0,
+      "bytes_eq_count_x_mean_up": 1.0,
+      "bytes_eq_count_x_mean_down": 1.0,
+      "integer_bytes": 1.0,
+      "min_frame_ge_60": 1.0,
+      "max_mean_frame": 1274.0,
+      "packet_ratio_eq_up_over_max_down_1": 1.0,
+      "byte_ratio_eq_up_over_max_down_1": 1.0,
+      "burst_1_when_max_iat_lt_1s": 1.0,
+      "burst_ge2_when_max_iat_ge_1s": 1.0,
+      "duration_on_1us_grid": 1.0,
+      "min_iat_zero_task1": 0.5714,
+      "min_iat_zero_task2": 0.0588,
+      "prefix_le_full_counts": 1.0,
+      "prefix_duration_le_full": 1.0,
+      "max_iat_le_duration": 1.0,
+      "std_zero_when_le_1_packet_up": 1.0,
+      "transport_tcp_share": 0.7059,
+      "server_ports": {
+        "443": 119
+      },
+      "task2_tcp_opening_shapes_up_down": {
+        "3/2": 49,
+        "4/1": 20,
+        "2/3": 7,
+        "5/0": 5,
+        "1/4": 3
+      }
+    },
+    "sid-iphone-20261008T233855Z": {
+      "flows": 272,
+      "min_packets_task1": 5,
+      "task2_exactly_5_packets": 1.0,
+      "duration_eq_mean_iat_x_gaps": 1.0,
+      "bytes_eq_count_x_mean_up": 1.0,
+      "bytes_eq_count_x_mean_down": 1.0,
+      "integer_bytes": 1.0,
+      "min_frame_ge_60": 1.0,
+      "max_mean_frame": 1430.175975400746,
+      "packet_ratio_eq_up_over_max_down_1": 1.0,
+      "byte_ratio_eq_up_over_max_down_1": 1.0,
+      "burst_1_when_max_iat_lt_1s": 1.0,
+      "burst_ge2_when_max_iat_ge_1s": 1.0,
+      "duration_on_1us_grid": 0.9963,
+      "min_iat_zero_task1": 0.6838,
+      "min_iat_zero_task2": 0.2868,
+      "prefix_le_full_counts": 1.0,
+      "prefix_duration_le_full": 1.0,
+      "max_iat_le_duration": 1.0,
+      "std_zero_when_le_1_packet_up": NaN,
+      "transport_tcp_share": 0.6728,
+      "server_ports": {
+        "443": 272
+      },
+      "task2_tcp_opening_shapes_up_down": {
+        "4/1": 149,
+        "3/2": 27,
+        "5/0": 4,
+        "2/3": 2,
+        "1/4": 1
+      }
+    },
+    "sid-iphone-20261009T115620Z-long-cellular": {
+      "flows": 270,
+      "min_packets_task1": 5,
+      "task2_exactly_5_packets": 1.0,
+      "duration_eq_mean_iat_x_gaps": 1.0,
+      "bytes_eq_count_x_mean_up": 1.0,
+      "bytes_eq_count_x_mean_down": 1.0,
+      "integer_bytes": 1.0,
+      "min_frame_ge_60": 1.0,
+      "max_mean_frame": 4699.477449455677,
+      "packet_ratio_eq_up_over_max_down_1": 1.0,
+      "byte_ratio_eq_up_over_max_down_1": 1.0,
+      "burst_1_when_max_iat_lt_1s": 1.0,
+      "burst_ge2_when_max_iat_ge_1s": 1.0,
+      "duration_on_1us_grid": 1.0,
+      "min_iat_zero_task1": 0.7556,
+      "min_iat_zero_task2": 0.2407,
+      "prefix_le_full_counts": 1.0,
+      "prefix_duration_le_full": 1.0,
+      "max_iat_le_duration": 1.0,
+      "std_zero_when_le_1_packet_up": NaN,
+      "transport_tcp_share": 0.3593,
+      "server_ports": {
+        "443": 270
+      },
+      "task2_tcp_opening_shapes_up_down": {
+        "4/1": 75,
+        "3/2": 18,
+        "5/0": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "V1 / iphone_pilot": {
+    "flows": 272,
+    "apps": {
+      "instagram": 160,
+      "youtube": 79,
+      "facebook": 28,
+      "idle": 5
+    },
+    "gate1": true,
+    "gate2": false,
+    "adversarial_auc": 0.986,
+    "per_app": {
+      "app facebook": {
+        "n": 28,
+        "median_nn": 1.94,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.01,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 160,
+        "median_nn": 2.11,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.11,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 79,
+        "median_nn": 1.42,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.31,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V1 / iphone_long": {
+    "flows": 270,
+    "apps": {
+      "youtube": 181,
+      "instagram": 55,
+      "facebook": 34
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.957,
+    "per_app": {
+      "app facebook": {
+        "n": 34,
+        "median_nn": 0.84,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 55,
+        "median_nn": 1.23,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.13,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 181,
+        "median_nn": 1.19,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.28,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V1 / android": {
+    "flows": 119,
+    "apps": {
+      "facebook": 62,
+      "instagram": 57
+    },
+    "gate1": true,
+    "gate2": false,
+    "adversarial_auc": 0.903,
+    "per_app": {
+      "app facebook": {
+        "n": 62,
+        "median_nn": 1.35,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.06,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 57,
+        "median_nn": 1.32,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.09,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V1 / all": {
+    "flows": 661,
+    "apps": {
+      "instagram": 272,
+      "youtube": 260,
+      "facebook": 124,
+      "idle": 5
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.947,
+    "per_app": {
+      "app facebook": {
+        "n": 124,
+        "median_nn": 1.44,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.04,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 272,
+        "median_nn": 1.75,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.11,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 260,
+        "median_nn": 1.2,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.29,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V1 / iphone_all": {
+    "flows": 542,
+    "apps": {
+      "youtube": 260,
+      "instagram": 215,
+      "facebook": 62,
+      "idle": 5
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.96,
+    "per_app": {
+      "app facebook": {
+        "n": 62,
+        "median_nn": 1.52,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 215,
+        "median_nn": 1.88,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.12,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 260,
+        "median_nn": 1.2,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.29,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2 / iphone_pilot": {
+    "flows": 143,
+    "apps": {
+      "instagram": 88,
+      "youtube": 41,
+      "facebook": 14
+    },
+    "gate1": true,
+    "gate2": false,
+    "adversarial_auc": 0.986,
+    "per_app": {
+      "app facebook": {
+        "n": 14,
+        "median_nn": 1.56,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.01,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 88,
+        "median_nn": 2.19,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.12,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 41,
+        "median_nn": 1.63,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.27,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2 / iphone_long": {
+    "flows": 195,
+    "apps": {
+      "youtube": 147,
+      "instagram": 27,
+      "facebook": 21
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.969,
+    "per_app": {
+      "app facebook": {
+        "n": 21,
+        "median_nn": 0.87,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 27,
+        "median_nn": 1.22,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.15,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 147,
+        "median_nn": 1.23,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.25,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2 / android": {
+    "flows": 100,
+    "apps": {
+      "facebook": 55,
+      "instagram": 45
+    },
+    "gate1": true,
+    "gate2": false,
+    "adversarial_auc": 0.902,
+    "per_app": {
+      "app facebook": {
+        "n": 55,
+        "median_nn": 1.25,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.05,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 45,
+        "median_nn": 1.32,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.04,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2 / all": {
+    "flows": 438,
+    "apps": {
+      "youtube": 188,
+      "instagram": 160,
+      "facebook": 90
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.945,
+    "per_app": {
+      "app facebook": {
+        "n": 90,
+        "median_nn": 1.27,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.04,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 160,
+        "median_nn": 1.82,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.1,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 188,
+        "median_nn": 1.24,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.25,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2 / iphone_all": {
+    "flows": 338,
+    "apps": {
+      "youtube": 188,
+      "instagram": 115,
+      "facebook": 35
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.964,
+    "per_app": {
+      "app facebook": {
+        "n": 35,
+        "median_nn": 1.37,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 115,
+        "median_nn": 2.11,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.12,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 188,
+        "median_nn": 1.24,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.25,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  },
+  "V2-process / iphone_all": {
+    "flows": 338,
+    "apps": {
+      "youtube": 188,
+      "instagram": 115,
+      "facebook": 35
+    },
+    "gate1": false,
+    "gate2": false,
+    "adversarial_auc": 0.964,
+    "per_app": {
+      "app facebook": {
+        "n": 35,
+        "median_nn": 1.37,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 115,
+        "median_nn": 2.11,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.12,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 188,
+        "median_nn": 1.24,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.25,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    }
+  }
+}

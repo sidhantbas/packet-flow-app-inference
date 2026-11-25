@@ -1,0 +1,103 @@
+{
+  "source": "https://health.aiaudit.org/api/jobs/challenge_phase_split/642/leaderboard/?page_size=1000 (API behind https://competition.aiforgood.itu.int/web/challenges/challenge-page/495/leaderboard/642)",
+  "captured_utc": "2026-10-16T23:20Z",
+  "phase": "Final Test Phase, Test Split",
+  "entries": [
+    {
+      "team": "Infralibre",
+      "method_name": "",
+      "submitted_at": "2026-10-13T15:01:04.035629Z",
+      "Task 1 Macro F1": 0.964258,
+      "Task 1 Accuracy": 0.950617,
+      "Task 1 Score": 48.212898,
+      "Task 2 Macro F1": 0.935897,
+      "Task 2 Accuracy": 0.91358,
+      "Task 2 Score": 46.794872,
+      "Total": 95.00777
+    },
+    {
+      "team": "HeriTech",
+      "method_name": "",
+      "submitted_at": "2026-10-11T21:55:22.966750Z",
+      "Task 1 Macro F1": 0.95669,
+      "Task 1 Accuracy": 0.950617,
+      "Task 1 Score": 47.834519,
+      "Task 2 Macro F1": 0.942868,
+      "Task 2 Accuracy": 0.925926,
+      "Task 2 Score": 47.143398,
+      "Total": 94.977917
+    },
+    {
+      "team": "LLM_ops",
+      "method_name": "Lookup-Ensemble v7",
+      "submitted_at": "2026-10-12T17:13:31.987421Z",
+      "Task 1 Macro F1": 0.938819,
+      "Task 1 Accuracy": 0.925926,
+      "Task 1 Score": 46.940968,
+      "Task 2 Macro F1": 0.930047,
+      "Task 2 Accuracy": 0.91358,
+      "Task 2 Score": 46.502372,
+      "Total": 93.44334
+    },
+    {
+      "team": "RahmaniJ",
+      "method_name": "",
+      "submitted_at": "2026-09-12T20:58:49.447362Z",
+      "Task 1 Macro F1": 0.924997,
+      "Task 1 Accuracy": 0.901235,
+      "Task 1 Score": 46.249847,
+      "Task 2 Macro F1": 0.924997,
+      "Task 2 Accuracy": 0.901235,
+      "Task 2 Score": 46.249847,
+      "Total": 92.499694
+    },
+    {
+      "team": "Flow State",
+      "method_name": "",
+      "submitted_at": "2026-09-10T11:38:43.161027Z",
+      "Task 1 Macro F1": 0.912246,
+      "Task 1 Accuracy": 0.91358,
+      "Task 1 Score": 45.612285,
+      "Task 2 Macro F1": 0.867471,
+      "Task 2 Accuracy": 0.901235,
+      "Task 2 Score": 43.373568,
+      "Total": 88.985853
+    },
+    {
+      "team": "图个乐呵队",
+      "method_name": "PaFlowInfer-Net-v5",
+      "submitted_at": "2026-09-21T01:03:16.704228Z",
+      "Task 1 Macro F1": 0.881687,
+      "Task 1 Accuracy": 0.851852,
+      "Task 1 Score": 44.084366,
+      "Task 2 Macro F1": 0.881687,
+      "Task 2 Accuracy": 0.851852,
+      "Task 2 Score": 44.084366,
+      "Total": 88.168732
+    },
+    {
+      "team": "Telex",
+      "method_name": "",
+      "submitted_at": "2026-10-16T23:11:53.858112Z",
+      "Task 1 Macro F1": 0.8571,
+      "Task 1 Accuracy": 0.91358,
+      "Task 1 Score": 42.855023,
+      "Task 2 Macro F1": 0.905055,
+      "Task 2 Accuracy": 0.888889,
+      "Task 2 Score": 45.252727,
+      "Total": 88.10775
+    },
+    {
+      "team": "Artur Baranovsky",
+      "method_name": "gbdt-v6",
+      "submitted_at": "2026-10-10T09:09:26.558896Z",
+      "Task 1 Macro F1": 0.849781,
+      "Task 1 Accuracy": 0.876543,
+      "Task 1 Score": 42.489037,
+      "Task 2 Macro F1": 0.897471,
+      "Task 2 Accuracy": 0.876543,
+      "Task 2 Score": 44.873545,
+      "Total": 87.362582
+    }
+  ]
+}

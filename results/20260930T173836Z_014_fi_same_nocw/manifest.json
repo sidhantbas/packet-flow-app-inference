@@ -1,0 +1,156 @@
+{
+  "run_id": "20260930T173836Z_014_fi_same_nocw",
+  "experiment": "014",
+  "name": "fi_same_nocw",
+  "question": "Does a facebook/instagram specialist (fi_same_nocw) beat the champion (cv_seed 2026)?",
+  "notes": "",
+  "started_utc": "2026-09-30T17:38:27+00:00",
+  "finished_utc": "2026-09-30T17:38:36+00:00",
+  "wall_seconds": 8.632541,
+  "argv": [
+    "src/exp014_fb_ig_specialist.py"
+  ],
+  "config": {
+    "model": "PairSpecialist:fi_same_nocw",
+    "features": {
+      "task1_static": "basic_features",
+      "task2_realtime_prefix5": "no_timing_features"
+    },
+    "cv_seed": 2026,
+    "features_fn": null
+  },
+  "model": {
+    "repr": "PairSpecialist(base_cols=['transport', 'packet_count_up', 'packet_count_down',\n                          'bytes_up', 'bytes_down', 'mean_pkt_size_up',\n                          'mean_pkt_size_down', 'std_pkt_size_up',\n                          'std_pkt_size_down', 'burst_count',\n                          'up_down_packet_ratio', 'up_down_byte_ratio'],\n               pair=('facebook', 'instagram'), spec_all_cols=False,\n               spec_class_weight=None)",
+    "class": "PairSpecialist",
+    "params": {
+      "base_cols": "['transport', 'packet_count_up', 'packet_count_down', 'bytes_up', 'bytes_down', 'mean_pkt_size_up', 'mean_pkt_size_down', 'std_pkt_size_up', 'std_pkt_size_down', 'burst_count', 'up_down_packet_ratio', 'up_down_byte_ratio']",
+      "pair": "('facebook', 'instagram')",
+      "seed": "0",
+      "spec_all_cols": "False",
+      "spec_class_weight": "None"
+    }
+  },
+  "device": {
+    "label": "Sids-MacBook-Pro-2",
+    "user": "sid",
+    "os": "Darwin 25.4.0",
+    "arch": "arm64",
+    "logical_cores": 14,
+    "python": "3.13.1",
+    "thread_env": {},
+    "cpu": "Apple M4 Pro",
+    "ram_gb": 48.0,
+    "performance_cores": 10,
+    "efficiency_cores": 4
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10"
+  },
+  "git": {
+    "commit": "e7723e7b9840bba80b43539d0206b52ec5af46f0",
+    "branch": "main",
+    "dirty_files": [
+      "esults/index.jsonl",
+      "results/20260930T173827Z_014_fi_same_cw/",
+      "results/20260930T173836Z_014_fi_same_nocw/",
+      "src/exp014_fb_ig_specialist.py"
+    ],
+    "diff_sha256": "8ca8d0aa65db96ae5ec98f3ecd88c6634db5c69f038d9a6669d3b27857149439"
+  },
+  "code_sha256": {
+    "baseline.py": "6e6091174e8976cd9c3fd2b46150b009e253319b48bbf9cc17bdc695b7fc2fd0",
+    "ceilings.py": "549fcd8dcd9fefce2fdb2b7e238fcfca05e6fca969f307d359e2a8a2af3e0946",
+    "cv.py": "4fe50fdd834d73fdd4d7c7fe061c5f116b40f1f60f9627ead333a280f5c6824f",
+    "exp002_start_rel.py": "5ec593fd2151d0810928ede52421dcc8a11c4dc796f9539b9e05d188fcc5cc38",
+    "exp003_confusion_variants.py": "f11a9b099112a4984be8e5fd1a593c1122bbe820bdab21732aa33a87216d2ed0",
+    "exp004_ensemble_thresholds.py": "4a14d7bb7a5eeb4532c4674873c3eef81d3581d7a8f09d8ad7034463cce1c66c",
+    "exp005_checks.py": "7d6a4570412e35c7a16ffbc299a89f6e6fa5742386163885e2032275fe41d77c",
+    "exp006_reference_runs.py": "d2e1764b44ce9ec91b642337739a9b0db146dc2623ac160d493d33b58e3b3a58",
+    "exp007_drop_timing.py": "3cc4e6ee32f4b15ebc5210b996248e9e5e6c6f43b8e7fe17a00989a8180b8379",
+    "exp008_feature_families.py": "3b3ab5f03d076fa8d0f630e34725a833cb58ea9a532cd71d6783adf2cdaedf1c",
+    "exp009_catboost.py": "a92f057ab988d98b004e35c800b8c14576b14857b0031f9c53e603480a078e81",
+    "exp010_permutation.py": "8e919a7e81cd334ac049bba66595c60acd4e9b0427bdd12ad8b24c76772975b0",
+    "exp011_followups.py": "c4510ebaf0de1b851794d09acadb2d9a4a17281f0bec288640f18ade1602cee9",
+    "exp012_class_weights.py": "ea716b82cae7cf3aabd711d896682ffd586b5dacd37b3cafe9d8d8489ee5a47b",
+    "exp013_gy_specialist.py": "56c1984449c6d19be4b19d6090d3628f61019203a4513b82818715be1ea825f2",
+    "exp014_fb_ig_specialist.py": "72b3ae0731384af6975aed389a909b987ba5d454f55f823f88df4aed5c955bf0",
+    "make_submission.py": "023ecf16b735e76ce710554f6085f658b6f12f38e49e1e130d2214502961be41",
+    "models.py": "9e7a79bec9f3022c932fd5e80ffe026c2e28ed1e7fe1d1f10e624c4dcd2b8be7",
+    "runlog.py": "7f118df31b444ca640aae7f981ab8ba1377b52f15988d99a6413c2ec5c662476",
+    "runs.py": "74b807d36754b3c8ff918223ad2ec9a831828df6e3d0c2e389fe8a1137c46978"
+  },
+  "tasks": {
+    "task1_static": {
+      "n_flows": 330,
+      "features": [
+        "duration",
+        "transport",
+        "packet_count_up",
+        "packet_count_down",
+        "bytes_up",
+        "bytes_down",
+        "mean_pkt_size_up",
+        "mean_pkt_size_down",
+        "std_pkt_size_up",
+        "std_pkt_size_down",
+        "mean_iat",
+        "std_iat",
+        "min_iat",
+        "max_iat",
+        "burst_count",
+        "up_down_packet_ratio",
+        "up_down_byte_ratio"
+      ],
+      "cv": {
+        "n_splits": 5,
+        "n_repeats": 10,
+        "cv_seed": 2026,
+        "resample": null,
+        "fold_jobs": -1
+      },
+      "fold_signature": "88aa4f94dcce5cca",
+      "data_sha256": {
+        "task1_static/train_features.csv": "9a272ae67890f0903b96576273c5381f59df6a9384ef2c43df1d3832943999ec",
+        "task1_static/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+        "task1_static/validation_features.csv": "6ee5423541d72766fdf16e223b569a2dc19d2bc72844cec9245f9d6b50947a52",
+        "task1_static/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6"
+      }
+    },
+    "task2_realtime_prefix5": {
+      "n_flows": 330,
+      "features": [
+        "transport",
+        "packet_count_up",
+        "packet_count_down",
+        "bytes_up",
+        "bytes_down",
+        "mean_pkt_size_up",
+        "mean_pkt_size_down",
+        "std_pkt_size_up",
+        "std_pkt_size_down",
+        "burst_count",
+        "up_down_packet_ratio",
+        "up_down_byte_ratio"
+      ],
+      "cv": {
+        "n_splits": 5,
+        "n_repeats": 10,
+        "cv_seed": 2026,
+        "resample": null,
+        "fold_jobs": -1
+      },
+      "fold_signature": "88aa4f94dcce5cca",
+      "data_sha256": {
+        "task2_realtime_prefix5/train_features.csv": "c4ee7ef94d56cf5df32b48ab36154b98c68f3961b876627157add17445497730",
+        "task2_realtime_prefix5/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+        "task2_realtime_prefix5/validation_features.csv": "2ec2f5b80308371281a63bd4fcab16b84ae2d93f078dc39efc191d4f814851c2",
+        "task2_realtime_prefix5/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6"
+      }
+    }
+  },
+  "fingerprint": "e4e6ba888a4eb975"
+}

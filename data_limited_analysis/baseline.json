@@ -1,0 +1,29 @@
+{
+  "cv": {
+    "n_splits": 5,
+    "n_repeats": 5,
+    "cv_seed": 2026
+  },
+  "task2_macro_mean": 0.7588399405918616,
+  "task2_macro_std": 0.07074179193963122,
+  "pipelines": {
+    "leaderboard_88.11_file (Task 1 084 ALL, Task 2 014)": {
+      "task1_macro_mean": 0.8444389825414728,
+      "task1_macro_std": 0.05090897599380154,
+      "score_mean": 80.16394615666671,
+      "score_std": 4.859490983118542,
+      "score_min": 70.74244344624779,
+      "score_max": 88.78782604659798,
+      "within_1sd_of_88.11": false
+    },
+    "current_production (Task 1 089 bundle, Task 2 014)": {
+      "task1_macro_mean": 0.8590719948839236,
+      "task1_macro_std": 0.049238667169420686,
+      "score_mean": 80.89559677378926,
+      "score_std": 4.737924127879471,
+      "score_min": 71.46708112740721,
+      "score_max": 90.26234567901236,
+      "within_1sd_of_88.11": false
+    }
+  }
+}

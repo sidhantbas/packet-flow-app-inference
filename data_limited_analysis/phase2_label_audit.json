@@ -1,0 +1,113 @@
+{
+  "probability_model": "balanced SoftVote, 5x5 CV OOF, averaged per flow",
+  "tasks": {
+    "task1_static": {
+      "cl_flagged": 10,
+      "cl_flagged_by_class": {
+        "google": 5,
+        "youtube": 3,
+        "instagram": 2
+      },
+      "confidently_wrong_p_ge_0.6": 21,
+      "confidently_wrong_by_pair": {
+        "youtube->google": 4,
+        "google->youtube": 4,
+        "google->mozilla": 3,
+        "google->x": 3,
+        "instagram->facebook": 2,
+        "instagram->youtube": 1,
+        "x->mozilla": 1,
+        "youtube->instagram": 1,
+        "youtube->x": 1,
+        "facebook->instagram": 1
+      },
+      "oof_accuracy_softvote": 0.8696969696969697,
+      "sensitivity": {
+        "top_1pct": {
+          "score_mean": 80.011,
+          "score_sd": 5.166,
+          "delta_mean": -0.884,
+          "delta_sd": 2.15,
+          "wins": 10,
+          "losses": 14,
+          "verdict": "TIE"
+        },
+        "top_2pct": {
+          "score_mean": 78.991,
+          "score_sd": 5.887,
+          "delta_mean": -1.904,
+          "delta_sd": 2.751,
+          "wins": 8,
+          "losses": 17,
+          "verdict": "TIE"
+        },
+        "top_5pct": {
+          "score_mean": 77.061,
+          "score_sd": 5.682,
+          "delta_mean": -3.835,
+          "delta_sd": 2.918,
+          "wins": 3,
+          "losses": 22,
+          "verdict": "WORSE"
+        }
+      }
+    },
+    "task2_realtime_prefix5": {
+      "cl_flagged": 27,
+      "cl_flagged_by_class": {
+        "google": 8,
+        "instagram": 7,
+        "facebook": 6,
+        "youtube": 4,
+        "x": 1,
+        "mozilla": 1
+      },
+      "confidently_wrong_p_ge_0.6": 38,
+      "confidently_wrong_by_pair": {
+        "youtube->google": 8,
+        "google->youtube": 5,
+        "facebook->instagram": 5,
+        "mozilla->x": 5,
+        "google->x": 3,
+        "instagram->facebook": 3,
+        "mozilla->google": 2,
+        "youtube->x": 2,
+        "x->mozilla": 1,
+        "instagram->youtube": 1,
+        "youtube->instagram": 1,
+        "facebook->x": 1,
+        "google->mozilla": 1
+      },
+      "oof_accuracy_softvote": 0.8484848484848485,
+      "sensitivity": {
+        "top_1pct": {
+          "score_mean": 81.033,
+          "score_sd": 4.646,
+          "delta_mean": 0.137,
+          "delta_sd": 0.487,
+          "wins": 4,
+          "losses": 1,
+          "verdict": "TIE"
+        },
+        "top_2pct": {
+          "score_mean": 81.658,
+          "score_sd": 5.071,
+          "delta_mean": 0.762,
+          "delta_sd": 2.196,
+          "wins": 9,
+          "losses": 6,
+          "verdict": "TIE"
+        },
+        "top_5pct": {
+          "score_mean": 80.037,
+          "score_sd": 5.25,
+          "delta_mean": -0.859,
+          "delta_sd": 2.673,
+          "wins": 8,
+          "losses": 16,
+          "verdict": "TIE"
+        }
+      }
+    }
+  }
+}

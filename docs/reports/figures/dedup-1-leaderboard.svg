@@ -1,0 +1,39 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='488' viewBox='0 0 980 488' role='img' aria-label='1. Where we stand on the leaderboard'>
+<style>:root { color-scheme: dark; }</style>
+<rect width='980' height='488' fill='#0f172a' rx='14'/>
+<text x='28' y='42' fill='#e2e8f0' font-size='22' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>1. Where we stand on the leaderboard</text>
+<text x='28' y='68' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Final Test Phase, 13 October evening. Each bar: Task 1 points (left) + Task 2 points (right), out of 100.</text>
+<text x='28' y='112' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Infralibre</text>
+<rect x='300.0' y='92.0' width='308.5' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='608.5' y='92.0' width='299.5' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='918.0' y='112' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>95.01</text>
+<text x='28' y='158' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>HeriTech</text>
+<rect x='300.0' y='138.0' width='306.1' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='606.1' y='138.0' width='301.7' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='917.808' y='158' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>94.98</text>
+<text x='28' y='204' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>LLM_ops (Lookup-Ensemble v7)</text>
+<rect x='300.0' y='184.0' width='300.4' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='600.4' y='184.0' width='297.6' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='908.016' y='204' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>93.44</text>
+<text x='28' y='250' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>RahmaniJ</text>
+<rect x='300.0' y='230.0' width='296.0' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='596.0' y='230.0' width='296.0' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='902.0' y='250' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>92.50</text>
+<text x='28' y='296' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Flow State</text>
+<rect x='300.0' y='276.0' width='291.9' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='591.9' y='276.0' width='277.6' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='879.472' y='296' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>88.99</text>
+<text x='28' y='342' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>图个乐呵队 (PaFlowInfer-Net-v5)</text>
+<rect x='300.0' y='322.0' width='282.1' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='582.1' y='322.0' width='282.1' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='874.224' y='342' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>88.17</text>
+<text x='28' y='388' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Artur Baranovsky (gbdt-v6)</text>
+<rect x='300.0' y='368.0' width='271.9' height='28.0' rx='6' fill='#3b82f6'/>
+<rect x='571.9' y='368.0' width='287.2' height='28.0' rx='6' fill='#0ea5e9'/>
+<text x='869.104' y='388' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>87.36</text>
+<text x='28' y='434' fill='#f59e0b' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>▶ Telex</text>
+<rect x='300.0' y='414.0' width='268.7' height='28.0' rx='6' fill='#f59e0b'/>
+<rect x='568.7' y='414.0' width='289.6' height='28.0' rx='6' fill='#fbbf24'/>
+<text x='868.3360000000001' y='434' fill='#e2e8f0' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>87.24</text>
+<text x='28' y='470' fill='#f59e0b' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Gap to first place: 7.77 points, of which Task 1 is 6.22 and Task 2 is 1.54.</text>
+</svg>

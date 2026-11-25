@@ -1,0 +1,14 @@
+{
+  "changed_vs_submitted": 1,
+  "changes": {
+    "flow_000906": "google -> youtube"
+  },
+  "predicted_counts": {
+    "youtube": 14,
+    "x": 20,
+    "google": 32,
+    "instagram": 2,
+    "facebook": 4,
+    "mozilla": 9
+  }
+}

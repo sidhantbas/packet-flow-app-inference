@@ -1,0 +1,302 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='2600' viewBox='0 0 1400 2600' role='img' aria-label='The intercept room: anatomy of the leaderboard claims'>
+<style>:root { color-scheme: dark; } @media (prefers-reduced-motion: reduce) { animate, animateMotion { display: none; } }</style>
+<rect width='1400' height='2600' fill='#0f172a' rx='14'/>
+<defs><linearGradient id='sky' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1e1b4b'/><stop offset='1' stop-color='#0f172a'/></linearGradient><filter id='glow'><feGaussianBlur stdDeviation='2'/></filter></defs>
+<rect width='1400' height='150' fill='url(#sky)' rx='14'/>
+<text x='40' y='58' fill='#e2e8f0' font-size='34' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>The intercept room: anatomy of the leaderboard claims</text>
+<text x='40' y='92' fill='#c7d2fe' font-size='16' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Damascus, 1965: a hidden transmitter is found by silencing every other signal and listening for the one still on air.</text>
+<text x='40' y='116' fill='#c7d2fe' font-size='16' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>We did the same with every leader's method note: silence all but one ingredient, measure on folds it never saw, and listen.</text>
+<text x='40' y='140' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Sources: verbatim leaderboard notes (13 Oct) · experiments 102-108 · 265 cross-validation runs · numbers read from the evidence files</text>
+<text x='40' y='196' fill='#e2e8f0' font-size='24' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>1 · The transmissions: what each leader claims</text>
+<text x='40' y='222' fill='#94a3b8' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Each mast is one method note. Each chip is one ingredient it names, coloured by what our tests found.</text>
+<rect x='40.0' y='238.0' width='14.0' height='14.0' rx='3' fill='#10b981'/>
+<text x='60' y='250' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✓ already in our production</text>
+<rect x='264.2' y='238.0' width='14.0' height='14.0' rx='3' fill='#ef4444'/>
+<text x='284.2' y='250' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✗ tested on our data: no gain</text>
+<rect x='501.6' y='238.0' width='14.0' height='14.0' rx='3' fill='#f59e0b'/>
+<text x='521.5999999999999' y='250' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ excluded by our rules (measured anyway)</text>
+<rect x='818.2' y='238.0' width='14.0' height='14.0' rx='3' fill='#64748b'/>
+<text x='838.1999999999999' y='250' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>🚫 forbidden: not built</text>
+<rect x='1009.4' y='238.0' width='14.0' height='14.0' rx='3' fill='#334155'/>
+<text x='1029.3999999999999' y='250' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>· statement, nothing to test</text>
+<rect x='40.0' y='272.0' width='316.0' height='616.0' rx='14' fill='#1e293b' stroke='#475569' stroke-width='1.5'/>
+<path d='M74 298 L60 338 M74 298 L88 338 M65 324 L83 324' stroke='#0ea5e9' stroke-width='2.5' fill='none'/><circle cx='74' cy='298' r='4' fill='#0ea5e9'/><path d='M81.0 291.0 A10 10 0 0 1 81.0 305.0' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.0s' repeatCount='indefinite'/></path><path d='M86.6 285.4 A18 18 0 0 1 86.6 310.6' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.6s' repeatCount='indefinite'/></path><path d='M92.2 279.8 A26 26 0 0 1 92.2 316.2' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='1.2s' repeatCount='indefinite'/></path>
+<text x='106' y='308' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Infralibre</text>
+<text x='106' y='328' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>FlowLens-v8-Mozilla</text>
+<text x='340' y='312' fill='#f59e0b' font-size='30' font-weight='800' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>93.74</text>
+<text x='340' y='330' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>claimed total</text>
+<line x1='56' y1='354' x2='340' y2='354' stroke='#475569'/>
+<text x='56' y='376' fill='#94a3b8' font-size='12' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ingredients (4)</text>
+<rect x='54.0' y='388.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<rect x='54.0' y='388.0' width='6.0' height='28.0' rx='3' fill='#10b981'/>
+<text x='68' y='407' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Balanced first-5 ensemble · ours (014)</text>
+<rect x='54.0' y='424.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='54.0' y='424.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='68' y='443' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Probability calibration · −0.003 / +0.004</text>
+<rect x='54.0' y='460.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<rect x='54.0' y='460.0' width='6.0' height='28.0' rx='3' fill='#f59e0b'/>
+<text x='68' y='479' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Disclosed test counts · −0.005 (102)</text>
+<rect x='54.0' y='496.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#334155' stroke-width='1.5'/>
+<rect x='54.0' y='496.0' width='6.0' height='28.0' rx='3' fill='#334155'/>
+<text x='68' y='515' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 1 unchanged</text>
+<text x='56' y='792' fill='#94a3b8' font-size='11' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Claimed on the 81 test flows</text>
+<text x='56' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 1 F1 0.94</text>
+<text x='202.0' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 F1 0.94</text>
+<rect x='54.0' y='832.0' width='288.0' height='42.0' rx='8' fill='#450a0a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='198.0' y='850' fill='#fca5a5' font-size='13' font-weight='800' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Experiment 102: NOT REPRODUCED</text>
+<text x='198.0' y='867' fill='#fecaca' font-size='11' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>worse than our production on 5 of 5 seeds</text>
+<rect x='374.0' y='272.0' width='316.0' height='616.0' rx='14' fill='#1e293b' stroke='#475569' stroke-width='1.5'/>
+<path d='M408 298 L394 338 M408 298 L422 338 M399 324 L417 324' stroke='#0ea5e9' stroke-width='2.5' fill='none'/><circle cx='408' cy='298' r='4' fill='#0ea5e9'/><path d='M415.0 291.0 A10 10 0 0 1 415.0 305.0' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.0s' repeatCount='indefinite'/></path><path d='M420.6 285.4 A18 18 0 0 1 420.6 310.6' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.6s' repeatCount='indefinite'/></path><path d='M426.2 279.8 A26 26 0 0 1 426.2 316.2' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='1.2s' repeatCount='indefinite'/></path>
+<text x='440' y='308' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>LLM_ops</text>
+<text x='440' y='328' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Lookup-Ensemble-v7</text>
+<text x='674' y='312' fill='#f59e0b' font-size='30' font-weight='800' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>93.44</text>
+<text x='674' y='330' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>claimed total</text>
+<line x1='390' y1='354' x2='674' y2='354' stroke='#475569'/>
+<text x='390' y='376' fill='#94a3b8' font-size='12' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ingredients (11)</text>
+<rect x='388.0' y='388.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<rect x='388.0' y='388.0' width='6.0' height='28.0' rx='3' fill='#10b981'/>
+<text x='402' y='407' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Exact first-5 lookup · ours (036, 108)</text>
+<rect x='388.0' y='424.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<rect x='388.0' y='424.0' width='6.0' height='28.0' rx='3' fill='#10b981'/>
+<text x='402' y='443' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Post-prefix delta features · ours (089)</text>
+<rect x='388.0' y='460.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='460.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='479' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Seed bagging · no change (094)</text>
+<rect x='388.0' y='496.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='496.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='515' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Optuna LGBM/XGB/ET/RF · +0.004</text>
+<rect x='388.0' y='532.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='532.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='551' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>kNN-Manhattan member · facebook −0.075</text>
+<rect x='388.0' y='568.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='568.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='587' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ratio / rate / CV features · T2 −0.05</text>
+<rect x='388.0' y='604.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='604.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='623' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Stacked lookup on ours · +0.0003 (108)</text>
+<rect x='388.0' y='640.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='388.0' y='640.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='402' y='659' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Prior correction β 0.25 · +0.001 (106)</text>
+<rect x='388.0' y='676.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<rect x='388.0' y='676.0' width='6.0' height='28.0' rx='3' fill='#f59e0b'/>
+<text x='402' y='695' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Temporal smoothing · −0.021 / −0.016</text>
+<rect x='388.0' y='712.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<rect x='388.0' y='712.0' width='6.0' height='28.0' rx='3' fill='#f59e0b'/>
+<text x='402' y='731' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Hungarian count matching · +0.024 / −0.006</text>
+<rect x='388.0' y='748.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#64748b' stroke-width='1.5'/>
+<rect x='388.0' y='748.0' width='6.0' height='28.0' rx='3' fill='#64748b'/>
+<text x='402' y='767' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>mod-8 SNI-length proxy</text>
+<text x='390' y='792' fill='#94a3b8' font-size='11' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Claimed on the 81 test flows</text>
+<text x='390' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 1 F1 0.94</text>
+<text x='536.0' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 F1 0.93</text>
+<rect x='388.0' y='832.0' width='288.0' height='42.0' rx='8' fill='#450a0a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='532.0' y='850' fill='#fca5a5' font-size='13' font-weight='800' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Experiment 103: NOT REPRODUCED</text>
+<text x='532.0' y='867' fill='#fecaca' font-size='11' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>worse than our production on 5 of 5 seeds</text>
+<rect x='708.0' y='272.0' width='316.0' height='616.0' rx='14' fill='#1e293b' stroke='#475569' stroke-width='1.5'/>
+<path d='M742 298 L728 338 M742 298 L756 338 M733 324 L751 324' stroke='#0ea5e9' stroke-width='2.5' fill='none'/><circle cx='742' cy='298' r='4' fill='#0ea5e9'/><path d='M749.0 291.0 A10 10 0 0 1 749.0 305.0' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.0s' repeatCount='indefinite'/></path><path d='M754.6 285.4 A18 18 0 0 1 754.6 310.6' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.6s' repeatCount='indefinite'/></path><path d='M760.2 279.8 A26 26 0 0 1 760.2 316.2' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='1.2s' repeatCount='indefinite'/></path>
+<text x='774' y='308' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>RahmaniJ</text>
+<text x='774' y='328' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Early-Flow Ensemble</text>
+<text x='1008' y='312' fill='#f59e0b' font-size='30' font-weight='800' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>92.50</text>
+<text x='1008' y='330' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>claimed total</text>
+<line x1='724' y1='354' x2='1008' y2='354' stroke='#475569'/>
+<text x='724' y='376' fill='#94a3b8' font-size='12' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ingredients (3)</text>
+<rect x='722.0' y='388.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<rect x='722.0' y='388.0' width='6.0' height='28.0' rx='3' fill='#10b981'/>
+<text x='736' y='407' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>First-5 ensemble · ours for Task 2 (014)</text>
+<rect x='722.0' y='424.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='722.0' y='424.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='736' y='443' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Same predictions for both tasks · −0.148</text>
+<rect x='722.0' y='460.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<rect x='722.0' y='460.0' width='6.0' height='28.0' rx='3' fill='#f59e0b'/>
+<text x='736' y='479' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>metadata.json counts · +0.001 (104)</text>
+<text x='724' y='792' fill='#94a3b8' font-size='11' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Claimed on the 81 test flows</text>
+<text x='724' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 1 F1 0.92</text>
+<text x='870.0' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 F1 0.92</text>
+<rect x='722.0' y='832.0' width='288.0' height='42.0' rx='8' fill='#450a0a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='866.0' y='850' fill='#fca5a5' font-size='13' font-weight='800' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Experiment 104: NOT REPRODUCED</text>
+<text x='866.0' y='867' fill='#fecaca' font-size='11' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>worse than our production on 5 of 5 seeds</text>
+<rect x='1042.0' y='272.0' width='316.0' height='616.0' rx='14' fill='#1e293b' stroke='#475569' stroke-width='1.5'/>
+<path d='M1076 298 L1062 338 M1076 298 L1090 338 M1067 324 L1085 324' stroke='#0ea5e9' stroke-width='2.5' fill='none'/><circle cx='1076' cy='298' r='4' fill='#0ea5e9'/><path d='M1083.0 291.0 A10 10 0 0 1 1083.0 305.0' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.0s' repeatCount='indefinite'/></path><path d='M1088.6 285.4 A18 18 0 0 1 1088.6 310.6' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='0.6s' repeatCount='indefinite'/></path><path d='M1094.2 279.8 A26 26 0 0 1 1094.2 316.2' stroke='#0ea5e9' stroke-width='2' fill='none' opacity='0.8'><animate attributeName='opacity' values='0.8;0.2;0.8' dur='6s' begin='1.2s' repeatCount='indefinite'/></path>
+<text x='1108' y='308' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Infralibre</text>
+<text x='1108' y='328' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>FlowLens-v9-PairSwap</text>
+<text x='1342' y='312' fill='#f59e0b' font-size='30' font-weight='800' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>95.01</text>
+<text x='1342' y='330' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>claimed total</text>
+<line x1='1058' y1='354' x2='1342' y2='354' stroke='#475569'/>
+<text x='1058' y='376' fill='#94a3b8' font-size='12' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ingredients (3)</text>
+<rect x='1056.0' y='388.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<rect x='1056.0' y='388.0' width='6.0' height='28.0' rx='3' fill='#10b981'/>
+<text x='1070' y='407' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Cross-view ensemble · ours (022, 028, 089)</text>
+<rect x='1056.0' y='424.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<rect x='1056.0' y='424.0' width='6.0' height='28.0' rx='3' fill='#ef4444'/>
+<text x='1070' y='443' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Consensus pair swap · −0.070 (105)</text>
+<rect x='1056.0' y='460.0' width='288.0' height='28.0' rx='7' fill='#0f172a' stroke='#334155' stroke-width='1.5'/>
+<rect x='1056.0' y='460.0' width='6.0' height='28.0' rx='3' fill='#334155'/>
+<text x='1070' y='479' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 unchanged since v8</text>
+<text x='1058' y='792' fill='#94a3b8' font-size='11' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Claimed on the 81 test flows</text>
+<text x='1058' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 1 F1 0.96</text>
+<text x='1204.0' y='816' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 F1 0.94</text>
+<rect x='1056.0' y='832.0' width='288.0' height='42.0' rx='8' fill='#450a0a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='1200.0' y='850' fill='#fca5a5' font-size='13' font-weight='800' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Experiment 105: NOT REPRODUCED</text>
+<text x='1200.0' y='867' fill='#fecaca' font-size='11' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>worse than our production on 5 of 5 seeds</text>
+<text x='40' y='958' fill='#e2e8f0' font-size='24' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>2 · The blackout method: how a claim is tested</text>
+<text x='40' y='984' fill='#94a3b8' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Same five steps for every claim, so results are comparable and can be re-run by anyone with the repository.</text>
+<path id='wire' d='M158.0 1080 L1222.0 1080' stroke='#0ea5e9' stroke-width='3' stroke-dasharray='6 6'/>
+<rect x='40.0' y='1014.0' width='236.0' height='132.0' rx='14' fill='#1e293b' stroke='#0ea5e9' stroke-width='1.5'/>
+<text x='58' y='1052' fill='#e2e8f0' font-size='24' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>📡</text>
+<text x='96' y='1052' fill='#e2e8f0' font-size='19' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Intercept</text>
+<text x='58' y='1088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>copy the note verbatim</text>
+<text x='58' y='1110' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>saved before any code</text>
+<rect x='306.0' y='1014.0' width='236.0' height='132.0' rx='14' fill='#1e293b' stroke='#0ea5e9' stroke-width='1.5'/>
+<text x='324' y='1052' fill='#e2e8f0' font-size='24' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>🔍</text>
+<text x='362' y='1052' fill='#e2e8f0' font-size='19' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Decode</text>
+<text x='324' y='1088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>one build per phrase</text>
+<text x='324' y='1110' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>unknowns fixed in a frozen protocol</text>
+<rect x='572.0' y='1014.0' width='236.0' height='132.0' rx='14' fill='#1e293b' stroke='#c026d3' stroke-width='1.5'/>
+<text x='590' y='1052' fill='#e2e8f0' font-size='24' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>🔇</text>
+<text x='628' y='1052' fill='#e2e8f0' font-size='19' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Blackout</text>
+<text x='590' y='1088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>same folds as production</text>
+<text x='590' y='1110' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>one ingredient changes at a time</text>
+<rect x='838.0' y='1014.0' width='236.0' height='132.0' rx='14' fill='#1e293b' stroke='#0ea5e9' stroke-width='1.5'/>
+<text x='856' y='1052' fill='#e2e8f0' font-size='24' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>📐</text>
+<text x='894' y='1052' fill='#e2e8f0' font-size='19' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Triangulate</text>
+<text x='856' y='1088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>5 never-used seeds</text>
+<text x='856' y='1110' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>rule v2 must pass on all five</text>
+<rect x='1104.0' y='1014.0' width='236.0' height='132.0' rx='14' fill='#1e293b' stroke='#0ea5e9' stroke-width='1.5'/>
+<text x='1122' y='1052' fill='#e2e8f0' font-size='24' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⚖️</text>
+<text x='1160' y='1052' fill='#e2e8f0' font-size='19' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Verdict</text>
+<text x='1122' y='1088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>+ test-set effect</text>
+<text x='1122' y='1110' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>predictions changed, no labels</text>
+<path d='M40 1144 L46 1164 L52 1144 L58 1164 L64 1144 L70 1164 L76 1144 L82 1164 L88 1144 L94 1164 L100 1144 L106 1164 L112 1144 L118 1164 L124 1144 L130 1164 L136 1144 L142 1164 L148 1144 L154 1164 L160 1144 L166 1164 L172 1144 L178 1164 L184 1144 L190 1164 L196 1144 L202 1164 L208 1144 L214 1164 L220 1144 L226 1164 L232 1144 L238 1164 L244 1144 L250 1164 L256 1144 L262 1164 L268 1144 L274 1164 L280 1144 L286 1164 L292 1144 L298 1164 L304 1144 L310 1164 L316 1144 L322 1164 L328 1144 L334 1164 L340 1144 L346 1164 L352 1144 L358 1164 L364 1144 L370 1164 L376 1144 L382 1164 L388 1144 L394 1164 L400 1144 L406 1164 L412 1144 L418 1164 L424 1144 L430 1164 L436 1144 L442 1164 L448 1144 L454 1164 L460 1144 L466 1164 L472 1144 L478 1164 L484 1144 L490 1164 L496 1144 L502 1164 L508 1144 L514 1164 L520 1144 L526 1164 L532 1144 L538 1164 L544 1144 L550 1164 L556 1144 L562 1164 L568 1144 L574 1164 L580 1144 L586 1164 L592 1144 L598 1164 L604 1144 L610 1164 L616 1144 L622 1164 L628 1144 L634 1164 L640 1144 L646 1164 L652 1144 L658 1164 L664 1144 L670 1164 L676 1144 L682 1164 L688 1144 L694 1164 L700 1144 L706 1164 L712 1144 L718 1164 L724 1144 L730 1164 L736 1144 L742 1164 L748 1144 L754 1164 L760 1144 L766 1164 L772 1144 L778 1164 L784 1144 L790 1164 L796 1144 L802 1164 L808 1144 L814 1164 L820 1144 L826 1164 L832 1144 L838 1164 L844 1144 L850 1164 L856 1144 L862 1164 L868 1144 L874 1164 L880 1144 L886 1164 L892 1144 L898 1164 L904 1144 L910 1164 L916 1144 L922 1164 L928 1144 L934 1164 L940 1144 L946 1164 L952 1144 L958 1164 L964 1144 L970 1164 L976 1144 L982 1164 L988 1144 L994 1164 L1000 1144 L1006 1164 L1012 1144 L1018 1164 L1024 1144 L1030 1164 L1036 1144 L1042 1164 L1048 1144 L1054 1164 L1060 1144 L1066 1164 L1072 1144 L1078 1164 L1084 1144 L1090 1164 L1096 1144 L1102 1164 L1108 1144 L1114 1164 L1120 1144 L1126 1164 L1132 1144 L1138 1164 L1144 1144 L1150 1164 L1156 1144 L1162 1164 L1168 1144 L1174 1164 L1180 1144 L1186 1164 L1192 1144 L1198 1164 L1204 1144 L1210 1164 L1216 1144 L1222 1164 L1228 1144 L1234 1164 L1240 1144 L1246 1164 L1252 1144 L1258 1164 L1264 1144 L1270 1164 L1276 1144 L1282 1164 L1288 1144 L1294 1164 L1300 1144 L1306 1164 L1312 1144 L1318 1164 L1324 1144 L1330 1164 L1336 1144 L1342 1164 L1348 1144 L1354 1164 L1360 1144' stroke='#475569' stroke-width='1.5' fill='none' opacity='0.6'/>
+<circle r='7' fill='#f59e0b' filter='url(#glow)'><animateMotion dur='8s' repeatCount='indefinite' path='M40 1154 L1360 1154'/></circle>
+<text x='40' y='1190' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Why the blackout matters: on 81 test flows a single facebook flow moves a score by about 2 points, so only paired runs on identical folds can hear a real signal under the noise.</text>
+<text x='40' y='1250' fill='#e2e8f0' font-size='24' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>3 · Signal strength: what each method is worth on our data</text>
+<text x='40' y='1276' fill='#94a3b8' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Change in macro F1 against our production on the same folds (mean of 5 never-used seeds). Left of the line = weaker than what we already have.</text>
+<line x1='1000' y1='1310' x2='1000' y2='1690' stroke='#10b981' stroke-width='2.5'/>
+<text x='1008' y='1318' fill='#10b981' font-size='12' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>our production</text>
+<line x1='490.0' y1='1324' x2='490.0' y2='1690' stroke='#475569' stroke-dasharray='3 5'/>
+<text x='490.0' y='1708' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>−0.15</text>
+<line x1='660.0' y1='1324' x2='660.0' y2='1690' stroke='#475569' stroke-dasharray='3 5'/>
+<text x='660.0' y='1708' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>−0.10</text>
+<line x1='830.0' y1='1324' x2='830.0' y2='1690' stroke='#475569' stroke-dasharray='3 5'/>
+<text x='830.0' y='1708' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>−0.05</text>
+<text x='40' y='1348' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>102 Infralibre v8</text>
+<text x='40' y='1367' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<text x='988' y='1346' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 not part of the claim</text>
+<rect x='876.6' y='1352.0' width='123.4' height='16.0' rx='4' fill='#0ea5e9'/>
+<text x='868.58' y='1365' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 −0.0363</text>
+<text x='40' y='1400' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>103 LLM_ops v7</text>
+<text x='40' y='1419' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<rect x='779.0' y='1384.0' width='221.0' height='16.0' rx='4' fill='#3b82f6'/>
+<text x='771.0' y='1397' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 −0.0650</text>
+<rect x='778.0' y='1404.0' width='222.0' height='16.0' rx='4' fill='#0ea5e9'/>
+<text x='769.98' y='1417' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 −0.0653</text>
+<text x='40' y='1452' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>104 RahmaniJ</text>
+<text x='40' y='1471' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<rect x='496.8' y='1436.0' width='503.2' height='16.0' rx='4' fill='#3b82f6'/>
+<text x='488.8' y='1449' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 −0.1480</text>
+<rect x='784.1' y='1456.0' width='215.9' height='16.0' rx='4' fill='#0ea5e9'/>
+<text x='776.1' y='1469' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 −0.0635</text>
+<text x='40' y='1504' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>105 Infralibre v9</text>
+<text x='40' y='1523' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<rect x='761.3' y='1488.0' width='238.7' height='16.0' rx='4' fill='#3b82f6'/>
+<text x='753.3199999999999' y='1501' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 −0.0702</text>
+<text x='988' y='1522' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 not part of the claim</text>
+<text x='40' y='1556' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>106 prior β inside ours</text>
+<text x='40' y='1575' fill='#10b981' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 1 of 5</text>
+<rect x='1000.0' y='1540.0' width='3.4' height='16.0' rx='4' fill='#10b981'/>
+<text x='1011.4' y='1553' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>T1 +0.0010</text>
+<text x='988' y='1574' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 not part of the claim</text>
+<text x='40' y='1608' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>107 same-moment labels (N05/N10)</text>
+<text x='40' y='1627' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<rect x='808.9' y='1592.0' width='191.1' height='16.0' rx='4' fill='#3b82f6'/>
+<text x='800.92' y='1605' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 −0.0562</text>
+<rect x='845.0' y='1612.0' width='155.0' height='16.0' rx='4' fill='#0ea5e9'/>
+<text x='836.96' y='1625' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T2 −0.0456</text>
+<text x='40' y='1660' fill='#e2e8f0' font-size='15' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>108 lookup on our Task 2</text>
+<text x='40' y='1679' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>seeds better: 0 of 5</text>
+<text x='988' y='1658' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='end' font-family='Inter, Helvetica, Arial, sans-serif'>T1 not part of the claim</text>
+<rect x='1000.0' y='1664.0' width='3.0' height='16.0' rx='4' fill='#10b981'/>
+<text x='1009.02' y='1677' fill='#e2e8f0' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>T2 +0.0003</text>
+<text x='40' y='1764' fill='#e2e8f0' font-size='24' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>4 · Hidden transmitters: what the leaders might not say</text>
+<text x='40' y='1790' fill='#94a3b8' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Notes are written for rivals to read. These are the signals that could really be behind a 95, and what our tests say.</text>
+<rect x='40.0' y='1814.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<circle cx='442.6666666666667' cy='1840' r='8' fill='#f59e0b' opacity='0.9'/>
+<text x='58.0' y='1846' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Leaderboard feedback</text>
+<text x='58.0' y='1868' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>5 uploads a day on the ranking set</text>
+<text x='58.0' y='1900' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Their v8→v9 jump is exactly +2 flows;</text>
+<text x='58.0' y='1920' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>a blind swap gives that in 1-2% of tries (105)</text>
+<text x='58.0' y='1952' fill='#f59e0b' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ condition 1</text>
+<rect x='486.7' y='1814.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<circle cx='889.3333333333334' cy='1840' r='8' fill='#f59e0b' opacity='0.9'/>
+<text x='504.6666666666667' y='1846' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Published test counts</text>
+<text x='504.6666666666667' y='1868' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>force counts to metadata.json</text>
+<text x='504.6666666666667' y='1900' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Over training-share counts:</text>
+<text x='504.6666666666667' y='1920' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>−0.005 (102) and +0.001 (104)</text>
+<text x='504.6666666666667' y='1952' fill='#f59e0b' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ our rule</text>
+<rect x='933.3' y='1814.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#c026d3' stroke-width='1.5'/>
+<circle cx='1336.0' cy='1840' r='8' fill='#c026d3' opacity='0.9'/>
+<text x='951.3333333333334' y='1846' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Same-moment labels</text>
+<text x='951.3333333333334' y='1868' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>the Cohen move: use the context</text>
+<text x='951.3333333333334' y='1900' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Copying neighbours' labels: Task 1 −0.056,</text>
+<text x='951.3333333333334' y='1920' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Task 2 −0.046; worse on every seed (107)</text>
+<text x='951.3333333333334' y='1952' fill='#c026d3' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ our rule</text>
+<rect x='40.0' y='1982.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#64748b' stroke-width='1.5'/>
+<circle cx='442.6666666666667' cy='2008' r='8' fill='#64748b' opacity='0.9'/>
+<text x='58.0' y='2014' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Luck on 81 flows</text>
+<text x='58.0' y='2036' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>a strong model drawing well</text>
+<text x='58.0' y='2068' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>A Task 1 of 0.94 is our model's</text>
+<text x='58.0' y='2088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>98.7th percentile on 81 flows (040)</text>
+<text x='58.0' y='2120' fill='#64748b' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>cannot be acted on</text>
+<rect x='486.7' y='1982.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<circle cx='889.3333333333334' cy='2008' r='8' fill='#10b981' opacity='0.9'/>
+<text x='504.6666666666667' y='2014' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Prior correction</text>
+<text x='504.6666666666667' y='2036' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>rescale by class share</text>
+<text x='504.6666666666667' y='2068' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Inside our production: +0.0010,</text>
+<text x='504.6666666666667' y='2088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>better on 1 of 5 seeds (106)</text>
+<text x='504.6666666666667' y='2120' fill='#10b981' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✅ allowed, no gain</text>
+<rect x='933.3' y='1982.0' width='426.7' height='152.0' rx='12' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<circle cx='1336.0' cy='2008' r='8' fill='#10b981' opacity='0.9'/>
+<text x='951.3333333333334' y='2014' fill='#e2e8f0' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Exact-opening lookup</text>
+<text x='951.3333333333334' y='2036' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>memorise known openings</text>
+<text x='951.3333333333334' y='2068' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>On our Task 2: +0.0003, 0 test changes;</text>
+<text x='951.3333333333334' y='2088' fill='#e2e8f0' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>our trees already do it (108)</text>
+<text x='951.3333333333334' y='2120' fill='#10b981' font-size='12' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✅ allowed, no gain</text>
+<text x='40' y='2190' fill='#e2e8f0' font-size='24' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>5 · Where the story fits, and what we have</text>
+<text x='40' y='2216' fill='#94a3b8' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>The analogy explains the hard part of the data; the evidence explains the decision.</text>
+<rect x='40.0' y='2236.0' width='650.0' height='300.0' rx='14' fill='#1e293b' stroke='#c026d3' stroke-width='1.5'/>
+<text x='60' y='2268' fill='#f0abfc' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>The Eli Cohen framing</text>
+<text x='60' y='2302' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✅</text>
+<text x='86' y='2302' fill='#e2e8f0' font-size='14' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Fits: shared transmitter equipment</text>
+<text x='86' y='2324' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>facebook and instagram share Meta's network stack, so their first-5</text>
+<text x='86' y='2344' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>openings are often identical; google and youtube share QUIC.</text>
+<text x='60' y='2376' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>❌</text>
+<text x='86' y='2376' fill='#e2e8f0' font-size='14' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Does not fit: context finds the spy</text>
+<text x='86' y='2398' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>In the story the context gave him away. Here the context is capture time:</text>
+<text x='86' y='2418' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>excluded by our rules, and it makes predictions worse anyway (107).</text>
+<text x='60' y='2450' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>❌</text>
+<text x='86' y='2450' fill='#e2e8f0' font-size='14' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Does not fit: most Task 1 errors</text>
+<text x='86' y='2472' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>They are not identical signals but too few examples (facebook 11,</text>
+<text x='86' y='2492' fill='#cbd5e1' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>instagram 19 labelled flows); most remaining errors are confident (093).</text>
+<rect x='710.0' y='2236.0' width='650.0' height='300.0' rx='14' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<text x='730.0' y='2266' fill='#6ee7b7' font-size='18' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>What we have</text>
+<text x='730.0' y='2314' fill='#e2e8f0' font-size='28' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>7</text>
+<text x='730.0' y='2336' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>experiments</text>
+<text x='730.0' y='2350' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>(102-108)</text>
+<text x='852.0' y='2314' fill='#e2e8f0' font-size='28' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>265</text>
+<text x='852.0' y='2336' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>cross-validation</text>
+<text x='852.0' y='2350' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>runs</text>
+<text x='974.0' y='2314' fill='#e2e8f0' font-size='28' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>4 / 4</text>
+<text x='974.0' y='2336' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>claims</text>
+<text x='974.0' y='2350' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>not reproduced</text>
+<text x='1096.0' y='2314' fill='#e2e8f0' font-size='28' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>17</text>
+<text x='1096.0' y='2336' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>techniques</text>
+<text x='1096.0' y='2350' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>deduplicated</text>
+<text x='1218.0' y='2314' fill='#e2e8f0' font-size='28' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>0</text>
+<text x='1218.0' y='2336' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>open</text>
+<text x='1218.0' y='2350' fill='#94a3b8' font-size='11' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>leads left</text>
+<text x='730.0' y='2396' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Production stays: Task 1 CV 0.85, Task 2 CV 0.76, board 87.24 (rank 8).</text>
+<text x='730.0' y='2424' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Gap to first: 7.77 points ≈ 5 Task 1 flows + 2 Task 2 flows of 81.</text>
+<text x='730.0' y='2452' fill='#e2e8f0' font-size='14' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Every ingredient is ours already, no gain, or off-limits.</text>
+<text x='730.0' y='2490' fill='#10b981' font-size='15' font-weight='800' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Decision: no upload; finish the technical report.</text>
+<text x='700.0' y='2578' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='middle' font-family='Inter, Helvetica, Arial, sans-serif'>Built by src/build_anatomy_poster.py from the evidence files · details: docs/reports/leaderboard-method-reproduction.md</text>
+</svg>

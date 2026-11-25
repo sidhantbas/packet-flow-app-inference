@@ -1,0 +1,109 @@
+{
+  "means": {
+    "P": [
+      0.8528,
+      0.8471,
+      0.8455,
+      0.8457,
+      0.8558
+    ],
+    "B25": [
+      0.855,
+      0.8475,
+      0.8444,
+      0.8501,
+      0.855
+    ]
+  },
+  "B25_vs_P": {
+    "mean_delta": 0.001,
+    "per_seed": [
+      [
+        0.0022,
+        20,
+        13
+      ],
+      [
+        0.0004,
+        18,
+        18
+      ],
+      [
+        -0.001,
+        14,
+        19
+      ],
+      [
+        0.0043,
+        23,
+        9
+      ],
+      [
+        -0.0008,
+        15,
+        17
+      ]
+    ]
+  },
+  "changes": [
+    {
+      "changed": 48,
+      "fixed": 25,
+      "broken": 15,
+      "transitions": {
+        "google -> youtube": 21,
+        "google -> mozilla": 18,
+        "x -> mozilla": 5,
+        "google -> x": 3,
+        "google -> facebook": 1
+      }
+    },
+    {
+      "changed": 59,
+      "fixed": 27,
+      "broken": 23,
+      "transitions": {
+        "google -> youtube": 24,
+        "google -> mozilla": 20,
+        "x -> mozilla": 10,
+        "google -> x": 3,
+        "google -> facebook": 2
+      }
+    },
+    {
+      "changed": 49,
+      "fixed": 19,
+      "broken": 19,
+      "transitions": {
+        "google -> youtube": 19,
+        "google -> mozilla": 18,
+        "google -> x": 5,
+        "x -> mozilla": 4,
+        "google -> facebook": 3
+      }
+    },
+    {
+      "changed": 44,
+      "fixed": 27,
+      "broken": 10,
+      "transitions": {
+        "google -> youtube": 17,
+        "google -> mozilla": 15,
+        "x -> mozilla": 7,
+        "google -> x": 5
+      }
+    },
+    {
+      "changed": 47,
+      "fixed": 19,
+      "broken": 22,
+      "transitions": {
+        "google -> youtube": 22,
+        "google -> mozilla": 15,
+        "x -> mozilla": 6,
+        "google -> x": 3,
+        "google -> facebook": 1
+      }
+    }
+  ]
+}

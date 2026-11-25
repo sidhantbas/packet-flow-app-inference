@@ -1,0 +1,227 @@
+{
+  "originals": {
+    "facebook": 11,
+    "instagram": 19
+  },
+  "domains": {
+    "iPhone": {
+      "facebook": 49,
+      "instagram": 157
+    },
+    "Android": {
+      "facebook": 55,
+      "instagram": 45
+    }
+  },
+  "arms": {
+    "iPhone / ALL": {
+      "auc": 0.569,
+      "ci95": [
+        0.317,
+        0.79
+      ],
+      "perm_p": 0.2834,
+      "transfers": false
+    },
+    "iPhone / SIZE": {
+      "auc": 0.579,
+      "ci95": [
+        0.335,
+        0.806
+      ],
+      "perm_p": 0.2554,
+      "transfers": false
+    },
+    "iPhone / RANK": {
+      "auc": 0.512,
+      "ci95": [
+        0.29,
+        0.729
+      ],
+      "perm_p": 0.4763,
+      "transfers": false
+    },
+    "Android / ALL": {
+      "auc": 0.411,
+      "ci95": [
+        0.2,
+        0.643
+      ],
+      "perm_p": 0.7716,
+      "transfers": false
+    },
+    "Android / SIZE": {
+      "auc": 0.402,
+      "ci95": [
+        0.199,
+        0.617
+      ],
+      "perm_p": 0.8051,
+      "transfers": false
+    },
+    "Android / RANK": {
+      "auc": 0.239,
+      "ci95": [
+        0.074,
+        0.427
+      ],
+      "perm_p": 0.9875,
+      "transfers": false
+    }
+  },
+  "in_domain_reference": {
+    "ALL": 0.843,
+    "SIZE": 0.82,
+    "RANK": 0.838
+  },
+  "direction": {
+    "iPhone": {
+      "agree": 4,
+      "of": 17,
+      "per_column": {
+        "duration": {
+          "original": -1,
+          "captured": -1
+        },
+        "transport": {
+          "original": 0,
+          "captured": 1
+        },
+        "packet_count_up": {
+          "original": -1,
+          "captured": 1
+        },
+        "packet_count_down": {
+          "original": -1,
+          "captured": 1
+        },
+        "bytes_up": {
+          "original": -1,
+          "captured": 1
+        },
+        "bytes_down": {
+          "original": -1,
+          "captured": 1
+        },
+        "mean_pkt_size_up": {
+          "original": -1,
+          "captured": 1
+        },
+        "mean_pkt_size_down": {
+          "original": -1,
+          "captured": 1
+        },
+        "std_pkt_size_up": {
+          "original": 1,
+          "captured": 1
+        },
+        "std_pkt_size_down": {
+          "original": 1,
+          "captured": 1
+        },
+        "mean_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "std_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "min_iat": {
+          "original": 0,
+          "captured": 0
+        },
+        "max_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "burst_count": {
+          "original": -1,
+          "captured": -1
+        },
+        "up_down_packet_ratio": {
+          "original": 1,
+          "captured": -1
+        },
+        "up_down_byte_ratio": {
+          "original": 1,
+          "captured": -1
+        }
+      }
+    },
+    "Android": {
+      "agree": 4,
+      "of": 17,
+      "per_column": {
+        "duration": {
+          "original": -1,
+          "captured": -1
+        },
+        "transport": {
+          "original": 0,
+          "captured": 0
+        },
+        "packet_count_up": {
+          "original": -1,
+          "captured": -1
+        },
+        "packet_count_down": {
+          "original": -1,
+          "captured": 1
+        },
+        "bytes_up": {
+          "original": -1,
+          "captured": 1
+        },
+        "bytes_down": {
+          "original": -1,
+          "captured": 1
+        },
+        "mean_pkt_size_up": {
+          "original": -1,
+          "captured": 1
+        },
+        "mean_pkt_size_down": {
+          "original": -1,
+          "captured": -1
+        },
+        "std_pkt_size_up": {
+          "original": 1,
+          "captured": -1
+        },
+        "std_pkt_size_down": {
+          "original": 1,
+          "captured": -1
+        },
+        "mean_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "std_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "min_iat": {
+          "original": 0,
+          "captured": 0
+        },
+        "max_iat": {
+          "original": 1,
+          "captured": -1
+        },
+        "burst_count": {
+          "original": -1,
+          "captured": 0
+        },
+        "up_down_packet_ratio": {
+          "original": 1,
+          "captured": -1
+        },
+        "up_down_byte_ratio": {
+          "original": 1,
+          "captured": 1
+        }
+      }
+    }
+  }
+}

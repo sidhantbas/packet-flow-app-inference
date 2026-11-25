@@ -1,0 +1,74 @@
+{
+  "H1:task1_static": {
+    "score_mean": 80.104,
+    "score_sd": 5.711,
+    "delta_mean": -0.792,
+    "delta_sd": 2.05,
+    "wins": 7,
+    "losses": 13,
+    "verdict": "TIE"
+  },
+  "H1:task2_realtime_prefix5": {
+    "score_mean": 80.929,
+    "score_sd": 4.674,
+    "delta_mean": 0.034,
+    "delta_sd": 1.254,
+    "wins": 9,
+    "losses": 7,
+    "verdict": "TIE"
+  },
+  "H2:task1_static": {
+    "score_mean": 80.15,
+    "score_sd": 5.115,
+    "delta_mean": -0.746,
+    "delta_sd": 1.461,
+    "wins": 1,
+    "losses": 10,
+    "verdict": "TIE"
+  },
+  "H3:task1_static": {
+    "score_mean": 80.778,
+    "score_sd": 4.976,
+    "delta_mean": -0.118,
+    "delta_sd": 1.134,
+    "wins": 6,
+    "losses": 5,
+    "verdict": "TIE"
+  },
+  "H3:task2_realtime_prefix5": {
+    "score_mean": 80.584,
+    "score_sd": 4.541,
+    "delta_mean": -0.312,
+    "delta_sd": 1.152,
+    "wins": 3,
+    "losses": 6,
+    "verdict": "TIE"
+  },
+  "H4:task1_static": {
+    "score_mean": 80.139,
+    "score_sd": 5.018,
+    "delta_mean": -0.756,
+    "delta_sd": 1.234,
+    "wins": 3,
+    "losses": 13,
+    "verdict": "TIE"
+  },
+  "H4:task2_realtime_prefix5": {
+    "score_mean": 80.993,
+    "score_sd": 4.599,
+    "delta_mean": 0.097,
+    "delta_sd": 0.615,
+    "wins": 6,
+    "losses": 6,
+    "verdict": "TIE"
+  },
+  "H5:task1_static": {
+    "score_mean": 80.371,
+    "score_sd": 4.931,
+    "delta_mean": -0.525,
+    "delta_sd": 1.381,
+    "wins": 5,
+    "losses": 10,
+    "verdict": "TIE"
+  }
+}

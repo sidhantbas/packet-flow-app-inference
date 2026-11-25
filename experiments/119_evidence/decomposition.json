@@ -1,0 +1,244 @@
+{
+  "levers": {
+    "task1_static": {
+      "A0": {
+        "macro": 0.7811,
+        "facebook_f1": 0.561,
+        "instagram_f1": 0.737,
+        "delta_macro_vs_production": -0.0762,
+        "delta_fb_vs_production": -0.165,
+        "delta_ig_vs_production": -0.047
+      },
+      "P": {
+        "macro": 0.8573,
+        "facebook_f1": 0.726,
+        "instagram_f1": 0.784,
+        "delta_macro_vs_production": 0.0,
+        "delta_fb_vs_production": 0.0,
+        "delta_ig_vs_production": 0.0
+      },
+      "L1": {
+        "macro": 0.784,
+        "facebook_f1": 0.536,
+        "instagram_f1": 0.726,
+        "delta_macro_vs_production": -0.0733,
+        "delta_fb_vs_production": -0.19,
+        "delta_ig_vs_production": -0.058
+      },
+      "L1m": {
+        "macro": 0.8283,
+        "facebook_f1": 0.609,
+        "instagram_f1": 0.725,
+        "delta_macro_vs_production": -0.029,
+        "delta_fb_vs_production": -0.117,
+        "delta_ig_vs_production": -0.059
+      },
+      "L1b": {
+        "macro": 0.7797,
+        "facebook_f1": 0.514,
+        "instagram_f1": 0.718,
+        "delta_macro_vs_production": -0.0776,
+        "delta_fb_vs_production": -0.212,
+        "delta_ig_vs_production": -0.066
+      },
+      "L1b-m": {
+        "macro": 0.8279,
+        "facebook_f1": 0.59,
+        "instagram_f1": 0.733,
+        "delta_macro_vs_production": -0.0294,
+        "delta_fb_vs_production": -0.136,
+        "delta_ig_vs_production": -0.051
+      },
+      "L2": {
+        "macro": 0.7679,
+        "facebook_f1": 0.469,
+        "instagram_f1": 0.721,
+        "delta_macro_vs_production": -0.0894,
+        "delta_fb_vs_production": -0.257,
+        "delta_ig_vs_production": -0.063
+      },
+      "L3": {
+        "macro": 0.7329,
+        "facebook_f1": 0.433,
+        "instagram_f1": 0.716,
+        "delta_macro_vs_production": -0.1244,
+        "delta_fb_vs_production": -0.293,
+        "delta_ig_vs_production": -0.068
+      },
+      "L3m": {
+        "macro": 0.8066,
+        "facebook_f1": 0.511,
+        "instagram_f1": 0.729,
+        "delta_macro_vs_production": -0.0507,
+        "delta_fb_vs_production": -0.215,
+        "delta_ig_vs_production": -0.055
+      },
+      "L1+L3": {
+        "macro": 0.7417,
+        "facebook_f1": 0.464,
+        "instagram_f1": 0.7,
+        "delta_macro_vs_production": -0.1156,
+        "delta_fb_vs_production": -0.262,
+        "delta_ig_vs_production": -0.084
+      }
+    },
+    "task2_realtime_prefix5": {
+      "A0": {
+        "macro": 0.7362,
+        "facebook_f1": 0.44,
+        "instagram_f1": 0.656,
+        "delta_macro_vs_production": -0.0182,
+        "delta_fb_vs_production": -0.029,
+        "delta_ig_vs_production": -0.075
+      },
+      "P": {
+        "macro": 0.7544,
+        "facebook_f1": 0.469,
+        "instagram_f1": 0.731,
+        "delta_macro_vs_production": 0.0,
+        "delta_fb_vs_production": 0.0,
+        "delta_ig_vs_production": 0.0
+      },
+      "L1": {
+        "macro": 0.7247,
+        "facebook_f1": 0.445,
+        "instagram_f1": 0.637,
+        "delta_macro_vs_production": -0.0297,
+        "delta_fb_vs_production": -0.024,
+        "delta_ig_vs_production": -0.094
+      },
+      "L1m": {
+        "macro": 0.7488,
+        "facebook_f1": 0.473,
+        "instagram_f1": 0.637,
+        "delta_macro_vs_production": -0.0056,
+        "delta_fb_vs_production": 0.004,
+        "delta_ig_vs_production": -0.094
+      },
+      "L1b": {
+        "macro": 0.726,
+        "facebook_f1": 0.419,
+        "instagram_f1": 0.636,
+        "delta_macro_vs_production": -0.0284,
+        "delta_fb_vs_production": -0.05,
+        "delta_ig_vs_production": -0.095
+      },
+      "L1b-m": {
+        "macro": 0.7439,
+        "facebook_f1": 0.429,
+        "instagram_f1": 0.636,
+        "delta_macro_vs_production": -0.0105,
+        "delta_fb_vs_production": -0.04,
+        "delta_ig_vs_production": -0.095
+      },
+      "L2": {
+        "macro": 0.7679,
+        "facebook_f1": 0.469,
+        "instagram_f1": 0.721,
+        "delta_macro_vs_production": 0.0135,
+        "delta_fb_vs_production": 0.0,
+        "delta_ig_vs_production": -0.01
+      },
+      "L3": {
+        "macro": 0.6735,
+        "facebook_f1": 0.331,
+        "instagram_f1": 0.58,
+        "delta_macro_vs_production": -0.0809,
+        "delta_fb_vs_production": -0.138,
+        "delta_ig_vs_production": -0.151
+      },
+      "L3m": {
+        "macro": 0.7262,
+        "facebook_f1": 0.397,
+        "instagram_f1": 0.616,
+        "delta_macro_vs_production": -0.0282,
+        "delta_fb_vs_production": -0.072,
+        "delta_ig_vs_production": -0.115
+      },
+      "L1+L3": {
+        "macro": 0.6725,
+        "facebook_f1": 0.309,
+        "instagram_f1": 0.579,
+        "delta_macro_vs_production": -0.0819,
+        "delta_fb_vs_production": -0.16,
+        "delta_ig_vs_production": -0.152
+      }
+    }
+  },
+  "leaderboard": {
+    "Infralibre": {
+      "task1": {
+        "errors": 4,
+        "points_lost": 1.79,
+        "points_per_error": 0.45
+      },
+      "task2": {
+        "errors": 7,
+        "points_lost": 3.21,
+        "points_per_error": 0.46
+      }
+    },
+    "HeriTech": {
+      "task1": {
+        "errors": 4,
+        "points_lost": 2.17,
+        "points_per_error": 0.54
+      },
+      "task2": {
+        "errors": 6,
+        "points_lost": 2.86,
+        "points_per_error": 0.48
+      }
+    },
+    "LLM_ops": {
+      "task1": {
+        "errors": 6,
+        "points_lost": 3.06,
+        "points_per_error": 0.51
+      },
+      "task2": {
+        "errors": 7,
+        "points_lost": 3.5,
+        "points_per_error": 0.5
+      }
+    },
+    "RahmaniJ": {
+      "task1": {
+        "errors": 8,
+        "points_lost": 3.75,
+        "points_per_error": 0.47
+      },
+      "task2": {
+        "errors": 8,
+        "points_lost": 3.75,
+        "points_per_error": 0.47
+      }
+    },
+    "Telex": {
+      "task1": {
+        "errors": 7,
+        "points_lost": 7.15,
+        "points_per_error": 1.02
+      },
+      "task2": {
+        "errors": 9,
+        "points_lost": 4.75,
+        "points_per_error": 0.53
+      }
+    }
+  },
+  "method_notes": [
+    "method_name : FlowLens-v9-PairSwap",
+    "method_description : Class-balanced cross-view ensemble with a count-preserving Task 1 consensus swap. Task 2 remains the validated prefix-five-only model with no Task 1 information used.",
+    "method_name : initfix a",
+    "method_name : FlowLens-v8-Mozilla",
+    "method_description : Class-balanced prefix-five ensemble with probability calibration and disclosed-count analysis. Task 2 uses only the released realtime prefix-five features; Task 1 remains unchanged.",
+    "method_name : Lookup-Ensemble-v7",
+    "method_description : Task-specific exact-signature lookup (first-5-packet fingerprint) blended with a seed-bagged ensemble of Optuna-tuned LightGBM, XGBoost, ExtraTrees, and RandomForest (Task 1) / LightGBM\u00d72 + ExtraTrees + KNN-Manhattan (Task 2). Features: raw header statistics + ratio/rate/CV features; Task 1 adds post-prefix delta features; Task 2 adds mod-8 byte features as SNI-length proxy. Stacked lookup probabilities feed the tree ensemble. Temporal Gaussian smoothing (\u03c3=0.5 s for T1, 1.0 s for T2) blends flow predictions across same-session neighbours. Mild prior correction (\u03b2=0.25) guards macro-F1 on rare classes. Hungarian count-matching uses published metadata class counts for both tasks. No IPs, DNS, SNI, payload, or test labels used.",
+    "method_name : Early-Flow Ensemble",
+    "method_description : Ensemble classifier using only the released first-5-packet features for early application inference. The same early-flow predictions are used for both tasks. Published metadata.json class counts are used for constrained assignment. No private labels, external datasets, DNS, SNI, IP addresses, URLs, domains, payloads, or prohibited features are used.",
+    "method_name : basic ML",
+    "method_name : gg",
+    "method_description : gg"
+  ]
+}

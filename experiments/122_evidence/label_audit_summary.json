@@ -1,0 +1,201 @@
+{
+  "experiment": "122",
+  "flows": 661,
+  "upstream_commit_for_cross_check": "d3189ba",
+  "by_category": {
+    "process agrees with session": 419,
+    "session only (no process data)": 119,
+    "background process": 55,
+    "mixed processes": 45,
+    "unattributed": 16,
+    "idle control: background": 5,
+    "process disagrees with session": 2
+  },
+  "by_group_category": {
+    "sid-android-20261009T152334Z-check-macshare": {
+      "session only (no process data)": 119
+    },
+    "sid-iphone-20261008T233855Z": {
+      "process agrees with session": 225,
+      "background process": 22,
+      "mixed processes": 16,
+      "idle control: background": 5,
+      "unattributed": 2,
+      "process disagrees with session": 2
+    },
+    "sid-iphone-20261009T115620Z-long-cellular": {
+      "process agrees with session": 194,
+      "background process": 33,
+      "mixed processes": 29,
+      "unattributed": 14
+    }
+  },
+  "by_session": {
+    "sid-android-20261009T152334Z-check-macshare/01-facebook": {
+      "flows": 62,
+      "session_app": "facebook",
+      "reviewed": {
+        "(none)": 62
+      },
+      "include_strict": 0,
+      "include_process": 0
+    },
+    "sid-android-20261009T152334Z-check-macshare/02-instagram": {
+      "flows": 57,
+      "session_app": "instagram",
+      "reviewed": {
+        "(none)": 57
+      },
+      "include_strict": 0,
+      "include_process": 0
+    },
+    "sid-iphone-20261008T233855Z/01-idle": {
+      "flows": 5,
+      "session_app": "idle",
+      "reviewed": {
+        "(none)": 5
+      },
+      "include_strict": 0,
+      "include_process": 0
+    },
+    "sid-iphone-20261008T233855Z/02-facebook-feed": {
+      "flows": 14,
+      "session_app": "facebook",
+      "reviewed": {
+        "facebook": 14
+      },
+      "include_strict": 7,
+      "include_process": 14
+    },
+    "sid-iphone-20261008T233855Z/03-facebook-reels": {
+      "flows": 14,
+      "session_app": "facebook",
+      "reviewed": {
+        "facebook": 14
+      },
+      "include_strict": 7,
+      "include_process": 14
+    },
+    "sid-iphone-20261008T233855Z/04-instagram-feed": {
+      "flows": 68,
+      "session_app": "instagram",
+      "reviewed": {
+        "instagram": 60,
+        "(none)": 8
+      },
+      "include_strict": 55,
+      "include_process": 60
+    },
+    "sid-iphone-20261008T233855Z/04-instagram-feed-cellular": {
+      "flows": 32,
+      "session_app": "instagram",
+      "reviewed": {
+        "instagram": 17,
+        "(none)": 15
+      },
+      "include_strict": 4,
+      "include_process": 17
+    },
+    "sid-iphone-20261008T233855Z/05-instagram-reels": {
+      "flows": 60,
+      "session_app": "instagram",
+      "reviewed": {
+        "instagram": 60
+      },
+      "include_strict": 27,
+      "include_process": 60
+    },
+    "sid-iphone-20261008T233855Z/06-youtube-video": {
+      "flows": 79,
+      "session_app": "youtube",
+      "reviewed": {
+        "youtube": 76,
+        "instagram": 2,
+        "(none)": 1
+      },
+      "include_strict": 30,
+      "include_process": 62
+    },
+    "sid-iphone-20261009T115620Z-long-cellular/02-facebook": {
+      "flows": 34,
+      "session_app": "facebook",
+      "reviewed": {
+        "facebook": 26,
+        "(none)": 8
+      },
+      "include_strict": 20,
+      "include_process": 24
+    },
+    "sid-iphone-20261009T115620Z-long-cellular/03-instagram": {
+      "flows": 55,
+      "session_app": "instagram",
+      "reviewed": {
+        "instagram": 37,
+        "(none)": 18
+      },
+      "include_strict": 26,
+      "include_process": 35
+    },
+    "sid-iphone-20261009T115620Z-long-cellular/04-youtube": {
+      "flows": 181,
+      "session_app": "youtube",
+      "reviewed": {
+        "youtube": 160,
+        "(none)": 21
+      },
+      "include_strict": 124,
+      "include_process": 135
+    }
+  },
+  "disagreements_session_vs_process": 2,
+  "exclusions": {
+    "background": 60,
+    "unknown": 135,
+    "mixed_low": 45,
+    "edge_5s_among_high": 121
+  },
+  "include_strict_by_app": {
+    "youtube": 152,
+    "instagram": 114,
+    "facebook": 34
+  },
+  "include_process_by_app": {
+    "youtube": 195,
+    "instagram": 174,
+    "facebook": 52
+  },
+  "sample": {
+    "flows": 93,
+    "by_category": {
+      "process agrees with session": 53,
+      "background process": 15,
+      "session only (no process data)": 12,
+      "mixed processes": 6,
+      "idle control: background": 5,
+      "process disagrees with session": 2
+    },
+    "by_reviewed_label": {
+      "(none)": 32,
+      "youtube": 25,
+      "facebook": 18,
+      "instagram": 18
+    }
+  },
+  "cross_check_charles": {
+    "charles_candidates": 364,
+    "charles_by_app": {
+      "youtube": 158,
+      "instagram": 157,
+      "facebook": 49
+    },
+    "matched_to_our_flows": 364,
+    "unmatched_charles": 10,
+    "ambiguous_keys_in_charles": 15,
+    "label_agreement_with_our_reviewed_label": 1.0,
+    "disagreements": [],
+    "our_high_confidence_not_in_charles": 57,
+    "in_charles_by_our_category": {
+      "process agrees with session": 364
+    }
+  }
+}

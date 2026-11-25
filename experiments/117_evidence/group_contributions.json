@@ -1,0 +1,245 @@
+{
+  "exact": {
+    "pooled_net_predictions": 66,
+    "top_groups": [
+      {
+        "size": 1,
+        "apps": {
+          "facebook": 1
+        },
+        "first_packet_sizes": {
+          "1365": 1
+        },
+        "net": 23,
+        "share": 0.348
+      },
+      {
+        "size": 1,
+        "apps": {
+          "instagram": 1
+        },
+        "first_packet_sizes": {
+          "1367": 1
+        },
+        "net": 22,
+        "share": 0.333
+      },
+      {
+        "size": 1,
+        "apps": {
+          "facebook": 1
+        },
+        "first_packet_sizes": {
+          "1365": 1
+        },
+        "net": 20,
+        "share": 0.303
+      },
+      {
+        "size": 1,
+        "apps": {
+          "instagram": 1
+        },
+        "first_packet_sizes": {
+          "1365": 1
+        },
+        "net": 5,
+        "share": 0.076
+      }
+    ],
+    "flows_net_improved": {
+      "flow_001145": {
+        "app": "facebook",
+        "size": 1365,
+        "net": 20
+      },
+      "flow_001185": {
+        "app": "instagram",
+        "size": 1365,
+        "net": 5
+      },
+      "flow_000799": {
+        "app": "facebook",
+        "size": 1365,
+        "net": 23
+      },
+      "flow_001321": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 5
+      },
+      "flow_000379": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 22
+      },
+      "flow_000809": {
+        "app": "facebook",
+        "size": 1365,
+        "net": 1
+      }
+    },
+    "flows_net_worsened": {
+      "flow_000368": {
+        "app": "facebook",
+        "size": 1367,
+        "net": -5
+      },
+      "flow_000024": {
+        "app": "facebook",
+        "size": 150,
+        "net": -2
+      },
+      "flow_001168": {
+        "app": "facebook",
+        "size": 1365,
+        "net": -3
+      }
+    }
+  },
+  "near": {
+    "pooled_net_predictions": 210,
+    "top_groups": [
+      {
+        "size": 9,
+        "apps": {
+          "instagram": 8,
+          "facebook": 1
+        },
+        "first_packet_sizes": {
+          "1367": 9
+        },
+        "net": 91,
+        "share": 0.433
+      },
+      {
+        "size": 2,
+        "apps": {
+          "facebook": 2
+        },
+        "first_packet_sizes": {
+          "1365": 2
+        },
+        "net": 76,
+        "share": 0.362
+      },
+      {
+        "size": 4,
+        "apps": {
+          "facebook": 1,
+          "instagram": 3
+        },
+        "first_packet_sizes": {
+          "1367": 4
+        },
+        "net": 52,
+        "share": 0.248
+      },
+      {
+        "size": 80,
+        "apps": {
+          "youtube": 25,
+          "google": 55
+        },
+        "first_packet_sizes": {
+          "1381": 26,
+          "1363": 7,
+          "1366": 11,
+          "1372": 1,
+          "1375": 14,
+          "1351": 1,
+          "1365": 9,
+          "1377": 6,
+          "1393": 4,
+          "1370": 1
+        },
+        "net": 0,
+        "share": 0.0
+      }
+    ],
+    "flows_net_improved": {
+      "flow_001321": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 26
+      },
+      "flow_000359": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 26
+      },
+      "flow_000360": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 26
+      },
+      "flow_000809": {
+        "app": "facebook",
+        "size": 1365,
+        "net": 38
+      },
+      "flow_001168": {
+        "app": "facebook",
+        "size": 1365,
+        "net": 38
+      },
+      "flow_000379": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_000604": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_000837": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_000838": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_001323": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_001328": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_000609": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      },
+      "flow_001325": {
+        "app": "instagram",
+        "size": 1367,
+        "net": 13
+      }
+    },
+    "flows_net_worsened": {
+      "flow_000368": {
+        "app": "facebook",
+        "size": 1367,
+        "net": -26
+      },
+      "flow_000617": {
+        "app": "facebook",
+        "size": 1367,
+        "net": -13
+      },
+      "flow_000024": {
+        "app": "facebook",
+        "size": 150,
+        "net": -9
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "P": {
+    "task": "task1_static",
+    "min_vs_any_upload": 0,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "changes_vs_production_100": {}
+  },
+  "M": {
+    "task": "task1_static",
+    "min_vs_any_upload": 1,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 4,
+      "candidate-066-rest-expert": 3,
+      "candidate-083-instagram-verifier": 4,
+      "best-88.11-production-084": 4,
+      "production-089-bundle": 2,
+      "production-100-cross-task": 1
+    },
+    "changes_vs_production_100": {
+      "flow_001187": "facebook -> instagram"
+    }
+  },
+  "MK": {
+    "task": "task1_static",
+    "min_vs_any_upload": 1,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 4,
+      "candidate-066-rest-expert": 3,
+      "candidate-083-instagram-verifier": 4,
+      "best-88.11-production-084": 4,
+      "production-089-bundle": 2,
+      "production-100-cross-task": 1
+    },
+    "changes_vs_production_100": {
+      "flow_000826": "facebook -> instagram"
+    }
+  },
+  "J": {
+    "task": "task1_static",
+    "min_vs_any_upload": 0,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "changes_vs_production_100": {}
+  },
+  "P2": {
+    "task": "task2_realtime_prefix5",
+    "min_vs_any_upload": 0,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 0,
+      "candidate-066-rest-expert": 0,
+      "candidate-083-instagram-verifier": 0,
+      "best-88.11-production-084": 0,
+      "production-089-bundle": 0,
+      "production-100-cross-task": 0
+    },
+    "changes_vs_production_100": {}
+  },
+  "J2": {
+    "task": "task2_realtime_prefix5",
+    "min_vs_any_upload": 0,
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 0,
+      "candidate-066-rest-expert": 0,
+      "candidate-083-instagram-verifier": 0,
+      "best-88.11-production-084": 0,
+      "production-089-bundle": 0,
+      "production-100-cross-task": 0
+    },
+    "changes_vs_production_100": {}
+  }
+}

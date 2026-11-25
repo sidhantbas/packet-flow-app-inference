@@ -1,0 +1,29 @@
+{
+  "git_head": "fd915da8aff3ba877746e80e1e22f586d036797e",
+  "src_uncommitted_changes": null,
+  "code_sha256": {
+    "src/models.py": "a0628309642a76d73de38040b9928f7af3d6947ae2a0640b4f3ba4744fff15a3",
+    "src/cv.py": "3be83d1ea813ad0ea3c53f68b8f348e6f6fb9c30c276caa1392b5eba057706eb",
+    "src/make_submission.py": "56b45826951653a09330a1bd498dfad23bf4821596434cae6904bc15733ad4f8",
+    "src/make_final_candidate.py": "1cdc595070478540a6770b4f0064a3ba7668261141116dc3dcbe71fa36b74802",
+    "requirements.txt": "f416a9d5120e94401f51e157a20f8bac0f14728488f3f7ab4938554ff559b4f0"
+  },
+  "data_sha256": {
+    "task1_static/sample_submission.csv": "29165877c8de21b57edcbd18740a37a9a03cb50753ed93955bcf873987bb43fe",
+    "task1_static/test_features.csv": "3f0c175699299649e48edd09167d707b61935f695d659a6d65eb843b11001a2b",
+    "task1_static/train_features.csv": "9a272ae67890f0903b96576273c5381f59df6a9384ef2c43df1d3832943999ec",
+    "task1_static/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+    "task1_static/validation_features.csv": "6ee5423541d72766fdf16e223b569a2dc19d2bc72844cec9245f9d6b50947a52",
+    "task1_static/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6",
+    "task2_realtime_prefix5/sample_submission.csv": "29165877c8de21b57edcbd18740a37a9a03cb50753ed93955bcf873987bb43fe",
+    "task2_realtime_prefix5/test_features.csv": "4b848ef886f976968628c1a821650f25f8f4e7a65496ea96eea7159325708f42",
+    "task2_realtime_prefix5/train_features.csv": "c4ee7ef94d56cf5df32b48ab36154b98c68f3961b876627157add17445497730",
+    "task2_realtime_prefix5/train_labels.csv": "9a28ec7bfa0881a1edb6ca9151caf9470717dddaa7d1d49bf7cf3a1616bb1cf8",
+    "task2_realtime_prefix5/validation_features.csv": "2ec2f5b80308371281a63bd4fcab16b84ae2d93f078dc39efc191d4f814851c2",
+    "task2_realtime_prefix5/validation_labels.csv": "4128de2ff5409f95346ab97ef4a77ded5f6f4f12b46f010ac352ddabfa2b0ac6"
+  },
+  "output_sha256": {
+    "submission.json": "dc76e65432a65e19ae53c9350632128f0747299c5606235f0a0173281b70a679",
+    "submission.zip": "3bb46530a13dfd4c6fc6d2a800c52ed32af8c6dad64268b222843269306d7dcf"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "production-089-bundle (ranked entry, 87.24)": {
+    "json_byte_identical": true,
+    "task1_static": {
+      "changed": 0,
+      "transitions": {},
+      "flows": []
+    },
+    "task2_realtime_prefix5": {
+      "changed": 0,
+      "transitions": {},
+      "flows": []
+    }
+  },
+  "best-88.11-production-084 (best score)": {
+    "json_byte_identical": false,
+    "task1_static": {
+      "changed": 2,
+      "transitions": {
+        "google -> youtube": 1,
+        "youtube -> google": 1
+      },
+      "flows": [
+        "flow_000095",
+        "flow_000906"
+      ]
+    },
+    "task2_realtime_prefix5": {
+      "changed": 0,
+      "transitions": {},
+      "flows": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "task1_static": {
+    "run_id": "20261012T154049Z_100_production_check_s2026",
+    "since": "2026-10-12T15:41:21+00:00",
+    "reason": "Experiment 100 FB adopted in production as a deliberate exception (user decision 2026-10-12): task1_cross_task; reproduces 100 FB exactly on seeds 2026 and 2046"
+  },
+  "task2_realtime_prefix5": {
+    "run_id": "20260930T173836Z_014_fi_same_nocw",
+    "since": "2026-09-30T17:43:49+00:00",
+    "reason": "experiment 014: balanced SoftVote + unweighted facebook/instagram specialist; +0.018 (18/1/31), BETTER under rule v2 on cv_seeds 2026/2027/2028"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "P": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 3,
+      "candidate-066-rest-expert": 2,
+      "candidate-083-instagram-verifier": 3,
+      "best-88.11-production-084": 3,
+      "production-089-bundle": 1,
+      "production-100-cross-task": 0
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {},
+    "stacker_coefficients": null
+  },
+  "S14": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 2,
+      "candidate-066-rest-expert": 1,
+      "candidate-083-instagram-verifier": 2,
+      "best-88.11-production-084": 2,
+      "production-089-bundle": 0,
+      "production-100-cross-task": 1
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {
+      "flow_000223": "facebook -> youtube"
+    },
+    "stacker_coefficients": {
+      "p_meta": -0.134,
+      "p_fb_014": -0.364,
+      "b_facebook": 1.224,
+      "b_google": -0.41,
+      "b_instagram": 1.014,
+      "b_mozilla": -0.153,
+      "b_x": -0.252,
+      "b_youtube": -0.263
+    }
+  },
+  "S": {
+    "changed_vs_each_uploaded_file": {
+      "best-87.77-frozen-5eb9a8b": 2,
+      "candidate-066-rest-expert": 1,
+      "candidate-083-instagram-verifier": 2,
+      "best-88.11-production-084": 2,
+      "production-089-bundle": 0,
+      "production-100-cross-task": 1
+    },
+    "min_vs_any_upload": 0,
+    "changes_vs_production_100": {
+      "flow_000223": "facebook -> youtube"
+    },
+    "stacker_coefficients": {
+      "p_meta": -0.117,
+      "p_fb_014": -0.426,
+      "p_fb_109b": 0.115,
+      "b_facebook": 1.219,
+      "b_google": -0.409,
+      "b_instagram": 1.015,
+      "b_mozilla": -0.159,
+      "b_x": -0.252,
+      "b_youtube": -0.257
+    }
+  }
+}

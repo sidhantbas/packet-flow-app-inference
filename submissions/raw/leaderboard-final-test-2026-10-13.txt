@@ -1,0 +1,52 @@
+Source: https://competition.aiforgood.itu.int/web/challenges/challenge-page/495/leaderboard/642
+Captured: 2026-10-13, about 12:00 UTC, text extracted from the rendered page (browser), unedited below this line.
+Phase: Final Test Phase, Split: Test Split
+Order by Metric
+Order by metric
+- Baseline
+* - Private
+- Verified
+Visible Metrics
+Rank
+Participant team
+Task 1 Macro F1 (↑)
+Task 1 Accuracy (↑)
+Task 1 Score (↑)
+Task 2 Macro F1 (↑)
+Task 2 Accuracy (↑)
+Task 2 Score (↑)
+Total (↑)
+Last submission at
+Meta Attributes
+1 HeriTech 0.96 0.95 47.83 0.94 0.93 47.14 94.98 2 days ago View
+2 Infralibre 0.94 0.93 46.94 0.94 0.91 46.79 93.74 9 days ago View
+3 LLM_ops (Lookup-Ensemble v7) 0.94 0.93 46.94 0.93 0.91 46.50 93.44 19 hours ago View
+4 RahmaniJ 0.92 0.90 46.25 0.92 0.90 46.25 92.50 31 days ago View
+5 Flow State 0.91 0.91 45.61 0.87 0.90 43.37 88.99 1 month ago View
+6 图个乐呵队 (PaFlowInfer-Net-v5) 0.88 0.85 44.08 0.88 0.85 44.08 88.17 22 days ago View
+7 Artur Baranovsky (gbdt-v6) 0.85 0.88 42.49 0.90 0.88 44.87 87.36 3 days ago View
+8 Telex 0.84 0.89 41.99 0.91 0.89 45.25 87.24 3 days ago View
+
+Meta Attributes for submission (one dialog per team; HeriTech)
+method_name : initfix a
+
+Meta Attributes for submission (Infralibre)
+method_name : FlowLens-v8-Mozilla
+method_description : Class-balanced prefix-five ensemble with probability calibration and disclosed-count analysis. Task 2 uses only the released realtime prefix-five features; Task 1 remains unchanged.
+
+Meta Attributes for submission (LLM_ops)
+method_name : Lookup-Ensemble-v7
+method_description : Task-specific exact-signature lookup (first-5-packet fingerprint) blended with a seed-bagged ensemble of Optuna-tuned LightGBM, XGBoost, ExtraTrees, and RandomForest (Task 1) / LightGBM×2 + ExtraTrees + KNN-Manhattan (Task 2). Features: raw header statistics + ratio/rate/CV features; Task 1 adds post-prefix delta features; Task 2 adds mod-8 byte features as SNI-length proxy. Stacked lookup probabilities feed the tree ensemble. Temporal Gaussian smoothing (σ=0.5 s for T1, 1.0 s for T2) blends flow predictions across same-session neighbours. Mild prior correction (β=0.25) guards macro-F1 on rare classes. Hungarian count-matching uses published metadata class counts for both tasks. No IPs, DNS, SNI, payload, or test labels used.
+
+Meta Attributes for submission (RahmaniJ)
+method_name : Early-Flow Ensemble
+method_description : Ensemble classifier using only the released first-5-packet features for early application inference. The same early-flow predictions are used for both tasks. Published metadata.json class counts are used for constrained assignment. No private labels, external datasets, DNS, SNI, IP addresses, URLs, domains, payloads, or prohibited features are used.
+
+Meta Attributes for submission (Flow State)
+method_name : basic ML
+
+Meta Attributes for submission (Telex, us)
+method_name : gg
+method_description : gg
+
+(图个乐呵队 and Artur Baranovsky: View button disabled, no meta attributes.)

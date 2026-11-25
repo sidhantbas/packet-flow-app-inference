@@ -1,0 +1,26 @@
+Source: https://competition.aiforgood.itu.int/web/challenges/challenge-page/495/leaderboard/642
+Captured: 2026-10-13, evening (UTC), text extracted from the rendered page (browser), unedited below this line.
+Phase: Final Test Phase, Split: Test Split
+Rank
+Participant team
+Task 1 Macro F1 (↑)
+Task 1 Accuracy (↑)
+Task 1 Score (↑)
+Task 2 Macro F1 (↑)
+Task 2 Accuracy (↑)
+Task 2 Score (↑)
+Total (↑)
+Last submission at
+Meta Attributes
+1 Infralibre 0.96 0.95 48.21 0.94 0.91 46.79 95.01 3 hours ago View
+2 HeriTech 0.96 0.95 47.83 0.94 0.93 47.14 94.98 2 days ago View
+3 LLM_ops (Lookup-Ensemble v7) 0.94 0.93 46.94 0.93 0.91 46.50 93.44 1 day ago View
+4 RahmaniJ 0.92 0.90 46.25 0.92 0.90 46.25 92.50 31 days ago View
+5 Flow State 0.91 0.91 45.61 0.87 0.90 43.37 88.99 1 month ago View
+6 图个乐呵队 (PaFlowInfer-Net-v5) 0.88 0.85 44.08 0.88 0.85 44.08 88.17 23 days ago View
+7 Artur Baranovsky (gbdt-v6) 0.85 0.88 42.49 0.90 0.88 44.87 87.36 3 days ago View
+8 Telex 0.84 0.89 41.99 0.91 0.89 45.25 87.24 4 days ago View
+
+Meta Attributes for submission (Infralibre)
+method_name : FlowLens-v9-PairSwap
+method_description : Class-balanced cross-view ensemble with a count-preserving Task 1 consensus swap. Task 2 remains the validated prefix-five-only model with no Task 1 information used.

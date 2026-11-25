@@ -1,0 +1,261 @@
+{
+  "upstream_commit": "d3189ba",
+  "observed / all": {
+    "flows": 364,
+    "apps": {
+      "youtube": 158,
+      "instagram": 157,
+      "facebook": 49
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.965,
+    "per_app": {
+      "app facebook": {
+        "n": 49,
+        "median_nn": 1.99,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 157,
+        "median_nn": 2.08,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.15,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 158,
+        "median_nn": 1.12,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.32,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 21, youtube 10, instagram 9, x 5, facebook 3, mozilla 1",
+      "instagram": "google 72, x 41, youtube 20, instagram 12, facebook 7, mozilla 5",
+      "youtube": "google 76, youtube 39, x 27, instagram 10, mozilla 4, facebook 2"
+    }
+  },
+  "observed / iphone_pilot": {
+    "flows": 216,
+    "apps": {
+      "instagram": 135,
+      "youtube": 55,
+      "facebook": 26
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.988,
+    "per_app": {
+      "app facebook": {
+        "n": 26,
+        "median_nn": 2.01,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 135,
+        "median_nn": 2.11,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.13,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 55,
+        "median_nn": 0.78,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.39,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 10, youtube 7, instagram 4, x 4, facebook 1",
+      "instagram": "google 66, x 40, youtube 19, mozilla 5, instagram 5",
+      "youtube": "google 18, x 17, youtube 15, mozilla 3, facebook 1, instagram 1"
+    }
+  },
+  "observed / iphone_long": {
+    "flows": 148,
+    "apps": {
+      "youtube": 103,
+      "facebook": 23,
+      "instagram": 22
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.963,
+    "per_app": {
+      "app facebook": {
+        "n": 23,
+        "median_nn": 1.97,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.03,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 22,
+        "median_nn": 1.55,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.3,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 103,
+        "median_nn": 1.19,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.28,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 11, instagram 5, youtube 3, facebook 2, x 1, mozilla 1",
+      "instagram": "instagram 7, facebook 7, google 6, x 1, youtube 1",
+      "youtube": "google 58, youtube 24, x 10, instagram 9, mozilla 1, facebook 1"
+    }
+  },
+  "split-mtu1514-sensitivity / all": {
+    "flows": 364,
+    "apps": {
+      "youtube": 158,
+      "instagram": 157,
+      "facebook": 49
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.961,
+    "per_app": {
+      "app facebook": {
+        "n": 49,
+        "median_nn": 1.99,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 157,
+        "median_nn": 2.08,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.15,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 158,
+        "median_nn": 1.1,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.33,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 21, youtube 10, instagram 9, x 5, facebook 3, mozilla 1",
+      "instagram": "google 72, x 40, youtube 20, instagram 12, facebook 7, mozilla 6",
+      "youtube": "google 74, youtube 43, x 25, instagram 10, mozilla 4, facebook 2"
+    }
+  },
+  "split-mtu1514-sensitivity / iphone_pilot": {
+    "flows": 216,
+    "apps": {
+      "instagram": 135,
+      "youtube": 55,
+      "facebook": 26
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.988,
+    "per_app": {
+      "app facebook": {
+        "n": 26,
+        "median_nn": 2.01,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.02,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 135,
+        "median_nn": 2.11,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.13,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 55,
+        "median_nn": 0.78,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.39,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 10, youtube 7, instagram 4, x 4, facebook 1",
+      "instagram": "google 66, x 40, youtube 19, mozilla 5, instagram 5",
+      "youtube": "google 18, x 17, youtube 15, mozilla 3, facebook 1, instagram 1"
+    }
+  },
+  "split-mtu1514-sensitivity / iphone_long": {
+    "flows": 148,
+    "apps": {
+      "youtube": 103,
+      "facebook": 23,
+      "instagram": 22
+    },
+    "gate1": true,
+    "gate1_failures": [],
+    "gate2": false,
+    "adversarial_auc": 0.95,
+    "per_app": {
+      "app facebook": {
+        "n": 23,
+        "median_nn": 1.89,
+        "orig_p90": 2.15,
+        "same_label_5nn": 0.03,
+        "orig_same_label": 0.16,
+        "verdict": "FAR"
+      },
+      "app instagram": {
+        "n": 22,
+        "median_nn": 1.55,
+        "orig_p90": 2.01,
+        "same_label_5nn": 0.3,
+        "orig_same_label": 0.41,
+        "verdict": "FAR"
+      },
+      "app youtube": {
+        "n": 103,
+        "median_nn": 1.19,
+        "orig_p90": 1.25,
+        "same_label_5nn": 0.3,
+        "orig_same_label": 0.59,
+        "verdict": "FAR"
+      }
+    },
+    "nearest_original_label": {
+      "facebook": "google 11, instagram 5, youtube 3, facebook 2, x 1, mozilla 1",
+      "instagram": "instagram 7, facebook 7, google 6, mozilla 1, youtube 1",
+      "youtube": "google 56, youtube 28, instagram 9, x 8, mozilla 1, facebook 1"
+    }
+  }
+}

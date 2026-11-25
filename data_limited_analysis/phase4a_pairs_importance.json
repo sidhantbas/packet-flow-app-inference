@@ -1,0 +1,436 @@
+{
+  "perm_seeds": [
+    0,
+    1,
+    2
+  ],
+  "tasks": {
+    "task1_static": {
+      "confusable_pairs": {
+        "mutual_nn_pairs_with_different_labels": 11,
+        "exact_duplicates": 0,
+        "by_class_pair": {
+          "google/youtube": 8,
+          "mozilla/x": 1,
+          "facebook/instagram": 1,
+          "facebook/x": 1
+        },
+        "same_transport_share": 1.0,
+        "median_pair_distance": 1.668483073089973,
+        "median_any_nn_distance": 0.8587885211462019,
+        "columns_most_similar_in_pairs": [
+          "p5_transport",
+          "transport",
+          "p5_burst_count",
+          "p5_up_down_packet_ratio",
+          "p5_packet_count_up",
+          "p5_packet_count_down"
+        ],
+        "columns_most_different_in_pairs": [
+          "burst_count",
+          "std_iat",
+          "max_iat",
+          "up_down_byte_ratio",
+          "mean_pkt_size_down",
+          "mean_iat"
+        ],
+        "pairs": [
+          {
+            "a": "flow_000042",
+            "label_a": "x",
+            "b": "flow_000136",
+            "label_b": "mozilla",
+            "distance": 2.6167
+          },
+          {
+            "a": "flow_000188",
+            "label_a": "youtube",
+            "b": "flow_000193",
+            "label_b": "google",
+            "distance": 0.7876
+          },
+          {
+            "a": "flow_000194",
+            "label_a": "google",
+            "b": "flow_000818",
+            "label_b": "youtube",
+            "distance": 1.7288
+          },
+          {
+            "a": "flow_000239",
+            "label_a": "google",
+            "b": "flow_000846",
+            "label_b": "youtube",
+            "distance": 1.9772
+          },
+          {
+            "a": "flow_000379",
+            "label_a": "instagram",
+            "b": "flow_000617",
+            "label_b": "facebook",
+            "distance": 1.6685
+          },
+          {
+            "a": "flow_000484",
+            "label_a": "youtube",
+            "b": "flow_001355",
+            "label_b": "google",
+            "distance": 0.4979
+          },
+          {
+            "a": "flow_000507",
+            "label_a": "youtube",
+            "b": "flow_000849",
+            "label_b": "google",
+            "distance": 0.4891
+          },
+          {
+            "a": "flow_000817",
+            "label_a": "google",
+            "b": "flow_001343",
+            "label_b": "youtube",
+            "distance": 3.0569
+          },
+          {
+            "a": "flow_000886",
+            "label_a": "youtube",
+            "b": "flow_000888",
+            "label_b": "google",
+            "distance": 1.0472
+          },
+          {
+            "a": "flow_001297",
+            "label_a": "google",
+            "b": "flow_000901",
+            "label_b": "youtube",
+            "distance": 0.8862
+          },
+          {
+            "a": "flow_000535",
+            "label_a": "x",
+            "b": "flow_001324",
+            "label_b": "facebook",
+            "distance": 2.4157
+          }
+        ]
+      },
+      "permutation_importance": {
+        "burst_count": {
+          "overlap": 0.07665,
+          "global": 0.01313
+        },
+        "p5_mean_pkt_size_up": {
+          "overlap": 0.06144,
+          "global": 0.08303
+        },
+        "mean_iat": {
+          "overlap": 0.05002,
+          "global": 0.01232
+        },
+        "p5_up_down_byte_ratio": {
+          "overlap": 0.04944,
+          "global": 0.03414
+        },
+        "p5_bytes_up": {
+          "overlap": 0.04636,
+          "global": 0.05293
+        },
+        "duration": {
+          "overlap": 0.04634,
+          "global": 0.00828
+        },
+        "p5_std_pkt_size_up": {
+          "overlap": 0.03583,
+          "global": 0.04101
+        },
+        "p5_std_pkt_size_down": {
+          "overlap": 0.03515,
+          "global": 0.02081
+        },
+        "bytes_down": {
+          "overlap": 0.03496,
+          "global": 0.00768
+        },
+        "packet_count_up": {
+          "overlap": 0.03486,
+          "global": 0.01717
+        },
+        "p5_mean_pkt_size_down": {
+          "overlap": 0.02972,
+          "global": 0.01879
+        },
+        "std_pkt_size_down": {
+          "overlap": 0.02873,
+          "global": 0.00606
+        },
+        "p5_bytes_down": {
+          "overlap": 0.02687,
+          "global": 0.01919
+        },
+        "p5_duration": {
+          "overlap": 0.02526,
+          "global": 0.00444
+        },
+        "packet_count_down": {
+          "overlap": 0.0246,
+          "global": 0.01071
+        },
+        "mean_pkt_size_down": {
+          "overlap": 0.02383,
+          "global": 0.00586
+        },
+        "std_pkt_size_up": {
+          "overlap": 0.02382,
+          "global": 0.01515
+        },
+        "std_iat": {
+          "overlap": 0.02308,
+          "global": 0.00929
+        },
+        "bytes_up": {
+          "overlap": 0.01944,
+          "global": 0.00909
+        },
+        "max_iat": {
+          "overlap": 0.01935,
+          "global": 0.00586
+        },
+        "up_down_byte_ratio": {
+          "overlap": 0.01837,
+          "global": 0.00222
+        },
+        "transport": {
+          "overlap": 0.01368,
+          "global": 0.02929
+        },
+        "p5_packet_count_up": {
+          "overlap": 0.01051,
+          "global": 0.01051
+        },
+        "p5_transport": {
+          "overlap": 0.01029,
+          "global": 0.01232
+        },
+        "p5_up_down_packet_ratio": {
+          "overlap": 0.00975,
+          "global": 0.01051
+        },
+        "mean_pkt_size_up": {
+          "overlap": 0.00736,
+          "global": 0.00687
+        },
+        "p5_min_iat": {
+          "overlap": 0.00629,
+          "global": 0.00141
+        },
+        "p5_mean_iat": {
+          "overlap": 0.00618,
+          "global": 0.00101
+        },
+        "p5_std_iat": {
+          "overlap": 0.00529,
+          "global": 0.00182
+        },
+        "p5_burst_count": {
+          "overlap": 0.00331,
+          "global": 0.00081
+        },
+        "p5_max_iat": {
+          "overlap": 0.00135,
+          "global": 0.0002
+        },
+        "p5_packet_count_down": {
+          "overlap": 0.00082,
+          "global": 0.0099
+        },
+        "min_iat": {
+          "overlap": -0.00095,
+          "global": -0.0002
+        },
+        "up_down_packet_ratio": {
+          "overlap": -0.00577,
+          "global": -0.00182
+        }
+      },
+      "top_overlap": [
+        "burst_count",
+        "p5_mean_pkt_size_up",
+        "mean_iat",
+        "p5_up_down_byte_ratio",
+        "p5_bytes_up",
+        "duration",
+        "p5_std_pkt_size_up",
+        "p5_std_pkt_size_down"
+      ],
+      "top_global": [
+        "p5_mean_pkt_size_up",
+        "p5_bytes_up",
+        "p5_std_pkt_size_up",
+        "p5_up_down_byte_ratio",
+        "transport",
+        "p5_std_pkt_size_down",
+        "p5_bytes_down",
+        "p5_mean_pkt_size_down"
+      ]
+    },
+    "task2_realtime_prefix5": {
+      "confusable_pairs": {
+        "mutual_nn_pairs_with_different_labels": 8,
+        "exact_duplicates": 4,
+        "by_class_pair": {
+          "google/youtube": 3,
+          "facebook/instagram": 3,
+          "instagram/youtube": 1,
+          "google/mozilla": 1
+        },
+        "same_transport_share": 1.0,
+        "median_pair_distance": 0.0007667032338629915,
+        "median_any_nn_distance": 0.0,
+        "columns_most_similar_in_pairs": [
+          "transport",
+          "packet_count_up",
+          "packet_count_down",
+          "burst_count",
+          "up_down_packet_ratio",
+          "std_pkt_size_down"
+        ],
+        "columns_most_different_in_pairs": [
+          "std_pkt_size_up",
+          "up_down_byte_ratio",
+          "bytes_up",
+          "mean_pkt_size_up",
+          "mean_pkt_size_down",
+          "bytes_down"
+        ],
+        "pairs": [
+          {
+            "a": "flow_000188",
+            "label_a": "youtube",
+            "b": "flow_000193",
+            "label_b": "google",
+            "distance": 0.0
+          },
+          {
+            "a": "flow_000216",
+            "label_a": "instagram",
+            "b": "flow_000229",
+            "label_b": "youtube",
+            "distance": 0.0
+          },
+          {
+            "a": "flow_000341",
+            "label_a": "google",
+            "b": "flow_001341",
+            "label_b": "youtube",
+            "distance": 0.0026
+          },
+          {
+            "a": "flow_000368",
+            "label_a": "facebook",
+            "b": "flow_001321",
+            "label_b": "instagram",
+            "distance": 0.0
+          },
+          {
+            "a": "flow_000524",
+            "label_a": "mozilla",
+            "b": "flow_001399",
+            "label_b": "google",
+            "distance": 0.1319
+          },
+          {
+            "a": "flow_000604",
+            "label_a": "instagram",
+            "b": "flow_000617",
+            "label_b": "facebook",
+            "distance": 0.0
+          },
+          {
+            "a": "flow_000799",
+            "label_a": "facebook",
+            "b": "flow_001185",
+            "label_b": "instagram",
+            "distance": 0.0015
+          },
+          {
+            "a": "flow_000506",
+            "label_a": "youtube",
+            "b": "flow_001305",
+            "label_b": "google",
+            "distance": 0.0973
+          }
+        ]
+      },
+      "permutation_importance": {
+        "std_pkt_size_down": {
+          "overlap": 0.08399,
+          "global": 0.01394
+        },
+        "bytes_up": {
+          "overlap": 0.07022,
+          "global": 0.18101
+        },
+        "std_pkt_size_up": {
+          "overlap": 0.06203,
+          "global": 0.09515
+        },
+        "mean_pkt_size_up": {
+          "overlap": 0.0536,
+          "global": 0.14687
+        },
+        "bytes_down": {
+          "overlap": 0.03213,
+          "global": 0.00687
+        },
+        "transport": {
+          "overlap": 0.03201,
+          "global": 0.00606
+        },
+        "mean_pkt_size_down": {
+          "overlap": 0.01742,
+          "global": 0.01354
+        },
+        "packet_count_up": {
+          "overlap": 0.01216,
+          "global": 0.00182
+        },
+        "up_down_byte_ratio": {
+          "overlap": 0.01212,
+          "global": 0.04141
+        },
+        "up_down_packet_ratio": {
+          "overlap": 0.01159,
+          "global": 0.00182
+        },
+        "packet_count_down": {
+          "overlap": 0.01083,
+          "global": 0.00141
+        },
+        "burst_count": {
+          "overlap": -0.00244,
+          "global": 0.0
+        }
+      },
+      "top_overlap": [
+        "std_pkt_size_down",
+        "bytes_up",
+        "std_pkt_size_up",
+        "mean_pkt_size_up",
+        "bytes_down",
+        "transport",
+        "mean_pkt_size_down",
+        "packet_count_up"
+      ],
+      "top_global": [
+        "bytes_up",
+        "mean_pkt_size_up",
+        "std_pkt_size_up",
+        "up_down_byte_ratio",
+        "std_pkt_size_down",
+        "mean_pkt_size_down",
+        "bytes_down",
+        "transport"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "checks.json": "5c6980ef3a29f890f5675a5b6e1b19b9e9f8e902118af72fa19441222436e8e0",
+  "comparison.json": "d173ff3318befa27f6fef95d1e0b5fcb115add26d4b727327e28006c7de1d7f2",
+  "manifest.json": "4291763d53205250748e8ba6dcb701cd8b315fb393a3483d5d776f0e0106050d",
+  "report.md": "9b9834527134df1c6bbbeb9c08f009ce2d0c74320caea323372f27021761a093",
+  "task1_static/confusion.csv": "31087eef130745cb42cffb5ccffc5b21ee866b44dad0919416c4056b049d453a",
+  "task1_static/folds.csv": "f2226d80b17f56390f6299706d18a90f04e44887e91d837fb7eec5142dba4344",
+  "task1_static/oof.csv": "bb61f1305e30f308b56f2ff10c45428899e2e7bab490259a47e6be11a96525ef",
+  "task1_static/summary.json": "32e2e728f30c7a52d6bf7a99036c8ed011a2c106a3eecda359e3098ebcbce1d5",
+  "task2_realtime_prefix5/confusion.csv": "e26560a294aab33ea4e96a6ac744fb4f1adfd7c069c936ae1ff5ccbc4a46fbb0",
+  "task2_realtime_prefix5/folds.csv": "0631773245233d5a28a45336712afc57d9895d368dab9a73477dae101bb95a4e",
+  "task2_realtime_prefix5/oof.csv": "a8596c30a085f8462564a0b8df5feb9449bfeb6bcf20aaf5c1d6c082d4911ee0",
+  "task2_realtime_prefix5/summary.json": "b4f7a0aa2b8e8f0e34d32c0191dab4bff27d718d3bd04f80d18612430ff02485"
+}

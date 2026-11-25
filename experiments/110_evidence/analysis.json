@@ -1,0 +1,175 @@
+{
+  "means": {
+    "P": [
+      0.8486,
+      0.8543,
+      0.8637,
+      0.8426,
+      0.8531
+    ],
+    "C": [
+      0.8399,
+      0.8439,
+      0.8631,
+      0.8391,
+      0.8467
+    ],
+    "D": [
+      0.8477,
+      0.8533,
+      0.8611,
+      0.8466,
+      0.8552
+    ]
+  },
+  "vs_P": {
+    "C": {
+      "mean_delta": -0.0059,
+      "per_seed": [
+        {
+          "seed": 2141,
+          "delta": -0.0086,
+          "wins": 0,
+          "losses": 7,
+          "ties": 43,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2142,
+          "delta": -0.0104,
+          "wins": 1,
+          "losses": 5,
+          "ties": 44,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2143,
+          "delta": -0.0006,
+          "wins": 1,
+          "losses": 2,
+          "ties": 47,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2144,
+          "delta": -0.0035,
+          "wins": 0,
+          "losses": 4,
+          "ties": 46,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2145,
+          "delta": -0.0064,
+          "wins": 0,
+          "losses": 6,
+          "ties": 44,
+          "verdict": "INCONCLUSIVE"
+        }
+      ],
+      "per_class_mean_delta": {
+        "facebook": -0.0332,
+        "google": -0.0018,
+        "instagram": 0.0,
+        "mozilla": -0.0002,
+        "x": 0.0,
+        "youtube": -0.0002
+      },
+      "changes_5_seeds": {
+        "changed": 32,
+        "fixed": 2,
+        "broken": 28
+      },
+      "transitions_true_was_now": {
+        "facebook: facebook -> google": 23,
+        "google: google -> facebook": 5,
+        "google: facebook -> google": 2,
+        "youtube: facebook -> mozilla": 1,
+        "google: facebook -> youtube": 1
+      }
+    },
+    "D": {
+      "mean_delta": 0.0004,
+      "per_seed": [
+        {
+          "seed": 2141,
+          "delta": -0.0008,
+          "wins": 3,
+          "losses": 7,
+          "ties": 40,
+          "verdict": "WORSE"
+        },
+        {
+          "seed": 2142,
+          "delta": -0.001,
+          "wins": 1,
+          "losses": 6,
+          "ties": 43,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2143,
+          "delta": -0.0026,
+          "wins": 1,
+          "losses": 7,
+          "ties": 42,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2144,
+          "delta": 0.0041,
+          "wins": 5,
+          "losses": 6,
+          "ties": 39,
+          "verdict": "INCONCLUSIVE"
+        },
+        {
+          "seed": 2145,
+          "delta": 0.0021,
+          "wins": 5,
+          "losses": 6,
+          "ties": 39,
+          "verdict": "INCONCLUSIVE"
+        }
+      ],
+      "per_class_mean_delta": {
+        "facebook": 0.0034,
+        "google": -0.0016,
+        "instagram": 0.0,
+        "mozilla": 0.0001,
+        "x": 0.0001,
+        "youtube": 0.0002
+      },
+      "changes_5_seeds": {
+        "changed": 52,
+        "fixed": 15,
+        "broken": 33
+      },
+      "transitions_true_was_now": {
+        "google: google -> facebook": 26,
+        "facebook: x -> facebook": 7,
+        "x: x -> facebook": 5,
+        "instagram: google -> facebook": 4,
+        "facebook: google -> facebook": 4,
+        "facebook: mozilla -> facebook": 3,
+        "mozilla: mozilla -> facebook": 2,
+        "facebook: youtube -> facebook": 1
+      }
+    }
+  },
+  "inner_selection": {
+    "fits_arms_C_and_D_pooled": 500,
+    "column_counts": {
+      "s_up_max": 270,
+      "e_cv_size_up": 118,
+      "s_up_min": 84,
+      "burst_count": 54,
+      "s_syn_size": 52,
+      "bytes_up": 28,
+      "packet_count_up": 26,
+      "transport": 22,
+      "e_size_asym": 16,
+      "e_cv_size_down": 14
+    }
+  }
+}

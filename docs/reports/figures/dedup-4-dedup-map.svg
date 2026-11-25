@@ -1,0 +1,54 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='640' viewBox='0 0 980 640' role='img' aria-label='4. Deduplication: the leaders&apos; techniques against ours'>
+<style>:root { color-scheme: dark; }</style>
+<rect width='980' height='640' fill='#0f172a' rx='14'/>
+<text x='28' y='42' fill='#e2e8f0' font-size='22' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>4. Deduplication: the leaders' techniques against ours</text>
+<text x='28' y='68' fill='#94a3b8' font-size='13' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Every technique the leaders describe, merged with our own experiments 001-108: one status each.</text>
+<rect x='28.0' y='88.0' width='226.0' height='508.0' rx='12' fill='#1e293b' stroke='#10b981' stroke-width='1.5'/>
+<text x='42' y='116' fill='#10b981' font-size='13' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✓ Already in our production</text>
+<text x='42' y='140' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>5 techniques</text>
+<rect x='40.0' y='156.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<text x='50' y='178' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Balanced tree ensemble (004)</text>
+<rect x='40.0' y='198.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<text x='50' y='220' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>First-5 model, Task 2 (014)</text>
+<rect x='40.0' y='240.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<text x='50' y='262' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Full flow + first 5 (022, 028)</text>
+<rect x='40.0' y='282.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<text x='50' y='304' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Exact first-5 lookup (036, 108)</text>
+<rect x='40.0' y='324.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#10b981' stroke-width='1.5'/>
+<text x='50' y='346' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Rest-of-flow features (089)</text>
+<rect x='266.0' y='88.0' width='226.0' height='508.0' rx='12' fill='#1e293b' stroke='#ef4444' stroke-width='1.5'/>
+<text x='280' y='116' fill='#ef4444' font-size='13' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>✗ Tested, did not help</text>
+<text x='280' y='140' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>8 techniques</text>
+<rect x='278.0' y='156.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='178' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Prefix-only, both tasks (104)</text>
+<rect x='278.0' y='198.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='220' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Probability calibration (102)</text>
+<rect x='278.0' y='240.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='262' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Seed bagging (094, 103)</text>
+<rect x='278.0' y='282.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='304' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Optuna tuning, XGBoost (103)</text>
+<rect x='278.0' y='324.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='346' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>kNN-Manhattan member (103)</text>
+<rect x='278.0' y='366.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='388' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Ratio and rate features (008)</text>
+<rect x='278.0' y='408.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='430' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Consensus pair swap (105)</text>
+<rect x='278.0' y='450.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#ef4444' stroke-width='1.5'/>
+<text x='288' y='472' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Prior correction β (103, 106)</text>
+<rect x='504.0' y='88.0' width='226.0' height='508.0' rx='12' fill='#1e293b' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='518' y='116' fill='#f59e0b' font-size='13' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⛔ Excluded by the rules</text>
+<text x='518' y='140' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>4 techniques</text>
+<rect x='516.0' y='156.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='526' y='178' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Published test class counts</text>
+<rect x='516.0' y='198.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='526' y='220' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Capture-time smoothing</text>
+<rect x='516.0' y='240.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='526' y='262' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>SNI-length proxy (mod 8)</text>
+<rect x='516.0' y='282.0' width='202.0' height='34.0' rx='8' fill='#0f172a' stroke='#f59e0b' stroke-width='1.5'/>
+<text x='526' y='304' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Same-moment flow labels (107)</text>
+<rect x='742.0' y='88.0' width='226.0' height='508.0' rx='12' fill='#1e293b' stroke='#3b82f6' stroke-width='1.5'/>
+<text x='756' y='116' fill='#3b82f6' font-size='13' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>⏳ Open lead</text>
+<text x='756' y='140' fill='#94a3b8' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>0 techniques</text>
+<text x='756' y='178' fill='#e2e8f0' font-size='12' font-weight='400' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>None left: every lead tested</text>
+<text x='28' y='622' fill='#f59e0b' font-size='14' font-weight='700' text-anchor='start' font-family='Inter, Helvetica, Arial, sans-serif'>Published counts and capture time were also measured: neither helps our models (095, 102-105, 107).</text>
+</svg>

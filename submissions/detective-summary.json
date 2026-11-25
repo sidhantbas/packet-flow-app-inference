@@ -1,0 +1,240 @@
+{
+  "training_share_counts": {
+    "facebook": 3,
+    "google": 32,
+    "instagram": 5,
+    "mozilla": 10,
+    "x": 18,
+    "youtube": 13
+  },
+  "candidates": {
+    "detective-1-flowlens-v8-twin": {
+      "task1": "sig_counts",
+      "task2": "sig_counts",
+      "task1_static": {
+        "counts": {
+          "youtube": 13,
+          "facebook": 3,
+          "x": 18,
+          "instagram": 5,
+          "google": 32,
+          "mozilla": 10
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> facebook",
+          "flow_000089": "x -> instagram",
+          "flow_000268": "x -> youtube",
+          "flow_000272": "x -> mozilla",
+          "flow_000373": "x -> mozilla",
+          "flow_001058": "x -> mozilla"
+        },
+        "changed_vs_upload6": 9,
+        "changed_vs_upload7": 10,
+        "changed_vs_upload8": 10
+      },
+      "task2_realtime_prefix5": {
+        "counts": {
+          "youtube": 13,
+          "facebook": 3,
+          "x": 18,
+          "instagram": 5,
+          "google": 32,
+          "mozilla": 10
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> facebook",
+          "flow_000089": "x -> instagram",
+          "flow_000268": "x -> youtube",
+          "flow_000272": "x -> mozilla",
+          "flow_000373": "x -> mozilla",
+          "flow_001058": "x -> mozilla"
+        },
+        "changed_vs_upload6": 6,
+        "changed_vs_upload7": 6,
+        "changed_vs_upload8": 6
+      }
+    },
+    "detective-2-flowlens-v9-crossview": {
+      "task1": "cross_counts",
+      "task2": "sig_counts",
+      "task1_static": {
+        "counts": {
+          "youtube": 13,
+          "facebook": 3,
+          "x": 18,
+          "mozilla": 10,
+          "google": 32,
+          "instagram": 5
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> facebook",
+          "flow_000089": "x -> youtube",
+          "flow_000095": "x -> mozilla",
+          "flow_000409": "x -> instagram",
+          "flow_001058": "x -> mozilla",
+          "flow_001391": "x -> mozilla"
+        },
+        "changed_vs_upload6": 5,
+        "changed_vs_upload7": 6,
+        "changed_vs_upload8": 6
+      },
+      "task2_realtime_prefix5": {
+        "counts": {
+          "youtube": 13,
+          "facebook": 3,
+          "x": 18,
+          "instagram": 5,
+          "google": 32,
+          "mozilla": 10
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> facebook",
+          "flow_000089": "x -> instagram",
+          "flow_000268": "x -> youtube",
+          "flow_000272": "x -> mozilla",
+          "flow_000373": "x -> mozilla",
+          "flow_001058": "x -> mozilla"
+        },
+        "changed_vs_upload6": 6,
+        "changed_vs_upload7": 6,
+        "changed_vs_upload8": 6
+      }
+    },
+    "detective-3-flowlens-isotonic-twin": {
+      "task1": "iso_counts",
+      "task2": "iso_counts",
+      "task1_static": {
+        "counts": {
+          "youtube": 13,
+          "google": 32,
+          "x": 18,
+          "instagram": 5,
+          "mozilla": 10,
+          "facebook": 3
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> google",
+          "flow_000247": "x -> instagram",
+          "flow_000268": "x -> mozilla",
+          "flow_000272": "x -> mozilla",
+          "flow_000444": "google -> youtube",
+          "flow_001058": "x -> mozilla",
+          "flow_001391": "x -> facebook"
+        },
+        "changed_vs_upload6": 10,
+        "changed_vs_upload7": 11,
+        "changed_vs_upload8": 11
+      },
+      "task2_realtime_prefix5": {
+        "counts": {
+          "youtube": 13,
+          "google": 32,
+          "x": 18,
+          "instagram": 5,
+          "mozilla": 10,
+          "facebook": 3
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> google",
+          "flow_000247": "x -> instagram",
+          "flow_000268": "x -> mozilla",
+          "flow_000272": "x -> mozilla",
+          "flow_000444": "google -> youtube",
+          "flow_001058": "x -> mozilla",
+          "flow_001391": "x -> facebook"
+        },
+        "changed_vs_upload6": 7,
+        "changed_vs_upload7": 7,
+        "changed_vs_upload8": 7
+      }
+    },
+    "detective-4-rahmanij-twin": {
+      "task1": "early_counts",
+      "task2": "early_counts",
+      "task1_static": {
+        "counts": {
+          "youtube": 13,
+          "mozilla": 10,
+          "google": 32,
+          "x": 18,
+          "instagram": 5,
+          "facebook": 3
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> mozilla",
+          "flow_000037": "x -> google",
+          "flow_000089": "x -> youtube",
+          "flow_000245": "x -> instagram",
+          "flow_000272": "x -> mozilla",
+          "flow_000444": "google -> youtube",
+          "flow_000513": "youtube -> instagram",
+          "flow_001060": "x -> mozilla",
+          "flow_001187": "instagram -> facebook",
+          "flow_001292": "youtube -> google",
+          "flow_001360": "google -> youtube"
+        },
+        "changed_vs_upload6": 13,
+        "changed_vs_upload7": 14,
+        "changed_vs_upload8": 14
+      },
+      "task2_realtime_prefix5": {
+        "counts": {
+          "youtube": 13,
+          "mozilla": 10,
+          "google": 32,
+          "x": 18,
+          "instagram": 5,
+          "facebook": 3
+        },
+        "vs_0.905_file": {
+          "flow_000026": "x -> mozilla",
+          "flow_000037": "x -> google",
+          "flow_000089": "x -> youtube",
+          "flow_000245": "x -> instagram",
+          "flow_000272": "x -> mozilla",
+          "flow_000444": "google -> youtube",
+          "flow_000513": "youtube -> instagram",
+          "flow_001060": "x -> mozilla",
+          "flow_001187": "instagram -> facebook",
+          "flow_001292": "youtube -> google",
+          "flow_001360": "google -> youtube"
+        },
+        "changed_vs_upload6": 11,
+        "changed_vs_upload7": 11,
+        "changed_vs_upload8": 11
+      }
+    },
+    "detective-5-mirror-floor": {
+      "task1": "open",
+      "task2": "open",
+      "task1_static": {
+        "counts": {
+          "youtube": 12,
+          "x": 24,
+          "google": 32,
+          "instagram": 4,
+          "facebook": 2,
+          "mozilla": 7
+        },
+        "vs_0.905_file": {},
+        "changed_vs_upload6": 6,
+        "changed_vs_upload7": 7,
+        "changed_vs_upload8": 7
+      },
+      "task2_realtime_prefix5": {
+        "counts": {
+          "youtube": 12,
+          "x": 24,
+          "google": 32,
+          "instagram": 4,
+          "facebook": 2,
+          "mozilla": 7
+        },
+        "vs_0.905_file": {},
+        "changed_vs_upload6": 0,
+        "changed_vs_upload7": 0,
+        "changed_vs_upload8": 0
+      }
+    }
+  }
+}

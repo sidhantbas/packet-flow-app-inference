@@ -1,0 +1,130 @@
+{
+  "flow": "flow_000223",
+  "current_label": "youtube",
+  "predicted_counts": {
+    "youtube": 14,
+    "x": 20,
+    "google": 33,
+    "instagram": 2,
+    "facebook": 3,
+    "mozilla": 9
+  },
+  "expected_counts": {
+    "facebook": 2.9,
+    "google": 32.2,
+    "instagram": 4.9,
+    "mozilla": 9.8,
+    "x": 17.6,
+    "youtube": 13.7
+  },
+  "ref_precision_fresh_seeds": {
+    "facebook": 0.644,
+    "google": 0.9,
+    "instagram": 0.842,
+    "mozilla": 0.927,
+    "x": 0.939,
+    "youtube": 0.86
+  },
+  "baseline_state_TP_P_T": {
+    "facebook": [
+      1.93,
+      3.0,
+      2.93
+    ],
+    "google": [
+      29.72,
+      33.0,
+      32.2
+    ],
+    "instagram": [
+      1.68,
+      2.0,
+      4.88
+    ],
+    "mozilla": [
+      8.35,
+      9.0,
+      9.76
+    ],
+    "x": [
+      17.57,
+      20.0,
+      17.57
+    ],
+    "youtube": [
+      12.03,
+      14.0,
+      13.66
+    ]
+  },
+  "cases_fresh_seeds": {
+    "n": 86,
+    "truth": {
+      "facebook": 55,
+      "instagram": 31
+    },
+    "distinct_flows": 10,
+    "distinct_truth": {
+      "facebook": 5,
+      "instagram": 5
+    }
+  },
+  "points_if_truth_is": {
+    "instagram": {
+      "instagram": 1.87,
+      "facebook": -0.25,
+      "youtube": -0.87,
+      "google": -0.25
+    },
+    "facebook": {
+      "instagram": -0.51,
+      "facebook": 1.89,
+      "youtube": -1.14,
+      "google": -0.51
+    }
+  },
+  "expected_points": {
+    "break_even_precision_vs_current": {
+      "instagram": 0.318,
+      "facebook": 0.376
+    },
+    "case_weighted": {
+      "instagram": 0.52,
+      "facebook": 1.03
+    },
+    "flow_weighted": {
+      "instagram": 0.81,
+      "facebook": 0.69
+    },
+    "instagram_deficit_folds": {
+      "instagram": 0.71,
+      "facebook": 0.8
+    }
+  },
+  "probabilities": {
+    "case_weighted": {
+      "facebook": 0.64,
+      "google": 0.0,
+      "instagram": 0.36,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "flow_weighted": {
+      "facebook": 0.5,
+      "google": 0.0,
+      "instagram": 0.5,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    },
+    "instagram_deficit_folds": {
+      "facebook": 0.547,
+      "google": 0.0,
+      "instagram": 0.453,
+      "mozilla": 0.0,
+      "x": 0.0,
+      "youtube": 0.0
+    }
+  }
+}

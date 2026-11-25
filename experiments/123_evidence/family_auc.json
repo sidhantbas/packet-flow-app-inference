@@ -1,0 +1,10 @@
+{
+  "profile": "observed",
+  "scope": "all",
+  "adversarial_auc": {
+    "all 17": 0.969,
+    "sizes and counts (no timing)": 0.937,
+    "timing only": 0.932,
+    "min_iat alone": 0.61
+  }
+}

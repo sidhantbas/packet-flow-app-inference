@@ -1,0 +1,573 @@
+{
+  "captures": {
+    "iphone_pilot_wifi": {
+      "facebook": {
+        "flows": 28,
+        "quic_decoded": 10,
+        "quic_undecoded": 7,
+        "M1_M2_quic_sizes": {
+          "n": 10,
+          "distinct": 2,
+          "top1_share": 0.8,
+          "top2_share": 1.0,
+          "sizes": {
+            "1274": 8,
+            "1294": 2
+          }
+        },
+        "M3_per_session": {
+          "03-facebook-reels": {
+            "n": 6,
+            "distinct": 2,
+            "top1_share": 0.833,
+            "top2_share": 1.0,
+            "sizes": {
+              "1274": 5,
+              "1294": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 11,
+                "identical_share": 0.636
+              },
+              "no_overlap": {
+                "pairs": 4,
+                "identical_share": 0.75
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      },
+      "instagram": {
+        "flows": 160,
+        "quic_decoded": 45,
+        "quic_undecoded": 9,
+        "M1_M2_quic_sizes": {
+          "n": 45,
+          "distinct": 2,
+          "top1_share": 0.933,
+          "top2_share": 1.0,
+          "sizes": {
+            "1294": 42,
+            "1242": 3
+          }
+        },
+        "M3_per_session": {
+          "04-instagram-feed": {
+            "n": 17,
+            "distinct": 1,
+            "top1_share": 1.0,
+            "top2_share": 1.0,
+            "sizes": {
+              "1294": 17
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 75,
+                "identical_share": 1.0
+              },
+              "no_overlap": {
+                "pairs": 61,
+                "identical_share": 1.0
+              }
+            }
+          },
+          "04-instagram-feed-cellular": {
+            "n": 11,
+            "distinct": 2,
+            "top1_share": 0.727,
+            "top2_share": 1.0,
+            "sizes": {
+              "1294": 8,
+              "1242": 3
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 39,
+                "identical_share": 0.615
+              },
+              "no_overlap": {
+                "pairs": 16,
+                "identical_share": 0.438
+              }
+            }
+          },
+          "05-instagram-reels": {
+            "n": 17,
+            "distinct": 1,
+            "top1_share": 1.0,
+            "top2_share": 1.0,
+            "sizes": {
+              "1294": 17
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 76,
+                "identical_share": 1.0
+              },
+              "no_overlap": {
+                "pairs": 60,
+                "identical_share": 1.0
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      },
+      "youtube": {
+        "flows": 79,
+        "quic_decoded": 16,
+        "quic_undecoded": 1,
+        "M1_M2_quic_sizes": {
+          "n": 16,
+          "distinct": 2,
+          "top1_share": 0.938,
+          "top2_share": 1.0,
+          "sizes": {
+            "1292": 15,
+            "1294": 1
+          }
+        },
+        "M3_per_session": {
+          "06-youtube-video": {
+            "n": 16,
+            "distinct": 2,
+            "top1_share": 0.938,
+            "top2_share": 1.0,
+            "sizes": {
+              "1292": 15,
+              "1294": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 36,
+                "identical_share": 0.806
+              },
+              "no_overlap": {
+                "pairs": 84,
+                "identical_share": 0.905
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      }
+    },
+    "iphone_long_cellular": {
+      "facebook": {
+        "flows": 34,
+        "quic_decoded": 11,
+        "quic_undecoded": 10,
+        "M1_M2_quic_sizes": {
+          "n": 11,
+          "distinct": 3,
+          "top1_share": 0.818,
+          "top2_share": 0.909,
+          "sizes": {
+            "1274": 9,
+            "1294": 1,
+            "1242": 1
+          }
+        },
+        "M3_per_session": {
+          "02-facebook": {
+            "n": 11,
+            "distinct": 3,
+            "top1_share": 0.818,
+            "top2_share": 0.909,
+            "sizes": {
+              "1274": 9,
+              "1294": 1,
+              "1242": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 19,
+                "identical_share": 0.421
+              },
+              "no_overlap": {
+                "pairs": 36,
+                "identical_share": 0.778
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      },
+      "instagram": {
+        "flows": 55,
+        "quic_decoded": 38,
+        "quic_undecoded": 2,
+        "M1_M2_quic_sizes": {
+          "n": 38,
+          "distinct": 3,
+          "top1_share": 0.579,
+          "top2_share": 0.974,
+          "sizes": {
+            "1242": 22,
+            "1294": 15,
+            "1392": 1
+          }
+        },
+        "M3_per_session": {
+          "03-instagram": {
+            "n": 38,
+            "distinct": 3,
+            "top1_share": 0.579,
+            "top2_share": 0.974,
+            "sizes": {
+              "1242": 22,
+              "1294": 15,
+              "1392": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 282,
+                "identical_share": 0.362
+              },
+              "no_overlap": {
+                "pairs": 421,
+                "identical_share": 0.556
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      },
+      "youtube": {
+        "flows": 181,
+        "quic_decoded": 94,
+        "quic_undecoded": 18,
+        "M1_M2_quic_sizes": {
+          "n": 94,
+          "distinct": 3,
+          "top1_share": 0.904,
+          "top2_share": 0.989,
+          "sizes": {
+            "1242": 85,
+            "1292": 8,
+            "1392": 1
+          }
+        },
+        "M3_per_session": {
+          "04-youtube": {
+            "n": 94,
+            "distinct": 3,
+            "top1_share": 0.904,
+            "top2_share": 0.989,
+            "sizes": {
+              "1242": 85,
+              "1292": 8,
+              "1392": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 896,
+                "identical_share": 0.789
+              },
+              "no_overlap": {
+                "pairs": 3475,
+                "identical_share": 0.832
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      }
+    },
+    "android_macshare": {
+      "facebook": {
+        "flows": 62,
+        "quic_decoded": 13,
+        "quic_undecoded": 7,
+        "M1_M2_quic_sizes": {
+          "n": 13,
+          "distinct": 5,
+          "top1_share": 0.538,
+          "top2_share": 0.769,
+          "sizes": {
+            "1274": 7,
+            "1294": 3,
+            "110": 1,
+            "78": 1,
+            "1292": 1
+          }
+        },
+        "M3_per_session": {
+          "01-facebook": {
+            "n": 13,
+            "distinct": 5,
+            "top1_share": 0.538,
+            "top2_share": 0.769,
+            "sizes": {
+              "1274": 7,
+              "1294": 3,
+              "110": 1,
+              "78": 1,
+              "1292": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 30,
+                "identical_share": 0.1
+              },
+              "no_overlap": {
+                "pairs": 48,
+                "identical_share": 0.438
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      },
+      "instagram": {
+        "flows": 57,
+        "quic_decoded": 8,
+        "quic_undecoded": 7,
+        "M1_M2_quic_sizes": {
+          "n": 8,
+          "distinct": 4,
+          "top1_share": 0.5,
+          "top2_share": 0.75,
+          "sizes": {
+            "1294": 4,
+            "1292": 2,
+            "1274": 1,
+            "110": 1
+          }
+        },
+        "M3_per_session": {
+          "02-instagram": {
+            "n": 8,
+            "distinct": 4,
+            "top1_share": 0.5,
+            "top2_share": 0.75,
+            "sizes": {
+              "1294": 4,
+              "1292": 2,
+              "1274": 1,
+              "110": 1
+            },
+            "pairs": {
+              "overlap": {
+                "pairs": 21,
+                "identical_share": 0.333
+              },
+              "no_overlap": {
+                "pairs": 7,
+                "identical_share": 0.0
+              }
+            }
+          }
+        },
+        "M4_tcp_first_message": null
+      }
+    }
+  },
+  "reading": {
+    "iphone_pilot_wifi/facebook/03-facebook-reels": {
+      "top2_share": 1.0,
+      "overlap_identical": 0.636,
+      "no_overlap_identical": 0.75,
+      "app_trait_criteria_met": true
+    },
+    "iphone_pilot_wifi/instagram/04-instagram-feed": {
+      "top2_share": 1.0,
+      "overlap_identical": 1.0,
+      "no_overlap_identical": 1.0,
+      "app_trait_criteria_met": true
+    },
+    "iphone_pilot_wifi/instagram/04-instagram-feed-cellular": {
+      "top2_share": 1.0,
+      "overlap_identical": 0.615,
+      "no_overlap_identical": 0.438,
+      "app_trait_criteria_met": true
+    },
+    "iphone_pilot_wifi/instagram/05-instagram-reels": {
+      "top2_share": 1.0,
+      "overlap_identical": 1.0,
+      "no_overlap_identical": 1.0,
+      "app_trait_criteria_met": true
+    },
+    "iphone_pilot_wifi/youtube/06-youtube-video": {
+      "top2_share": 1.0,
+      "overlap_identical": 0.806,
+      "no_overlap_identical": 0.905,
+      "app_trait_criteria_met": true
+    },
+    "iphone_long_cellular/facebook/02-facebook": {
+      "top2_share": 0.909,
+      "overlap_identical": 0.421,
+      "no_overlap_identical": 0.778,
+      "app_trait_criteria_met": false
+    },
+    "iphone_long_cellular/instagram/03-instagram": {
+      "top2_share": 0.974,
+      "overlap_identical": 0.362,
+      "no_overlap_identical": 0.556,
+      "app_trait_criteria_met": false
+    },
+    "iphone_long_cellular/youtube/04-youtube": {
+      "top2_share": 0.989,
+      "overlap_identical": 0.789,
+      "no_overlap_identical": 0.832,
+      "app_trait_criteria_met": true
+    },
+    "android_macshare/facebook/01-facebook": {
+      "top2_share": 0.769,
+      "overlap_identical": 0.1,
+      "no_overlap_identical": 0.438,
+      "app_trait_criteria_met": false
+    },
+    "android_macshare/instagram/02-instagram": {
+      "top2_share": 0.75,
+      "overlap_identical": 0.333,
+      "no_overlap_identical": 0.0,
+      "app_trait_criteria_met": false
+    },
+    "quic_app_trait_all_sessions": false,
+    "quic_sessions_checked": 10,
+    "tcp_first_message_per_connection": {}
+  },
+  "challenge": {
+    "facebook": {
+      "flows": 11,
+      "quic_sizes": {
+        "n": 7,
+        "distinct": 2,
+        "top1_share": 0.571,
+        "top2_share": 1.0,
+        "sizes": {
+          "1365": 4,
+          "1367": 3
+        }
+      },
+      "tcp_first_message": {
+        "n": 2,
+        "distinct": 1,
+        "top1_share": 1.0,
+        "top2_share": 1.0,
+        "sizes": {
+          "448": 2
+        }
+      }
+    },
+    "google": {
+      "flows": 131,
+      "quic_sizes": {
+        "n": 90,
+        "distinct": 9,
+        "top1_share": 0.333,
+        "top2_share": 0.533,
+        "sizes": {
+          "1365": 30,
+          "1366": 18,
+          "1375": 18,
+          "1377": 9,
+          "1363": 7,
+          "1393": 4,
+          "1381": 2,
+          "1372": 1
+        }
+      },
+      "tcp_first_message": {
+        "n": 18,
+        "distinct": 7,
+        "top1_share": 0.222,
+        "top2_share": 0.389,
+        "sizes": {
+          "626": 4,
+          "583": 3,
+          "1454": 3,
+          "753": 3,
+          "234": 2,
+          "746": 2,
+          "751": 1
+        }
+      }
+    },
+    "instagram": {
+      "flows": 19,
+      "quic_sizes": {
+        "n": 18,
+        "distinct": 3,
+        "top1_share": 0.889,
+        "top2_share": 0.944,
+        "sizes": {
+          "1367": 16,
+          "1294": 1,
+          "1365": 1
+        }
+      },
+      "tcp_first_message": null
+    },
+    "mozilla": {
+      "flows": 41,
+      "quic_sizes": {
+        "n": 2,
+        "distinct": 1,
+        "top1_share": 1.0,
+        "top2_share": 1.0,
+        "sizes": {
+          "1366": 2
+        }
+      },
+      "tcp_first_message": {
+        "n": 37,
+        "distinct": 7,
+        "top1_share": 0.243,
+        "top2_share": 0.459,
+        "sizes": {
+          "277": 9,
+          "282": 8,
+          "265": 8,
+          "762": 5,
+          "583": 5,
+          "743": 1,
+          "145": 1
+        }
+      }
+    },
+    "x": {
+      "flows": 73,
+      "quic_sizes": null,
+      "tcp_first_message": {
+        "n": 34,
+        "distinct": 4,
+        "top1_share": 0.882,
+        "top2_share": 0.941,
+        "sizes": {
+          "583": 30,
+          "1454": 2,
+          "323": 1,
+          "365": 1
+        }
+      }
+    },
+    "youtube": {
+      "flows": 55,
+      "quic_sizes": {
+        "n": 31,
+        "distinct": 2,
+        "top1_share": 0.903,
+        "top2_share": 1.0,
+        "sizes": {
+          "1381": 28,
+          "1370": 3
+        }
+      },
+      "tcp_first_message": {
+        "n": 9,
+        "distinct": 3,
+        "top1_share": 0.778,
+        "top2_share": 0.889,
+        "sizes": {
+          "583": 7,
+          "1454": 1,
+          "634": 1
+        }
+      }
+    }
+  }
+}

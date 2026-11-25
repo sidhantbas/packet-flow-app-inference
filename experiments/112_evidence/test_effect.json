@@ -1,0 +1,63 @@
+{
+  "P": {
+    "task": "task1_static",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  },
+  "drop028": {
+    "task": "task1_static",
+    "changed_vs_production_file": 3,
+    "changes": {
+      "flow_000007": "youtube -> google",
+      "flow_000678": "mozilla -> google",
+      "flow_000885": "youtube -> google"
+    }
+  },
+  "drop034": {
+    "task": "task1_static",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  },
+  "drop065": {
+    "task": "task1_static",
+    "changed_vs_production_file": 2,
+    "changes": {
+      "flow_000095": "youtube -> google",
+      "flow_000906": "google -> youtube"
+    }
+  },
+  "drop087": {
+    "task": "task1_static",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  },
+  "drop084": {
+    "task": "task1_static",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  },
+  "drop036": {
+    "task": "task1_static",
+    "changed_vs_production_file": 1,
+    "changes": {
+      "flow_000884": "youtube -> google"
+    }
+  },
+  "drop100": {
+    "task": "task1_static",
+    "changed_vs_production_file": 1,
+    "changes": {
+      "flow_000223": "facebook -> youtube"
+    }
+  },
+  "P2": {
+    "task": "task2_realtime_prefix5",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  },
+  "drop014": {
+    "task": "task2_realtime_prefix5",
+    "changed_vs_production_file": 0,
+    "changes": {}
+  }
+}

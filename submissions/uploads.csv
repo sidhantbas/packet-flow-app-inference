@@ -1,0 +1,12 @@
+upload,date,file,task1_model,task2_model,task1_macro_f1,task2_macro_f1,total,note
+1,2026-09-30,commit 6b76821 (no folder),004 SoftVote,014,0.766,0.905,83.56,
+2,2026-09-30,commit 0a1e0ba (no folder),022,014,0.787,0.905,84.62,
+3,2026-10-09,submissions/best-87.77-frozen-5eb9a8b/,034,014,0.850,0.905,87.77,
+4,2026-10-09,submissions/candidate-066-rest-expert/,066 (never adopted),014,,,about 86,3 Task 1 changes vs upload 3; per-task scores not recorded
+5,2026-10-09,submissions/candidate-083-instagram-verifier/,083,014,0.850,0.905,87.77,byte-identical predictions to upload 3
+6,2026-10-09,submissions/best-88.11-production-084/,084,014,0.857,0.905,88.11,best score; Task 1 derived from the total (Task 2 unchanged)
+7,2026-10-10,submissions/production-089-bundle/,089,014,0.840,0.905,87.24,ranked entry until 2026-10-12 (chosen on CV before the score)
+8,2026-10-12,submissions/production-100-cross-task/,100 (089 + cross-task Meta rescue),014,0.822,0.905,86.36,ranked entry (production 100; fixed before the score); 1 Task 1 change vs upload 7; information only
+9,2026-10-16,submissions/best-88.11-production-084/ (re-upload; uploader to confirm),084,014,0.857,0.905,88.11,platform's 13th Final Test Phase submission (2026-10-16 23:11 UTC); scores identical to upload 6 (Task 1 0.8571 / acc 0.9136; Task 2 0.9051); now the displayed entry; same predictions as upload 6 so it does not meet the upload rule (>= 3 changes)
+10,2026-10-21,submissions/candidate-127-meta-count-guided/,100 + 099 rule D (127: 3 Task 1 flows to instagram),014,0.912,0.905,90.85,"leaderboard row read 2026-10-21 (raw/leaderboard-final-test-2026-10-21.txt): Task 1 0.91 / accuracy 0.90 / 45.60 points, Task 2 0.91 / 0.89 / 45.25, total 90.85, now the displayed entry; uploaded although its rule failed CV (099 D: -0.0169) and the upload rule; information about the test set, not evidence for the rule; submission ID not recorded"
+11,2026-10-21,submissions/candidate-128-109b-task2/,100 + 099 rule D (127),109 B (1 Task 2 change vs upload 10),0.912,,about 87,"reported by Sid as about 87; exact per-task scores to record from the leaderboard; one Task 2 flow changed against upload 10, uploaded although it failed the upload rule (1 change) with condition 3 undecided; information only, never acted on; upload 10 (90.85) stays the displayed entry"

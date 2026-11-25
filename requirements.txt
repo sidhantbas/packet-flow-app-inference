@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+matplotlib
+jupyter
+catboost
+tabpfn
+xgboost==3.4.1  # experiment 103 (LLM_ops reproduction); added 2026-10-13, changed no existing package
+optuna==5.0.0  # experiment 103; added 2026-10-13

@@ -1,0 +1,57 @@
+{
+  "descriptive_auc_30_meta_flows": {
+    "duration": 0.574,
+    "mean_iat": 0.574,
+    "std_iat": 0.526,
+    "max_iat": 0.531,
+    "min_iat": 0.656
+  },
+  "descriptive_auc_10_tied_flows": {
+    "duration": 0.571,
+    "mean_iat": 0.571,
+    "std_iat": 0.571,
+    "max_iat": 0.571,
+    "min_iat": 0.5
+  },
+  "pair_level": {
+    "ordinary": {
+      "P2 (12 columns)": {
+        "auc_mean": 0.59,
+        "auc_sd": 0.057,
+        "two_app_macro_f1_mean": 0.642
+      },
+      "T (12 + timing)": {
+        "auc_mean": 0.562,
+        "auc_sd": 0.057,
+        "two_app_macro_f1_mean": 0.562
+      },
+      "T_minus_P2_auc": -0.028
+    },
+    "exact": {
+      "P2 (12 columns)": {
+        "auc_mean": 0.671,
+        "auc_sd": 0.021,
+        "two_app_macro_f1_mean": 0.649
+      },
+      "T (12 + timing)": {
+        "auc_mean": 0.597,
+        "auc_sd": 0.021,
+        "two_app_macro_f1_mean": 0.59
+      },
+      "T_minus_P2_auc": -0.074
+    },
+    "session": {
+      "P2 (12 columns)": {
+        "auc_mean": 0.712,
+        "auc_sd": 0.019,
+        "two_app_macro_f1_mean": 0.707
+      },
+      "T (12 + timing)": {
+        "auc_mean": 0.65,
+        "auc_sd": 0.018,
+        "two_app_macro_f1_mean": 0.631
+      },
+      "T_minus_P2_auc": -0.062
+    }
+  }
+}

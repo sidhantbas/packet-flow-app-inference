@@ -1,0 +1,84 @@
+{
+  "rule": "099 rule D on production 100 (Task 1); Task 2 production",
+  "expected_instagram": 5,
+  "production_instagram": 2,
+  "k": 3,
+  "flips": [
+    {
+      "flow_id": "flow_000223",
+      "production": "facebook",
+      "candidate": "instagram",
+      "s_ig": 0.427
+    },
+    {
+      "flow_id": "flow_001187",
+      "production": "facebook",
+      "candidate": "instagram",
+      "s_ig": 0.292
+    },
+    {
+      "flow_id": "flow_001003",
+      "production": "google",
+      "candidate": "instagram",
+      "s_ig": 0.184
+    }
+  ],
+  "predicted_counts": {
+    "task1_static": {
+      "google": 32,
+      "x": 20,
+      "youtube": 13,
+      "mozilla": 9,
+      "instagram": 5,
+      "facebook": 2
+    },
+    "task2_realtime_prefix5": {
+      "google": 32,
+      "x": 24,
+      "youtube": 12,
+      "mozilla": 7,
+      "instagram": 4,
+      "facebook": 2
+    }
+  },
+  "differs_from_uploads": {
+    "1": {
+      "task1_static": 11,
+      "task2_realtime_prefix5": 0
+    },
+    "2": {
+      "task1_static": 8,
+      "task2_realtime_prefix5": 0
+    },
+    "3": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 0
+    },
+    "4": {
+      "task1_static": 4,
+      "task2_realtime_prefix5": 0
+    },
+    "5": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 0
+    },
+    "6": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 0
+    },
+    "7": {
+      "task1_static": 3,
+      "task2_realtime_prefix5": 0
+    },
+    "8": {
+      "task1_static": 3,
+      "task2_realtime_prefix5": 0
+    },
+    "9": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 0
+    }
+  },
+  "uploads_missing": [],
+  "cv_evidence": "099 D (cv_seed 2026): flips right 27% (12 of 44), paired \u0394 macro F1 -0.0169, 7 W / 20 L / 23 T"
+}

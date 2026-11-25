@@ -1,0 +1,167 @@
+{
+  "t1": {
+    "submitted_counts": {
+      "youtube": 13,
+      "x": 20,
+      "google": 33,
+      "instagram": 2,
+      "facebook": 4,
+      "mozilla": 9
+    },
+    "L0": {
+      "predicted_counts": {
+        "google": 36,
+        "x": 21,
+        "youtube": 13,
+        "instagram": 3,
+        "facebook": 1,
+        "mozilla": 7
+      },
+      "changed_vs_submitted": 10,
+      "transitions": {
+        "youtube -> google": 3,
+        "facebook -> youtube": 1,
+        "mozilla -> youtube": 1,
+        "mozilla -> x": 1,
+        "facebook -> google": 2,
+        "google -> youtube": 1,
+        "google -> instagram": 1
+      }
+    },
+    "L1": {
+      "predicted_counts": {
+        "google": 33,
+        "x": 25,
+        "instagram": 2,
+        "youtube": 14,
+        "facebook": 1,
+        "mozilla": 6
+      },
+      "changed_vs_submitted": 11,
+      "transitions": {
+        "youtube -> google": 1,
+        "youtube -> x": 2,
+        "facebook -> youtube": 2,
+        "google -> youtube": 2,
+        "mozilla -> x": 3,
+        "facebook -> google": 1
+      }
+    },
+    "L2": {
+      "predicted_counts": {
+        "google": 34,
+        "x": 25,
+        "instagram": 2,
+        "youtube": 13,
+        "facebook": 1,
+        "mozilla": 6
+      },
+      "changed_vs_submitted": 10,
+      "transitions": {
+        "youtube -> google": 1,
+        "youtube -> x": 2,
+        "facebook -> youtube": 2,
+        "google -> youtube": 1,
+        "mozilla -> x": 3,
+        "facebook -> google": 1
+      }
+    },
+    "L3": {
+      "predicted_counts": {
+        "google": 34,
+        "x": 23,
+        "instagram": 2,
+        "youtube": 13,
+        "facebook": 1,
+        "mozilla": 8
+      },
+      "changed_vs_submitted": 8,
+      "transitions": {
+        "youtube -> google": 1,
+        "youtube -> x": 2,
+        "facebook -> youtube": 2,
+        "google -> youtube": 1,
+        "mozilla -> x": 1,
+        "facebook -> google": 1
+      }
+    }
+  },
+  "t2": {
+    "submitted_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "L0": {
+      "predicted_counts": {
+        "youtube": 10,
+        "google": 34,
+        "x": 25,
+        "instagram": 4,
+        "mozilla": 7,
+        "facebook": 1
+      },
+      "changed_vs_submitted": 7,
+      "transitions": {
+        "x -> google": 1,
+        "facebook -> x": 1,
+        "youtube -> google": 3,
+        "google -> youtube": 1,
+        "google -> x": 1
+      }
+    },
+    "L1": {
+      "predicted_counts": {
+        "youtube": 13,
+        "google": 33,
+        "x": 23,
+        "instagram": 4,
+        "facebook": 2,
+        "mozilla": 6
+      },
+      "changed_vs_submitted": 3,
+      "transitions": {
+        "x -> youtube": 1,
+        "x -> google": 1,
+        "mozilla -> x": 1
+      }
+    },
+    "L2": {
+      "predicted_counts": {
+        "youtube": 13,
+        "google": 33,
+        "x": 22,
+        "instagram": 4,
+        "facebook": 2,
+        "mozilla": 7
+      },
+      "changed_vs_submitted": 4,
+      "transitions": {
+        "x -> youtube": 1,
+        "x -> google": 1,
+        "google -> youtube": 1,
+        "youtube -> google": 1
+      }
+    },
+    "L3": {
+      "predicted_counts": {
+        "youtube": 13,
+        "google": 33,
+        "x": 22,
+        "instagram": 4,
+        "facebook": 2,
+        "mozilla": 7
+      },
+      "changed_vs_submitted": 4,
+      "transitions": {
+        "x -> youtube": 1,
+        "x -> google": 1,
+        "google -> youtube": 1,
+        "youtube -> google": 1
+      }
+    }
+  }
+}

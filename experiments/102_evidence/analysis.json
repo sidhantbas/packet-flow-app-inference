@@ -1,0 +1,518 @@
+{
+  "means": {
+    "P": [
+      0.749,
+      0.7647,
+      0.764,
+      0.7602,
+      0.7585
+    ],
+    "F0": [
+      0.7373,
+      0.7373,
+      0.745,
+      0.7414,
+      0.7396
+    ],
+    "F1S": [
+      0.727,
+      0.7312,
+      0.743,
+      0.7416,
+      0.7417
+    ],
+    "F1I": [
+      0.7296,
+      0.7506,
+      0.7483,
+      0.746,
+      0.7471
+    ],
+    "F2S-D": [
+      0.7158,
+      0.7269,
+      0.7174,
+      0.7301,
+      0.7247
+    ],
+    "F2S-S": [
+      0.7164,
+      0.7378,
+      0.7199,
+      0.7353,
+      0.7321
+    ],
+    "F2I-D": [
+      0.7229,
+      0.7394,
+      0.7359,
+      0.7359,
+      0.7301
+    ],
+    "F2I-S": [
+      0.7257,
+      0.7384,
+      0.7443,
+      0.7493,
+      0.7359
+    ]
+  },
+  "pairs": [
+    {
+      "a": "F0",
+      "b": "P",
+      "what": "balanced SoftVote alone vs production",
+      "mean_delta": -0.0192,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0117,
+          "wins": 0,
+          "losses": 8
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0274,
+          "wins": 1,
+          "losses": 20
+        },
+        {
+          "seed": 2103,
+          "delta": -0.019,
+          "wins": 0,
+          "losses": 17
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0188,
+          "wins": 1,
+          "losses": 14
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0189,
+          "wins": 0,
+          "losses": 19
+        }
+      ]
+    },
+    {
+      "a": "F1S",
+      "b": "F0",
+      "what": "sigmoid calibration",
+      "mean_delta": -0.0032,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0102,
+          "wins": 14,
+          "losses": 14
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0061,
+          "wins": 14,
+          "losses": 15
+        },
+        {
+          "seed": 2103,
+          "delta": -0.002,
+          "wins": 18,
+          "losses": 12
+        },
+        {
+          "seed": 2104,
+          "delta": 0.0002,
+          "wins": 16,
+          "losses": 13
+        },
+        {
+          "seed": 2105,
+          "delta": 0.0021,
+          "wins": 17,
+          "losses": 7
+        }
+      ]
+    },
+    {
+      "a": "F1I",
+      "b": "F0",
+      "what": "isotonic calibration",
+      "mean_delta": 0.0042,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0077,
+          "wins": 17,
+          "losses": 24
+        },
+        {
+          "seed": 2102,
+          "delta": 0.0133,
+          "wins": 23,
+          "losses": 19
+        },
+        {
+          "seed": 2103,
+          "delta": 0.0033,
+          "wins": 23,
+          "losses": 14
+        },
+        {
+          "seed": 2104,
+          "delta": 0.0047,
+          "wins": 21,
+          "losses": 23
+        },
+        {
+          "seed": 2105,
+          "delta": 0.0075,
+          "wins": 24,
+          "losses": 17
+        }
+      ]
+    },
+    {
+      "a": "F2S-D",
+      "b": "F1S",
+      "what": "disclosed counts after sigmoid",
+      "mean_delta": -0.0139,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0112,
+          "wins": 16,
+          "losses": 34
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0043,
+          "wins": 21,
+          "losses": 29
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0256,
+          "wins": 14,
+          "losses": 36
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0115,
+          "wins": 17,
+          "losses": 33
+        },
+        {
+          "seed": 2105,
+          "delta": -0.017,
+          "wins": 16,
+          "losses": 34
+        }
+      ]
+    },
+    {
+      "a": "F2S-S",
+      "b": "F1S",
+      "what": "share counts after sigmoid",
+      "mean_delta": -0.0086,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0106,
+          "wins": 16,
+          "losses": 33
+        },
+        {
+          "seed": 2102,
+          "delta": 0.0066,
+          "wins": 23,
+          "losses": 27
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0232,
+          "wins": 13,
+          "losses": 37
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0063,
+          "wins": 20,
+          "losses": 30
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0096,
+          "wins": 18,
+          "losses": 32
+        }
+      ]
+    },
+    {
+      "a": "F2S-D",
+      "b": "F2S-S",
+      "what": "the disclosure itself (sigmoid)",
+      "mean_delta": -0.0054,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0007,
+          "wins": 11,
+          "losses": 19
+        },
+        {
+          "seed": 2102,
+          "delta": -0.011,
+          "wins": 7,
+          "losses": 23
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0025,
+          "wins": 15,
+          "losses": 15
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0052,
+          "wins": 10,
+          "losses": 20
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0074,
+          "wins": 9,
+          "losses": 21
+        }
+      ]
+    },
+    {
+      "a": "F2I-D",
+      "b": "F1I",
+      "what": "disclosed counts after isotonic",
+      "mean_delta": -0.0115,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0067,
+          "wins": 20,
+          "losses": 30
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0112,
+          "wins": 17,
+          "losses": 33
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0123,
+          "wins": 19,
+          "losses": 31
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0101,
+          "wins": 16,
+          "losses": 34
+        },
+        {
+          "seed": 2105,
+          "delta": -0.017,
+          "wins": 17,
+          "losses": 33
+        }
+      ]
+    },
+    {
+      "a": "F2I-S",
+      "b": "F1I",
+      "what": "share counts after isotonic",
+      "mean_delta": -0.0056,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0039,
+          "wins": 17,
+          "losses": 32
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0122,
+          "wins": 17,
+          "losses": 33
+        },
+        {
+          "seed": 2103,
+          "delta": -0.004,
+          "wins": 22,
+          "losses": 28
+        },
+        {
+          "seed": 2104,
+          "delta": 0.0033,
+          "wins": 22,
+          "losses": 28
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0112,
+          "wins": 16,
+          "losses": 34
+        }
+      ]
+    },
+    {
+      "a": "F2S-D",
+      "b": "P",
+      "what": "the claim (sigmoid) vs production",
+      "mean_delta": -0.0363,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0332,
+          "wins": 9,
+          "losses": 41
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0379,
+          "wins": 9,
+          "losses": 41
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0466,
+          "wins": 9,
+          "losses": 41
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0301,
+          "wins": 8,
+          "losses": 42
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0338,
+          "wins": 9,
+          "losses": 41
+        }
+      ]
+    },
+    {
+      "a": "F2I-D",
+      "b": "P",
+      "what": "the claim (isotonic) vs production",
+      "mean_delta": -0.0264,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.026,
+          "wins": 17,
+          "losses": 33
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0254,
+          "wins": 13,
+          "losses": 37
+        },
+        {
+          "seed": 2103,
+          "delta": -0.028,
+          "wins": 14,
+          "losses": 36
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0243,
+          "wins": 10,
+          "losses": 40
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0284,
+          "wins": 15,
+          "losses": 35
+        }
+      ]
+    },
+    {
+      "a": "F2S-S",
+      "b": "P",
+      "what": "compliant version (sigmoid) vs production",
+      "mean_delta": -0.031,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0325,
+          "wins": 11,
+          "losses": 39
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0269,
+          "wins": 12,
+          "losses": 38
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0441,
+          "wins": 9,
+          "losses": 41
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0249,
+          "wins": 12,
+          "losses": 38
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0264,
+          "wins": 11,
+          "losses": 39
+        }
+      ]
+    },
+    {
+      "a": "F2I-S",
+      "b": "P",
+      "what": "compliant version (isotonic) vs production",
+      "mean_delta": -0.0206,
+      "per_seed": [
+        {
+          "seed": 2101,
+          "delta": -0.0233,
+          "wins": 13,
+          "losses": 37
+        },
+        {
+          "seed": 2102,
+          "delta": -0.0264,
+          "wins": 14,
+          "losses": 36
+        },
+        {
+          "seed": 2103,
+          "delta": -0.0197,
+          "wins": 19,
+          "losses": 31
+        },
+        {
+          "seed": 2104,
+          "delta": -0.0109,
+          "wins": 19,
+          "losses": 31
+        },
+        {
+          "seed": 2105,
+          "delta": -0.0226,
+          "wins": 17,
+          "losses": 33
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "trace_matches_saved_oof": true,
+  "facebook_held_out_predictions": 110,
+  "facebook_correct": 79,
+  "facebook_errors_by_category": {
+    "C all experts wrong": 22,
+    "B experts disagree, production picks wrong": 6,
+    "A correct evidence lost by decision logic": 3
+  },
+  "facebook_errors_first_change": {
+    "none (avg label kept)": 28,
+    "gate: introduces error": 3
+  },
+  "false_positive_predictions": 40,
+  "false_positive_by_true": {
+    "instagram": 27,
+    "google": 10,
+    "youtube": 2,
+    "x": 1
+  },
+  "false_positive_first_change": {
+    "none (avg label kept)": 30,
+    "whole_meta: introduces error": 5,
+    "gate: introduces error": 5
+  },
+  "false_positives_by_category": {
+    "C all experts wrong": 26,
+    "B experts disagree, production picks wrong": 6,
+    "A correct evidence lost by decision logic": 8
+  },
+  "facebook_expert_right_rate": {
+    "e_whole": 0.591,
+    "e_open": 0.418,
+    "e_rest": 0.491
+  },
+  "facebook_stage_right_rate": {
+    "avg": 0.445,
+    "gate": 0.582,
+    "whole_meta": 0.718,
+    "fb_keep": 0.718,
+    "ig_revert": 0.718,
+    "verifiers": 0.718,
+    "h1_final": 0.718
+  },
+  "facebook_acc_by_near_twin": {
+    "False": 0.67,
+    "True": 1.0
+  },
+  "facebook_acc_by_opening_match": {
+    "False": 0.667,
+    "True": 0.805
+  }
+}

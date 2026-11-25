@@ -1,0 +1,1600 @@
+{
+  "experiment": "122",
+  "created_utc": "2026-10-20T21:52:33+00:00",
+  "repository_root": "~/work/mission-p",
+  "raw_root": "data/captures/raw",
+  "groups": {
+    "sid-iphone-20261008T233855Z": {
+      "path": "data/captures/raw/sid-iphone-20261008T233855Z",
+      "environment": {
+        "file": "data/captures/raw/sid-iphone-20261008T233855Z/environment.md",
+        "sha256": "1d64618dcb1b601ba7a14fa0b625722033030f7c5820757bbc547ab5208bd680",
+        "fill_in_fields": []
+      },
+      "group_files": [
+        {
+          "name": "environment.md",
+          "bytes": 1140,
+          "sha256": "1d64618dcb1b601ba7a14fa0b625722033030f7c5820757bbc547ab5208bd680"
+        },
+        {
+          "name": "pilot-log.tsv",
+          "bytes": 1723,
+          "sha256": "fb4bc6bb3ee101501680522a61455615a6f85caf3dc95e6f1e7eeb08b9b4b0c9"
+        },
+        {
+          "name": "rvi-active-devices.txt",
+          "bytes": 80,
+          "sha256": "8e2e70f3b6743e013df52bc7e4e253cff23bd5f5f88b971b8ce160e683898c6c"
+        },
+        {
+          "name": "rvi-devices-after-stop.txt",
+          "bytes": 32,
+          "sha256": "a57507cdb96edf7901ea7c5b09bacbcefb0de79ebbc6477ec7a3ef73ba4f5ce0"
+        },
+        {
+          "name": "rvi-interface-details.txt",
+          "bytes": 45,
+          "sha256": "732c0f3600ed378f1085c260354e4d61cffebaf718001ca1e970c26effcb31ff"
+        },
+        {
+          "name": "rvi-interface.txt",
+          "bytes": 5,
+          "sha256": "79759a39acdeebed8e9f804f31c32905595f6be7905f9052840049fe98273c1a"
+        },
+        {
+          "name": "rvi-start.txt",
+          "bytes": 228,
+          "sha256": "ccd5d793d748d9b8550a03cf2e9a5ae645eb727be42d06ae449b8da13dc0955c"
+        },
+        {
+          "name": "rvi-stop.txt",
+          "bytes": 183,
+          "sha256": "a8bd7185278e7ecbbc48e090df76b626de4a3ae2422c6a8b1aef6104d0d7da37"
+        },
+        {
+          "name": "setup.txt",
+          "bytes": 450,
+          "sha256": "65baeeef6c0b58853c463665c2bb7db00c493db3f0221cae62809fa9a8d1ba50"
+        },
+        {
+          "name": "summary.md",
+          "bytes": 5003,
+          "sha256": "b1d03cb1f59786e4ef393f3dc5c620aa0d28354e8b839befe6a8b6fabbdf3a3c"
+        }
+      ],
+      "sessions": {
+        "00-preflight": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/00-preflight",
+          "listed_in_sessions_csv": false,
+          "session_app": null,
+          "start_utc": null,
+          "end_utc": null,
+          "files": [
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "b6b142b8cf3b6471ffddb4b854f1f3f29aac21e0aec9cb65666b4d4341259f0e"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "a4796333796000fa7f66ff7c4dfe8e84e0891c570b8cc7e19de81fa6411379c0"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 176,
+              "sha256": "fc7e41a7eb953242b87ff727655f8af39f2c023c227b23040b80b6a51113717a"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1304,
+              "sha256": "eebdc0c8acc2709ffd15219d144a5b40ba63785548836afea98f3359a0c9fa2e"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "f19dfefaae651e3131d8a593510d0460f83ebc42a95fc462ceef5a70681d03fe"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 10992716,
+              "sha256": "5d0799af2a4310e7b7d2d30066549b89f39a9b35279c15ddd422f26646f88251"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 166,
+              "sha256": "5ab5d662513ba3c977a5d25c4ced04398398d1b1c7ba322b6cc29fe666e6bc6b"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 126,
+              "sha256": "00ad828da2c28824f8b6d1b4d814e0c05275178e189728c28302e94e891d5667"
+            }
+          ],
+          "file_count": 8,
+          "bytes_total": 10994540,
+          "missing_standard_files": [
+            "actions.tsv",
+            "metadata-readback.log",
+            "metadata-sample.txt"
+          ],
+          "tcpdump": {
+            "captured": 11473,
+            "received_by_filter": 11474,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "5d0799af2a4310e7b7d2d30066549b89f39a9b35279c15ddd422f26646f88251",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 11473,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "00b-preflight-web": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/00b-preflight-web",
+          "listed_in_sessions_csv": false,
+          "session_app": null,
+          "start_utc": null,
+          "end_utc": null,
+          "files": [
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "a7549fba0bf46880fc4a3fcdd640409d9c3ca14a012acdf3b177269d880d66d1"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "0f5cc5dd32a2215a535d6a6594f861138580758cc533c27a929dcb9cdd3e2e3f"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 176,
+              "sha256": "eceeb054a13a3a235ef96cf7036df94101b234c0d13de129c057630cfcdbebe8"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1590,
+              "sha256": "f115340b747e81ed571d5980e9dabdf3e9b261d93f851a31f34e5c3effb80897"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "4a8044a022147e574e20ae5aef289912903564f20e607e776b435a318b8e5faa"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 10766232,
+              "sha256": "e89b222333b0cb831b2a45f699e19bdeb067995668d3f44d6bd532cbd0582b9a"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 171,
+              "sha256": "5dfa219f133e3a79235be10447157c338c564ba022a2129be315ecaa5945469f"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 131,
+              "sha256": "3325129923a439e1a39e6f462ca5baf8c17e4f3bf072cb734d421dfecc622462"
+            }
+          ],
+          "file_count": 8,
+          "bytes_total": 10768352,
+          "missing_standard_files": [
+            "actions.tsv",
+            "metadata-readback.log",
+            "metadata-sample.txt"
+          ],
+          "tcpdump": {
+            "captured": 10982,
+            "received_by_filter": 10985,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "e89b222333b0cb831b2a45f699e19bdeb067995668d3f44d6bd532cbd0582b9a",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 10982,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "00b-preflight-websudo": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/00b-preflight-websudo",
+          "listed_in_sessions_csv": false,
+          "session_app": null,
+          "start_utc": null,
+          "end_utc": null,
+          "files": [],
+          "file_count": 0,
+          "bytes_total": 0,
+          "missing_standard_files": [
+            "actions.tsv",
+            "capture-finished.txt",
+            "capture-start-request.txt",
+            "capture.log",
+            "header-sample.txt",
+            "metadata-readback.log",
+            "metadata-sample.txt",
+            "packet-file-bytes.txt",
+            "packets.pcapng",
+            "packets.sha256",
+            "readback.log"
+          ],
+          "tcpdump": {
+            "captured": null,
+            "received_by_filter": null,
+            "dropped_by_kernel": null,
+            "interface": null,
+            "link_type": null
+          }
+        },
+        "01-idle": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/01-idle",
+          "listed_in_sessions_csv": true,
+          "session_app": "idle",
+          "start_utc": "2026-10-08T23:54:31Z",
+          "end_utc": "2026-10-08T23:55:31Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 173,
+              "sha256": "9dae30801fd1e1554ea8bac7956920861020e777ef743c3d273f82f7a6739aa0"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "dc7e2eb984620f0248421458a1594007872401866ca671f72c759bc0374680d0"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "c97589ad2baec7530095d7420579cebc95caf735bb4671b2f365a2a707a53ba1"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 182,
+              "sha256": "64a3a861527dea37778336cc86a9e18d0e4d324ebd5c229f23d65fe41b43cc06"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1354,
+              "sha256": "868c0aab7795eab8b8e73a265c46ff9e7dafff825602d1c73325b8cc9a9d01c3"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 121,
+              "sha256": "477c00e98b1b48a3c4729b35bc09f8bdfa4f4311c5abbe7404ae9996eb598fee"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1780,
+              "sha256": "dc89b51cf51d7d7474e4419861e80c366ed4e2cf4df4a1f1a03803a928bc6c8c"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 9,
+              "sha256": "6d88aa0e70dc972bd42f3789bad3ee8cb3596d94484a5c549bf6f2137b40c501"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 90456,
+              "sha256": "5ef93fb40557eae4871a3cdfc66cf3b27228a0bbb83792063b7647bc7493da34"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 161,
+              "sha256": "1f73fd6137b4021cdc7d9895cfe23b10ed61c9c0d7f526b9a068ca012e0b6bcc"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 121,
+              "sha256": "477c00e98b1b48a3c4729b35bc09f8bdfa4f4311c5abbe7404ae9996eb598fee"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 94399,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 366,
+            "received_by_filter": 367,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "5ef93fb40557eae4871a3cdfc66cf3b27228a0bbb83792063b7647bc7493da34",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 366,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "02-facebook-feed": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/02-facebook-feed",
+          "listed_in_sessions_csv": true,
+          "session_app": "facebook",
+          "start_utc": "2026-10-08T23:56:36Z",
+          "end_utc": "2026-10-08T23:57:37Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 182,
+              "sha256": "47f99d18fe5ba60fc0e34620436b018eb221cb9cb0a9288482173af3f651fd71"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "7b20e8c0fd4ba28139b7740e29d3f686f501594dc0e7990cf0f309a5ef1208bd"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "55282b634014c9f0f317400c4a3e7d9c14f21b0bfdd41f40fe37a573cd07304c"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "bef2e2e336b6af36b3bed87dde8c5644d0387f21540846907649f949b829b273"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1355,
+              "sha256": "1d8a7c7b3da76183ccb9efa24e4b2e27031719aded634388d308ca4cba5668ac"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 130,
+              "sha256": "3d5b4a1f2ed2dcee80a71d9ed7d1cedc3116a4de98ff913864c38a1ba8107027"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1820,
+              "sha256": "01ad6c093ca1d1fee6ec8b194e6f5b074507fd1aa9b0732095af9c008359b019"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "7d4ca524aa370d5741f9b0ef4835df44d9565ebeb1d34114f3d41d1a0e442c2c"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 37429684,
+              "sha256": "6a539228a4ee3ae3e03c2f0d6e8040d6e26ae0df55aae1985b4b22504fd52dad"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 170,
+              "sha256": "c385a8d5594a6d5129a5ed6c290c67c6c29ec35496e4b5ac13776c0b66edfea7"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 130,
+              "sha256": "3d5b4a1f2ed2dcee80a71d9ed7d1cedc3116a4de98ff913864c38a1ba8107027"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 37433709,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 32397,
+            "received_by_filter": 32453,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "6a539228a4ee3ae3e03c2f0d6e8040d6e26ae0df55aae1985b4b22504fd52dad",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 32397,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "03-facebook-reels": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/03-facebook-reels",
+          "listed_in_sessions_csv": true,
+          "session_app": "facebook",
+          "start_utc": "2026-10-08T23:58:29Z",
+          "end_utc": "2026-10-08T23:59:30Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 188,
+              "sha256": "b8a8a6e24c935455bf6d7dc7fbf32f2e371e46dff0c1c3b456b0f8ecbddcc76a"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "1e14bbe0ae8bf9ac8ca9318f52dd342ea871852f7a6461756398e01e46960a17"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "4a3c6aa384f9cdeac94c7b45e4b4f85298ca2226bdbc35747e82f5db80b9d353"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "475d8c600121afd1eb003d4098e06f5f0ac7966e02924ab17d7ddb6b895ee94f"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1247,
+              "sha256": "005eef404e3b95bb9500665fe2759a77d6eaddadddf1d4ad05aef2c769484c3d"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 131,
+              "sha256": "3af8f4b4938031686c80c002456d765a0a26068e709417156dd61bba5d658671"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1661,
+              "sha256": "c8dfb426bd48550e2262f61613fc843deec113fb00e51602a11d20cce413a2b4"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "437062a25e5ab224a11e8eeac1c20a8ed9a0dcd715adb5c9e37d666031bae499"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 47917804,
+              "sha256": "814601912be38efe5170e1b7f491e81d330dc24aea8e28b81df3a352904c87ee"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 171,
+              "sha256": "7457440b0320f10fcd9f6574eb16006ac1f8884c5b7e0171d95eccd62b44b891"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 131,
+              "sha256": "3af8f4b4938031686c80c002456d765a0a26068e709417156dd61bba5d658671"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 47921571,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 40611,
+            "received_by_filter": 40615,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "814601912be38efe5170e1b7f491e81d330dc24aea8e28b81df3a352904c87ee",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 40611,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "04-instagram-feed": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/04-instagram-feed",
+          "listed_in_sessions_csv": true,
+          "session_app": "instagram",
+          "start_utc": "2026-10-09T00:00:15Z",
+          "end_utc": "2026-10-09T00:01:16Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 183,
+              "sha256": "ed7bbdf928f690dadd7b5a1b6bbcab748a1185b69f0e0b0e0246ce16ac42fa81"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "ea8fe7de1d3c09057105c3168bf11a47653a2f8ebd6d1aeda90246e80049e58e"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "41c94ddeab323e48717dbacdcc8ba3c9cf46c76b262bb115ce6f7896bf93b27e"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "5348a4da9be0ab48d301ecda02a2c7bdce13701e8922cc0b9ed871e26a6e3d56"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1305,
+              "sha256": "bc3dceedb95739597f7c00483929d10ab1c7ab9e261469291ad9040934116130"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 131,
+              "sha256": "861b45afba83d8ff3e71bef034eb4ceffc985191a72eb5acd295c55d0225accd"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1746,
+              "sha256": "e000e1aaf723e5d7484f2d07371fada19e45e4f1911dafc137c7fec8bc495d7a"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "85ae08150fa65dce132cc770082079780afed1b57fbf48539489c6a4ede09ff6"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 30940636,
+              "sha256": "bf67c0de5ce994823acd332ce7277d38974dbd9808f0045d73d0d9377df4f372"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 171,
+              "sha256": "e6d0b783f93e0f48e9db16538c81670986efd60e2b4f0e5025e7b35527cf1464"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 131,
+              "sha256": "861b45afba83d8ff3e71bef034eb4ceffc985191a72eb5acd295c55d0225accd"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 30944541,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 25425,
+            "received_by_filter": 25466,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "bf67c0de5ce994823acd332ce7277d38974dbd9808f0045d73d0d9377df4f372",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 25425,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "04-instagram-feed-cellular": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/04-instagram-feed-cellular",
+          "listed_in_sessions_csv": true,
+          "session_app": "instagram",
+          "start_utc": "2026-10-09T11:31:13Z",
+          "end_utc": "2026-10-09T11:32:13Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 183,
+              "sha256": "ae9ec7478d57973822d719893ef44c0ee10982049f20a56e8c972fdc9f7c4972"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "d7b605bdb38007897775c440126c0bdcbfb205ca67523909e63d6b5c4b033764"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "85d43879b368e6138075857a2afd065e3731b224271dddb659699c256d84e2e8"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "dd3e32580903a77d2331958b64849fcd0336dc840f5e7aac6cf25c8983297c21"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1160,
+              "sha256": "cc52e46ce352de34824b040ed8cc05e669cc259cd122a58c651f98a017c66283"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 140,
+              "sha256": "3e6c3a78366e5da075a15f0d87cb7e3f9205866045240c1762324b4257520f94"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1591,
+              "sha256": "9394aad33e95d3a959cb531a3c6e527561ed98f20c9bd850e45a64b726da0e63"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "ad126e2d81f4b3726511fe9ac864da3c426e6e8f55ca7b1b4d130d0cf13a1ac3"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 33910948,
+              "sha256": "6c1b43dc824206be072fd1cfb85c9d2ea9e82ad871e476e4be6d496b917dc60e"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 180,
+              "sha256": "0b69a206fc15906f81256df190fafea2d447fe388db4020fb4ff0eb9c24c8350"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 140,
+              "sha256": "3e6c3a78366e5da075a15f0d87cb7e3f9205866045240c1762324b4257520f94"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 33914580,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 28377,
+            "received_by_filter": 28763,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "6c1b43dc824206be072fd1cfb85c9d2ea9e82ad871e476e4be6d496b917dc60e",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 28377,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "05-instagram-reels": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/05-instagram-reels",
+          "listed_in_sessions_csv": true,
+          "session_app": "instagram",
+          "start_utc": "2026-10-09T00:01:59Z",
+          "end_utc": "2026-10-09T00:02:59Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 189,
+              "sha256": "44fe3c8eb8a5d1c1a63e8bc840d7a076523fd504ee5277bce2a83488be7758e5"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "108ca86b95fb30bbf455873210c2b9032e7e245d64e762af606d8b4e2b429b8a"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "312d3c19af546f4cd6185bb16b1d9ed16540182554a1dc2b2d78bab11e9ed64c"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "db5a11e74ce1e83cd5ff90e405b8b5d69d13e7c52d236c2ef26bf4e5d8d31d8a"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1305,
+              "sha256": "e965fb513a7139d6679702ffbecb87ada697676099e6470304d3d3a6f01ce90e"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 132,
+              "sha256": "0ae67fd3fa28bcf2b9eb640d80fe9d07ca7940c2c2da4b82b6eff2a693bfe6d4"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1746,
+              "sha256": "7aa8b7e6ab53808d1d099793a55963d0bb14894a269ccbab424cbeb5d1e0d7c6"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "35af95afca3b050efbdef5104b18517c7ef554e2a71b6072ab9dab91ca6e3fe7"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 53010780,
+              "sha256": "90674f9e68310cacac09afb73ded81b02fd49f55391a5bf7b6f89f4e8884dfe3"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 172,
+              "sha256": "546c39ee1abd097a4f1c7417176f7b53682e1ba2b8e227b4e92104359a8afcc4"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 132,
+              "sha256": "0ae67fd3fa28bcf2b9eb640d80fe9d07ca7940c2c2da4b82b6eff2a693bfe6d4"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 53014694,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 41500,
+            "received_by_filter": 41503,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "90674f9e68310cacac09afb73ded81b02fd49f55391a5bf7b6f89f4e8884dfe3",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 41500,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "06-youtube-video": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/06-youtube-video",
+          "listed_in_sessions_csv": true,
+          "session_app": "youtube",
+          "start_utc": "2026-10-09T00:03:44Z",
+          "end_utc": "2026-10-09T00:04:45Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 180,
+              "sha256": "ab1c215d0ba3a83981363706e1884f756f64f5814c765c71a7c6200077ae05fb"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "ad1be93a7ce24543fa162ecf5d45a2c58d2e557699564e511f256eefd5a7dc3f"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "52bf098f7bbe14111a98d838dbecb406b4d64f6d489309da93f290611ba5ef47"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 186,
+              "sha256": "e579c5dc77dcc7c82999878ea6ff2354b8b1b184c62efcb4cdef6f4f3c6a3749"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1306,
+              "sha256": "0d98cfc1c101f2a4d69d407af6d5051677aa0f1795a0a2add878e68bab074560"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 130,
+              "sha256": "9b4323b894dbbc8e796050e2e40fee4d3dbfefceb1ebd7fbc3d1ea2878d023a0"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1771,
+              "sha256": "b0238e30013bff40f48e53fee466135a383fecf6b844a39fd1530f3b71b13a8d"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "8021b57ca346897c54f736e8ac86ed90a6e5a66ce3e50882bba1c95332fa57be"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 43388248,
+              "sha256": "edc248a2b92434fd9251e5d6e2594f8671ff79f9e1fdc54280c90f598b73244b"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 170,
+              "sha256": "00a611c813be8137d93867511b71367ba7e336511d9926a60854dcbd7a2697fd"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 130,
+              "sha256": "9b4323b894dbbc8e796050e2e40fee4d3dbfefceb1ebd7fbc3d1ea2878d023a0"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 43392173,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 33662,
+            "received_by_filter": 33668,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "edc248a2b92434fd9251e5d6e2594f8671ff79f9e1fdc54280c90f598b73244b",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 33662,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "07-idle-after": {
+          "path": "data/captures/raw/sid-iphone-20261008T233855Z/07-idle-after",
+          "listed_in_sessions_csv": true,
+          "session_app": "idle",
+          "start_utc": "2026-10-09T00:05:53Z",
+          "end_utc": "2026-10-09T00:06:53Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 172,
+              "sha256": "3ef6f585d32923c7b7c9c8fc6c9d4269e158688657311c05f52242db9e13986d"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "0fd1c3ce825fd6b7696f6e7241a54fd1646c4f231f4962b694a96d784015bfb9"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "24a70819439bd3c2b2d5678649e8050e2db2aa0766f40894ba3d601dac60fa01"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 182,
+              "sha256": "ea0a6555d7485dd55a7309da4a60f0f1bc57c5a617b528ca10bf4f8643ded21b"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1357,
+              "sha256": "74595b79d8ac00d29e1294041a07b7a1845cc7d28f05e5af123432216ff506c4"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 127,
+              "sha256": "231da390f38312878b5d024ac765593c622fe8d5cc5bf09017612c96844542a3"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1822,
+              "sha256": "f1a938da0e69934b9f7b09155d14928b1da5f43a7c60c8115c3c364ef28c9f43"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 9,
+              "sha256": "c7b0d2d2e522337a5fb2e081c5e78a8c5582261b303e1b31a9b7573bbe2a6d8a"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 44492,
+              "sha256": "16b6d2ccf86f5f19f9f4252fbc49629a0807cbcb7b8a55746c8b07c080186001"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 167,
+              "sha256": "05bff1e80850b112cf60551704d4acb5c4058192221fa3f7f5b32d885d792dcc"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 127,
+              "sha256": "231da390f38312878b5d024ac765593c622fe8d5cc5bf09017612c96844542a3"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 48497,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 284,
+            "received_by_filter": 289,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "16b6d2ccf86f5f19f9f4252fbc49629a0807cbcb7b8a55746c8b07c080186001",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 284,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        }
+      }
+    },
+    "sid-iphone-20261009T115620Z-long-cellular": {
+      "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular",
+      "environment": {
+        "file": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/environment.md",
+        "sha256": "4c72a0d1272fc8e5ced8447dd8d11c438fa431e66035202564d118352f3c0944",
+        "fill_in_fields": [
+          "Data Mode",
+          "Auto-Lock",
+          "iOS version",
+          "Facebook",
+          "Instagram",
+          "YouTube",
+          "VPN",
+          "iCloud Private Relay",
+          "Signal (bars, 4G/5G)",
+          "Apps closed before their session",
+          "Logged in to all apps",
+          "What you did in each app (feed, Reels, Stories, videos, pauses)",
+          "Anything unusual (calls, notifications, buffering, app updates, settings changed)"
+        ]
+      },
+      "group_files": [
+        {
+          "name": "environment.md",
+          "bytes": 711,
+          "sha256": "4c72a0d1272fc8e5ced8447dd8d11c438fa431e66035202564d118352f3c0944"
+        },
+        {
+          "name": "pilot-log.tsv",
+          "bytes": 990,
+          "sha256": "fec7af7c0967bf41d822233204eda7dd5d162ede8563e3c6b766fd58131f4344"
+        },
+        {
+          "name": "rvi-devices-after-stop.txt",
+          "bytes": 32,
+          "sha256": "a57507cdb96edf7901ea7c5b09bacbcefb0de79ebbc6477ec7a3ef73ba4f5ce0"
+        },
+        {
+          "name": "rvi-interface-details.txt",
+          "bytes": 45,
+          "sha256": "732c0f3600ed378f1085c260354e4d61cffebaf718001ca1e970c26effcb31ff"
+        },
+        {
+          "name": "rvi-start.txt",
+          "bytes": 76,
+          "sha256": "b55050b057c8cf9489f869f1c5350529b9eb4985f16a8727227da19fac5931bc"
+        },
+        {
+          "name": "rvi-stop.txt",
+          "bytes": 56,
+          "sha256": "2c556a393383529db078afa2803a59fac4c3a115102e3f6e201a328643ffef43"
+        },
+        {
+          "name": "setup.txt",
+          "bytes": 450,
+          "sha256": "37f0e7713c47096cf85d74988d673641e64b2a1bbbf295033faf71410b44be08"
+        },
+        {
+          "name": "summary.md",
+          "bytes": 1503,
+          "sha256": "ff19a2c3b9b663a76c75101945315b7f896add9ab4d96a78cf7c06297e7a7626"
+        }
+      ],
+      "sessions": {
+        "01-idle": {
+          "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/01-idle",
+          "listed_in_sessions_csv": true,
+          "session_app": "idle",
+          "start_utc": "2026-10-09T11:56:41Z",
+          "end_utc": "2026-10-09T11:57:41Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 173,
+              "sha256": "ec7d7cf3e8789bbb9492b43ea181574afdb9cde86b65ce975c1f08d2deda1f7e"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "4e5f2207d6bf6acbff5a429b541680c1d9d708426f815984d9fd37260b554365"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "588ac386773ab19708245c64e5e69444b152f1d8cd2292ecd0fbf74c42ba3bd1"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 182,
+              "sha256": "8e53cbda85dc552fff2f32ec4824233ea1d889e094abb8531b967f8ec8fb4f61"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1275,
+              "sha256": "d2a2a509c8b816fdcb5308f9d07e76a963fed02eeb4c8f878fe25d7a988c11d0"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 135,
+              "sha256": "70de30642a0bac09143a9e636eec8612cbcc3dffa8a1b4ab377bc15c1d991afb"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1709,
+              "sha256": "118452658c53c934036703d7ea27c5cc4b5b7850d0273190325e71e650b2f89c"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 9,
+              "sha256": "5fb2fb6d52fea3efe05d2a8aa9be85e4579b0e29ddd7385972356405af6eb854"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 80772,
+              "sha256": "0e366b87f32e739e16f845428c5fec9b4d902154c44f703c67c018f31e65cec8"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 175,
+              "sha256": "57854c2059834aaefc1d9b06b1a91f129644a525e06edd17c7102a0da3c1911d"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 135,
+              "sha256": "70de30642a0bac09143a9e636eec8612cbcc3dffa8a1b4ab377bc15c1d991afb"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 84607,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 437,
+            "received_by_filter": 439,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "0e366b87f32e739e16f845428c5fec9b4d902154c44f703c67c018f31e65cec8",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 437,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "02-facebook": {
+          "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/02-facebook",
+          "listed_in_sessions_csv": true,
+          "session_app": "facebook",
+          "start_utc": "2026-10-09T11:58:33Z",
+          "end_utc": "2026-10-09T12:18:33Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 284,
+              "sha256": "52a52aaf6777f0ec4ed0f2f1b8a1db0466aafdb7872858fbe1ecc2354b4e78ec"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "052dcd3ad19dcf4402f4c2941cd1a06dc0b802d6eaf9158c123af0e515df7dc1"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "b548457b4053752e85bc266d375492308f6888c3163fe3c44fec0042f86e8fc6"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 188,
+              "sha256": "f315c925777fd29d4ee4f7d34bb192b81d2d89fab5a05f6170f164bcdce12848"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1305,
+              "sha256": "70f0eae5dcee55c056a20df7d56763854df38557493213b16a4354b1803816dd"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 139,
+              "sha256": "83f1707f1b101079ce080eb14e1c758226b6c57cf0bc50a828c6c6fd559a04f5"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1744,
+              "sha256": "2627ee8768c1b1e50d8b3026529a7bf5331fc56673a06ec72790b07414177b44"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 11,
+              "sha256": "e372efc42899c95093c3b6b725416540cb44a9e4a5beedf606010492bf251ff2"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 280724024,
+              "sha256": "216ff75821c2fdba80c1c22c53118234db966c30c41d302f6a2497e1d3d3f3cd"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 179,
+              "sha256": "aa2e89ab71ce6bf817ee3be85b936d1bf8a4c38a0351bd8b6fb2546b1407dff6"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 139,
+              "sha256": "83f1707f1b101079ce080eb14e1c758226b6c57cf0bc50a828c6c6fd559a04f5"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 280728055,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 255147,
+            "received_by_filter": 255183,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "216ff75821c2fdba80c1c22c53118234db966c30c41d302f6a2497e1d3d3f3cd",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 255147,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "03-instagram": {
+          "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/03-instagram",
+          "listed_in_sessions_csv": true,
+          "session_app": "instagram",
+          "start_utc": "2026-10-09T12:19:41Z",
+          "end_utc": "2026-10-09T12:39:41Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 274,
+              "sha256": "c50cf824639df2fffb5157488bb2233ea65e4dbb3d6c574607414e58f4a37e55"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "ae0b1f781116208bd61d2e5bf84626bdd886046b0c1bac92f36bee51fb580b73"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "8cb10158056756e25894bae67a9b03a3bae3f725d5c1ae096baa3fa57ca8fe6c"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 188,
+              "sha256": "2fd8ba76a3b7078dbf64ef1b54e28dff5c4ed71219acb53ad9fb6cc298ac0544"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1303,
+              "sha256": "7d328f81c78bec4b8d32b774e10f1f49b470e055492dbe8b93047a15af407282"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 140,
+              "sha256": "ab232552bf5d2721825f22c1151a89353fe473377a5f2803c98ee906b08dcd45"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1742,
+              "sha256": "0d04e42a2dc917fac19bce80afa3972dabc05f7c81fa95a672d9fa7e3ca50289"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 11,
+              "sha256": "1b7826e31f293419ac12cd767ff8524fd9674054e59009eeb2d3b0a6f214fd6b"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 186954300,
+              "sha256": "c3c37202ee2e91942bf215062dbca11ddb8fd09b13a48cd3323820c6793eb658"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 180,
+              "sha256": "25a9da449571d1cb973ceae02cc4f6077018e7c781ba5c17c4c4c859321ace5d"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 140,
+              "sha256": "ab232552bf5d2721825f22c1151a89353fe473377a5f2803c98ee906b08dcd45"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 186958320,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 164482,
+            "received_by_filter": 164522,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "c3c37202ee2e91942bf215062dbca11ddb8fd09b13a48cd3323820c6793eb658",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 164482,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "04-youtube": {
+          "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/04-youtube",
+          "listed_in_sessions_csv": true,
+          "session_app": "youtube",
+          "start_utc": "2026-10-09T12:40:44Z",
+          "end_utc": "2026-10-09T13:00:45Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 244,
+              "sha256": "34e396ce114d1a3f3625bbdecd82b276baf03fc31d21c8553d083676cfeb02be"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "189e3cb7b079f192875e19f05f9afef82bc195dd92a6fbe9a27fe4c7d467f94f"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "c246293ea2a0d954ee9ec3699a86d0c04ccfa0fb2d796d508206602bb71574ce"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 188,
+              "sha256": "f1a39ab3d5abb8f5ca4f5d988a8dab7c4899415994dd52fe1a798cda801bab79"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1580,
+              "sha256": "49065266566970505179acfe0606910079d548911c61f19b64b8ed14415a87ea"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 138,
+              "sha256": "84da7e5b817a6cac29a6ad0981c3dde48cf12f94aa74099a1a55f63689723632"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 2034,
+              "sha256": "4b989a87bd000b4b1a8c78da39890337120186e067d987eae372fe925c19b059"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 11,
+              "sha256": "c835d9ff8dc471697abdd0c3c0f87d573de2d4b6be1505ba29f7d0a97e0de66d"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 288099228,
+              "sha256": "e6d96f47668021c6b02a7719642e66e9959d574dca4d80dfd3a308e8be9a43f3"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 178,
+              "sha256": "3d6dead28c118b559fcce174f69d568536144484db19598a3aa595dc9cd8635e"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 138,
+              "sha256": "84da7e5b817a6cac29a6ad0981c3dde48cf12f94aa74099a1a55f63689723632"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 288103781,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 246611,
+            "received_by_filter": 246885,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "e6d96f47668021c6b02a7719642e66e9959d574dca4d80dfd3a308e8be9a43f3",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 246611,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "05-idle-after": {
+          "path": "data/captures/raw/sid-iphone-20261009T115620Z-long-cellular/05-idle-after",
+          "listed_in_sessions_csv": true,
+          "session_app": "idle",
+          "start_utc": "2026-10-09T13:01:48Z",
+          "end_utc": "2026-10-09T13:02:48Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 172,
+              "sha256": "52b1c96c0e37d3fda6559168b121409eadf4867c1d6d970da6fa6b00ba5746c0"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "298b78f53d62e80ca66960a6a53a47d8c0693f0ac9fbe5563437e239ac5687ba"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "39446377560be40bc37872457d55fea388b009f5652f8365286166aae4779abe"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 182,
+              "sha256": "3bd93c46c51c5a8b861d9e30971b391716745d64b641c351d7f62428644c98bb"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1518,
+              "sha256": "e0ec49f568eb6e32ca1406b5a1f810b4eabd7cfd371fc0c0098e79d88f71f1f1"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 141,
+              "sha256": "950f1a954b481af1c6df56be5876a565cd24ac938d4869ea2e8b4e5e1fb0fe93"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1947,
+              "sha256": "b347f557819f10313d0bff2b0ed24ba74a998df6dd6756dfb8d7f05516a2472c"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 9,
+              "sha256": "0083ed37adf49313b00eddb5a43a41c65c5004b1bb4f25f75e4c69b644ac2f6d"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 44392,
+              "sha256": "ff87917913eac7b10b03980634b4cc59d3ff5da041092cfa1f2206061c4a651d"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 181,
+              "sha256": "a7251d9899cbfc0e828638b6cad216e7c8925279753c46ff9936f4f8073fe971"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 141,
+              "sha256": "950f1a954b481af1c6df56be5876a565cd24ac938d4869ea2e8b4e5e1fb0fe93"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 48725,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 284,
+            "received_by_filter": 294,
+            "dropped_by_kernel": 0,
+            "interface": "rvi0",
+            "link_type": "PKTAP"
+          },
+          "pcap_sha256": "ff87917913eac7b10b03980634b4cc59d3ff5da041092cfa1f2206061c4a651d",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 284,
+          "pcap_link_types": [
+            0,
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        }
+      }
+    },
+    "sid-android-20261009T152334Z-check-macshare": {
+      "path": "data/captures/raw/sid-android-20261009T152334Z-check-macshare",
+      "environment": {
+        "file": "data/captures/raw/sid-android-20261009T152334Z-check-macshare/environment.md",
+        "sha256": "f89d2bc2a38d6d71177c7b3ab5216428aac0bf18e1a2037244ce97b22c95d595",
+        "fill_in_fields": [
+          "Android phone model",
+          "Android version",
+          "Facebook version",
+          "Instagram version",
+          "Android mobile data",
+          "VPN",
+          "Private DNS",
+          "iPhone signal for the hotspot (4G/5G)",
+          "Apps closed before their session",
+          "Logged in",
+          "What you did in each app",
+          "Anything unusual"
+        ]
+      },
+      "group_files": [
+        {
+          "name": "environment.md",
+          "bytes": 719,
+          "sha256": "f89d2bc2a38d6d71177c7b3ab5216428aac0bf18e1a2037244ce97b22c95d595"
+        },
+        {
+          "name": "pilot-log.tsv",
+          "bytes": 420,
+          "sha256": "7cf85b0a738d0beb5a09442ed641dad36ec24ac03df8b142e9f1ed5882f76c67"
+        },
+        {
+          "name": "setup.txt",
+          "bytes": 445,
+          "sha256": "328edf0f9c5213a2690e5703cc1b7788a8b927caf41d4eb03ea2d6117ebb9aa2"
+        }
+      ],
+      "sessions": {
+        "01-facebook": {
+          "path": "data/captures/raw/sid-android-20261009T152334Z-check-macshare/01-facebook",
+          "listed_in_sessions_csv": true,
+          "session_app": "facebook",
+          "start_utc": "2026-10-09T15:23:50Z",
+          "end_utc": "2026-10-09T15:28:50Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 226,
+              "sha256": "178fcd77070156bc1f2a5b553a1c3ea875f4ee76280f8cd12c6138f2912468e2"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "ed336811eec47b15888a42ffcd49810b3cb163d1f6081e91c1996dc28a8f3ead"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "1a3a1ed9c9ffefa1dfa945801d4f0e97e98a2032e9d1523f2c13519ff132bf10"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 187,
+              "sha256": "2d9e41b9d6b6cb180d52af85fa94826ec5f1ce7b8cf3a6b05d4d21e0eec29d57"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 750,
+              "sha256": "0652fb2b58d208e28e6c7f9a80ebfe58a9964d94f1f733a244d006433891f96a"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 141,
+              "sha256": "0699be4951956edcde1333b7f655055958db4aa00cd19dfc2f4e62b30a34904c"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 980,
+              "sha256": "2b3d4596dd3027207cb8c4c06cccb9d313ea12ef197b399c9ad97df871a58e87"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 11,
+              "sha256": "151813079eef312fa2d279af22e5e2c479e54285190eae5206dcdbd2f2e3c17c"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 136473672,
+              "sha256": "38e6a236b81cd38c4ccf383008d14b4c1b6327eb5160ca600f2ea044626b79f8"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 181,
+              "sha256": "9f666bfcc5a47cf6a2c116c7a959adf6ede5b36ac3a572ee487afa3f20b92e14"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 141,
+              "sha256": "0699be4951956edcde1333b7f655055958db4aa00cd19dfc2f4e62b30a34904c"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 136476331,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 116524,
+            "received_by_filter": 116767,
+            "dropped_by_kernel": 0,
+            "interface": "bridge100",
+            "link_type": "EN10MB"
+          },
+          "pcap_sha256": "38e6a236b81cd38c4ccf383008d14b4c1b6327eb5160ca600f2ea044626b79f8",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 116524,
+          "pcap_link_types": [
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        },
+        "02-instagram": {
+          "path": "data/captures/raw/sid-android-20261009T152334Z-check-macshare/02-instagram",
+          "listed_in_sessions_csv": true,
+          "session_app": "instagram",
+          "start_utc": "2026-10-09T15:29:35Z",
+          "end_utc": "2026-10-09T15:34:35Z",
+          "files": [
+            {
+              "name": "actions.tsv",
+              "bytes": 229,
+              "sha256": "99b00fa5125869a063adf3892bfc1d067cef44f2b1082f582527d07760939d95"
+            },
+            {
+              "name": "capture-finished.txt",
+              "bytes": 21,
+              "sha256": "030adb5795fd0f2921bb12b4156233c9d98a9a7955207f51970fa8cd3a830130"
+            },
+            {
+              "name": "capture-start-request.txt",
+              "bytes": 21,
+              "sha256": "576eeedf50c8471fba7ef2146060147917aa3377645faccfb1d0d04b153ff427"
+            },
+            {
+              "name": "capture.log",
+              "bytes": 185,
+              "sha256": "5da1bf39e9c88cf0a2113b3e27338593f58498cb4f2ee4b892c3988f8edfcb03"
+            },
+            {
+              "name": "header-sample.txt",
+              "bytes": 1271,
+              "sha256": "8d3caa8b4784492afd06dc084f16f158fc3e648ee3f71f2583a01e8bf486a859"
+            },
+            {
+              "name": "metadata-readback.log",
+              "bytes": 142,
+              "sha256": "ee8a2525882297db1eaf88e4f29ee91d91552727c326d404f38f2ac3bd9163aa"
+            },
+            {
+              "name": "metadata-sample.txt",
+              "bytes": 1501,
+              "sha256": "237f3373cd8d75422f3dda7aad26b56ca9d3b1392991cf0160230af95ac4704c"
+            },
+            {
+              "name": "packet-file-bytes.txt",
+              "bytes": 10,
+              "sha256": "7d12e801335d74b9ff29db58f6a21ff1c311ccd38a5d9a93f8b8778102922496"
+            },
+            {
+              "name": "packets.pcapng",
+              "bytes": 80320936,
+              "sha256": "421f8ef31627c381a081f2421acd09113e1e6a988d7b1184a1fc116bdc2cfae2"
+            },
+            {
+              "name": "packets.sha256",
+              "bytes": 182,
+              "sha256": "6e1ff7de87f6384833e3d37bf0949e1a2797b38acbd836dafabd6edc4aa6dbb2"
+            },
+            {
+              "name": "readback.log",
+              "bytes": 142,
+              "sha256": "ee8a2525882297db1eaf88e4f29ee91d91552727c326d404f38f2ac3bd9163aa"
+            }
+          ],
+          "file_count": 11,
+          "bytes_total": 80324640,
+          "missing_standard_files": [],
+          "tcpdump": {
+            "captured": 69219,
+            "received_by_filter": 69267,
+            "dropped_by_kernel": 0,
+            "interface": "bridge100",
+            "link_type": "EN10MB"
+          },
+          "pcap_sha256": "421f8ef31627c381a081f2421acd09113e1e6a988d7b1184a1fc116bdc2cfae2",
+          "pcap_matches_sidecar": true,
+          "pcap_packets_in_file": 69219,
+          "pcap_link_types": [
+            1
+          ],
+          "pcap_packets_match_tcpdump": true
+        }
+      }
+    }
+  },
+  "archives": [
+    {
+      "path": "~/work/mission-p/data/captures/raw.zip",
+      "bytes": 1147957005,
+      "sha256": "4879a00705ad13d85a8c4f1b557a6168c492bca94997263453b24a2a4d0e6631",
+      "sidecar": false,
+      "matches_sidecar": null
+    },
+    {
+      "path": "~/Desktop/mission-p-captures-raw-2026-10-19.zip",
+      "bytes": 1146651803,
+      "sha256": "eeb3ccc880fd2b06782002a2116c17479e0d2406e9418f18e3d271c5dbbd458e",
+      "sidecar": true,
+      "matches_sidecar": true
+    }
+  ],
+  "totals": {
+    "sessions": 18,
+    "packet_files": 17,
+    "packets_in_files": 1077781,
+    "all_pcaps_match_sidecar": true,
+    "all_pcaps_match_tcpdump": true,
+    "kernel_drops": 0
+  }
+}

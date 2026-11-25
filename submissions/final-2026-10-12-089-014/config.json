@@ -1,0 +1,23 @@
+{
+  "task1_static": {
+    "model": "models.task1_bundle (089)",
+    "features": "cv.task1_with_prefix_features (34 columns; 11 rest-of-flow columns derived inside the model)",
+    "reads": "task1_static/ and task2_realtime_prefix5/ feature files (Task 2 -> Task 1 is allowed; disclosed)"
+  },
+  "task2_realtime_prefix5": {
+    "model": "models.task2_model (014)",
+    "features": "cv.no_timing_features (12 columns)",
+    "reads": "task2_realtime_prefix5/ only"
+  },
+  "training_data": "train + validation (330 labelled flows)",
+  "seed": 0,
+  "excluded": [
+    "flow_id",
+    "split",
+    "start_rel",
+    "server_port",
+    "metadata.json label_counts",
+    "test labels"
+  ],
+  "command": ".venv/bin/python src/make_final_candidate.py"
+}

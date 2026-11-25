@@ -1,0 +1,1 @@
+"Task 1 Macro F1": 0.82223, "Task 1 Accuracy": 0.888889, "Task 1 Score": 41.11152, "Task 2 Macro F1": 0.905055, "Task 2 Accuracy": 0.888889, "Task 2 Score": 45.252727, "Total": 86.364247}

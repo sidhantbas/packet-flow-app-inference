@@ -1,0 +1,183 @@
+{
+  "B1": {
+    "fb_vs_ig / Task 1 (34 columns)": {
+      "n": 30,
+      "loo_1nn_error": 0.367,
+      "bayes_lower": 0.242,
+      "bayes_upper": 0.367,
+      "loo_3nn_error": 0.367,
+      "loo_5nn_error": 0.467
+    },
+    "fb_vs_ig / Task 1 whole-flow (17 columns)": {
+      "n": 30,
+      "loo_1nn_error": 0.2,
+      "bayes_lower": 0.113,
+      "bayes_upper": 0.2,
+      "loo_3nn_error": 0.233,
+      "loo_5nn_error": 0.3
+    },
+    "fb_vs_ig / Task 2 (12 columns)": {
+      "n": 30,
+      "loo_1nn_error": 0.367,
+      "bayes_lower": 0.242,
+      "bayes_upper": 0.367,
+      "loo_3nn_error": 0.333,
+      "loo_5nn_error": 0.267
+    },
+    "6 apps / Task 1 (34 columns)": {
+      "n": 330,
+      "loo_1nn_error": 0.224,
+      "bayes_lower": 0.121,
+      "bayes_upper": 0.224,
+      "loo_3nn_error": 0.267,
+      "loo_5nn_error": 0.294
+    },
+    "6 apps / Task 2 (12 columns)": {
+      "n": 330,
+      "loo_1nn_error": 0.145,
+      "bayes_lower": 0.076,
+      "bayes_upper": 0.145,
+      "loo_3nn_error": 0.212,
+      "loo_5nn_error": 0.191
+    }
+  },
+  "B2": {
+    "fb_vs_ig / Task 1": {
+      "top": {
+        "packet_count_up": 0.388,
+        "bytes_down": 0.303,
+        "packet_count_down": 0.287,
+        "bytes_up": 0.265,
+        "mean_pkt_size_down": 0.259,
+        "p5_mean_pkt_size_down": 0.258,
+        "std_iat": 0.215,
+        "std_pkt_size_down": 0.185
+      },
+      "max_bits": 0.388
+    },
+    "fb_vs_ig / Task 2": {
+      "top": {
+        "transport": 0.289,
+        "mean_pkt_size_down": 0.164,
+        "mean_pkt_size_up": 0.162,
+        "std_pkt_size_up": 0.138,
+        "std_pkt_size_down": 0.123,
+        "bytes_down": 0.091,
+        "bytes_up": 0.073,
+        "up_down_byte_ratio": 0.019
+      },
+      "max_bits": 0.289
+    },
+    "6 apps / Task 1": {
+      "top": {
+        "p5_bytes_up": 1.364,
+        "p5_up_down_byte_ratio": 1.354,
+        "p5_mean_pkt_size_up": 1.288,
+        "p5_std_pkt_size_up": 0.956,
+        "p5_bytes_down": 0.78,
+        "p5_mean_pkt_size_down": 0.726,
+        "bytes_up": 0.702,
+        "p5_std_pkt_size_down": 0.667
+      },
+      "max_bits": 1.364
+    },
+    "6 apps / Task 2": {
+      "top": {
+        "bytes_up": 1.362,
+        "up_down_byte_ratio": 1.357,
+        "mean_pkt_size_up": 1.284,
+        "std_pkt_size_up": 0.867,
+        "bytes_down": 0.796,
+        "mean_pkt_size_down": 0.707,
+        "std_pkt_size_down": 0.602,
+        "transport": 0.516
+      },
+      "max_bits": 1.362
+    }
+  },
+  "B3": {
+    "048 production curve": {
+      "asymptote_a": 1.0,
+      "b": 1.239,
+      "c": 0.566,
+      "facebook_training_flows_needed": {
+        "0.8": 25.1,
+        "0.9": 85.3
+      }
+    },
+    "Charles afe-002 (3 points, comparison only)": {
+      "asymptote_a": 1.0,
+      "b": 1.244,
+      "c": 0.346,
+      "facebook_training_flows_needed": {
+        "0.8": 196.2,
+        "0.9": 1453.3
+      }
+    }
+  },
+  "A1_adversarial_auc": {
+    "task1": 0.517,
+    "task2": 0.556
+  },
+  "A2_exact_twins": {
+    "test": {
+      "n": 81,
+      "seen_any_label": 0.815,
+      "single_label_twin": 0.654,
+      "single_label_twin_among_production_meta_calls": 0.333,
+      "production_meta_calls": 6
+    },
+    "cv": {
+      "single_label_twin": 0.538,
+      "lookup_accuracy_when_reachable": 0.961,
+      "single_label_twin_among_production_meta_calls": 0.443
+    },
+    "test_minus_cv_points": 11.6
+  },
+  "A3_capture_adjacency": {
+    "overall_agreement": 0.636,
+    "chance_agreement": 0.254,
+    "facebook_agreement": 0.182,
+    "facebook_chance": 0.033,
+    "instagram_agreement": 0.526,
+    "instagram_chance": 0.058
+  },
+  "A4_shortcut_audit": {
+    "task1": {
+      "fidelity_in_sample": 0.791,
+      "fidelity_cv": 0.742,
+      "tree_accuracy_vs_truth": 0.752,
+      "split_columns": {
+        "p5_mean_pkt_size_up": 3,
+        "up_down_byte_ratio": 2,
+        "p5_bytes_up": 1,
+        "packet_count_down": 1,
+        "mean_pkt_size_up": 1,
+        "p5_std_pkt_size_up": 1,
+        "p5_std_pkt_size_down": 1,
+        "p5_duration": 1,
+        "p5_bytes_down": 1
+      },
+      "split_kind": {
+        "opening (p5_ / first 5 packets)": 8,
+        "whole flow": 4
+      },
+      "rules": "|--- p5_bytes_up <= 2463.00\n|   |--- packet_count_down <= 9.50\n|   |   |--- up_down_byte_ratio <= 0.33\n|   |   |   |--- class: mozilla\n|   |   |--- up_down_byte_ratio >  0.33\n|   |   |   |--- mean_pkt_size_up <= 315.55\n|   |   |   |   |--- class: x\n|   |   |   |--- mean_pkt_size_up >  315.55\n|   |   |   |   |--- class: facebook\n|   |--- packet_count_down >  9.50\n|   |   |--- p5_mean_pkt_size_up <= 185.00\n|   |   |   |--- p5_std_pkt_size_up <= 75.27\n|   |   |   |   |--- class: google\n|   |   |   |--- p5_std_pkt_size_up >  75.27\n|   |   |   |   |--- class: mozilla\n|   |   |--- p5_mean_pkt_size_up >  185.00\n|   |   |   |--- p5_std_pkt_size_down <= 110.25\n|   |   |   |   |--- class: x\n|   |   |   |--- p5_std_pkt_size_down >  110.25\n|   |   |   |   |--- class: instagram\n|--- p5_bytes_up >  2463.00\n|   |--- p5_mean_pkt_size_up <= 1379.00\n|   |   |--- up_down_byte_ratio <= 3.03\n|   |   |   |--- p5_duration <= 0.04\n|   |   |   |   |--- class: instagram\n|   |   |   |--- p5_duration >  0.04\n|   |   |   |   |--- class: google\n|   |   |--- up_down_byte_ratio >  3.03\n|   |   |   |--- p5_bytes_down <= 192.00\n|   |   |   |   |--- class: youtube\n|   |   |   |--- p5_bytes_down >  192.00\n|   |   |   |   |--- class: instagram\n|   |--- p5_mean_pkt_size_up >  1379.00\n|   |   |--- p5_mean_pkt_size_up <= 1387.00\n|   |   |   |--- class: youtube\n|   |   |--- p5_mean_pkt_size_up >  1387.00\n|   |   |   |--- class: google\n"
+    },
+    "task2": {
+      "fidelity_in_sample": 0.873,
+      "fidelity_cv": 0.806,
+      "tree_accuracy_vs_truth": 0.791,
+      "split_columns": {
+        "bytes_up": 3,
+        "up_down_byte_ratio": 3,
+        "mean_pkt_size_up": 3,
+        "std_pkt_size_up": 3
+      },
+      "split_kind": {
+        "opening (p5_ / first 5 packets)": 12
+      },
+      "rules": "|--- bytes_up <= 2463.00\n|   |--- up_down_byte_ratio <= 5.20\n|   |   |--- up_down_byte_ratio <= 3.30\n|   |   |   |--- mean_pkt_size_up <= 146.00\n|   |   |   |   |--- class: x\n|   |   |   |--- mean_pkt_size_up >  146.00\n|   |   |   |   |--- class: instagram\n|   |   |--- up_down_byte_ratio >  3.30\n|   |   |   |--- std_pkt_size_up <= 117.00\n|   |   |   |   |--- class: mozilla\n|   |   |   |--- std_pkt_size_up >  117.00\n|   |   |   |   |--- class: facebook\n|   |--- up_down_byte_ratio >  5.20\n|   |   |--- bytes_up <= 795.00\n|   |   |   |--- class: x\n|   |   |--- bytes_up >  795.00\n|   |   |   |--- up_down_byte_ratio <= 26.52\n|   |   |   |   |--- class: google\n|   |   |   |--- up_down_byte_ratio >  26.52\n|   |   |   |   |--- class: x\n|--- bytes_up >  2463.00\n|   |--- mean_pkt_size_up <= 1379.00\n|   |   |--- std_pkt_size_up <= 36.00\n|   |   |   |--- bytes_up <= 4724.50\n|   |   |   |   |--- class: google\n|   |   |   |--- bytes_up >  4724.50\n|   |   |   |   |--- class: youtube\n|   |   |--- std_pkt_size_up >  36.00\n|   |   |   |--- std_pkt_size_up <= 510.06\n|   |   |   |   |--- class: youtube\n|   |   |   |--- std_pkt_size_up >  510.06\n|   |   |   |   |--- class: google\n|   |--- mean_pkt_size_up >  1379.00\n|   |   |--- mean_pkt_size_up <= 1387.00\n|   |   |   |--- class: youtube\n|   |   |--- mean_pkt_size_up >  1387.00\n|   |   |   |--- class: google\n"
+    }
+  }
+}

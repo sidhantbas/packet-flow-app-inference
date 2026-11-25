@@ -1,0 +1,50 @@
+[
+  {
+    "task": "task1_static",
+    "pair": "facebook/google",
+    "auc_raw": 0.9838,
+    "auc_stamps": 0.9843,
+    "delta": 0.0005,
+    "adds": false
+  },
+  {
+    "task": "task1_static",
+    "pair": "facebook/instagram",
+    "auc_raw": 0.8186,
+    "auc_stamps": 0.8186,
+    "delta": 0.0,
+    "adds": false
+  },
+  {
+    "task": "task1_static",
+    "pair": "google/youtube",
+    "auc_raw": 0.9375,
+    "auc_stamps": 0.939,
+    "delta": 0.0015,
+    "adds": false
+  },
+  {
+    "task": "task2_realtime_prefix5",
+    "pair": "facebook/google",
+    "auc_raw": 0.9902,
+    "auc_stamps": 0.9903,
+    "delta": 0.0001,
+    "adds": false
+  },
+  {
+    "task": "task2_realtime_prefix5",
+    "pair": "facebook/instagram",
+    "auc_raw": 0.6082,
+    "auc_stamps": 0.624,
+    "delta": 0.0158,
+    "adds": true
+  },
+  {
+    "task": "task2_realtime_prefix5",
+    "pair": "google/youtube",
+    "auc_raw": 0.9262,
+    "auc_stamps": 0.935,
+    "delta": 0.0088,
+    "adds": false
+  }
+]

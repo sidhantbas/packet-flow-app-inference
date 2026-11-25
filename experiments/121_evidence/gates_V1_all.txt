@@ -1,0 +1,39 @@
+V1 on iphone_pilot+iphone_long+android: 661 captured flows; apps {'instagram': 272, 'youtube': 260, 'facebook': 124, 'idle': 5}
+== Gate 1: extractor identities
+  FAIL task1: sizes in [60, 1514] (down) 659/661
+  Task 2 opening consistent with Task 1 flow: 661/661
+  Gate 1 FAIL
+
+== Opening shapes (Task 2), captured vs original
+  tcp up/down: captured {(1, 4): 0.01, (2, 3): 0.02, (3, 2): 0.26, (4, 1): 0.67, (5, 0): 0.04} | original {(2, 3): 0.11, (3, 2): 0.66, (4, 1): 0.23}
+  udp up/down: captured {(0, 5): 0.01, (1, 4): 0.01, (2, 3): 0.47, (3, 2): 0.15, (4, 1): 0.07, (5, 0): 0.29} | original {(1, 4): 0.04, (2, 3): 0.7, (3, 2): 0.23, (4, 1): 0.02, (5, 0): 0.01}
+  captured: smaller of 2 TCP up packets [(66, 6), (179, 1), (207, 1), (105, 1)] (original first TCP packet 145-175 B)
+  captured: UDP up sizes (all equal) [(1242, 110), (1294, 65), (1274, 25), (1292, 24), (1392, 2), (110, 2)]
+  original: smaller of 2 TCP up packets [(145, 10), (147, 2), (148, 2), (133, 1), (156, 1)] (original first TCP packet 145-175 B)
+  original: UDP up sizes (all equal) [(1381, 30), (1366, 20), (1375, 18), (1365, 13), (1377, 9), (1363, 7)]
+
+== Gate 2: proximity to the original labelled flows (16 Task 1 columns without min_iat, log1p, standardised on originals)
+  min_iat == 0: captured 69% vs original 98% (timestamp batching; reported, not gated)
+  app facebook                           n=124  median NN distance 1.44 (orig 90th pct 2.15)  same-label 5-NN 0.04 (orig 0.16)  FAR
+  app instagram                          n=272  median NN distance 1.75 (orig 90th pct 2.01)  same-label 5-NN 0.11 (orig 0.41)  FAR
+  app youtube                            n=260  median NN distance 1.20 (orig 90th pct 1.25)  same-label 5-NN 0.29 (orig 0.59)  FAR
+  facebook / QUIC burst                  n= 25  median NN distance 2.29 (orig 90th pct 2.15)  same-label 5-NN 0.05 (orig 0.16)  FAR
+  facebook / QUIC media download         n=  6  median NN distance 2.50 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / QUIC upload-heavy           n=  1  median NN distance 2.95 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / TCP keep-alive              n=  6  median NN distance 1.72 (orig 90th pct 2.15)  same-label 5-NN 0.17 (orig 0.16)  ok
+  facebook / short QUIC fetch            n= 19  median NN distance 0.37 (orig 90th pct 2.15)  same-label 5-NN 0.00 (orig 0.16)  FAR
+  facebook / short TCP                   n= 60  median NN distance 0.99 (orig 90th pct 2.15)  same-label 5-NN 0.02 (orig 0.16)  FAR
+  facebook / slow QUIC trickle           n=  7  median NN distance 2.63 (orig 90th pct 2.15)  same-label 5-NN 0.23 (orig 0.16)  FAR
+  instagram / QUIC burst                 n= 55  median NN distance 20.00 (orig 90th pct 2.01)  same-label 5-NN 0.28 (orig 0.41)  FAR
+  instagram / QUIC media download        n=  4  median NN distance 1.03 (orig 90th pct 2.01)  same-label 5-NN 0.60 (orig 0.41)  ok
+  instagram / QUIC upload-heavy          n=  4  median NN distance 1.64 (orig 90th pct 2.01)  same-label 5-NN 0.80 (orig 0.41)  ok
+  instagram / TCP keep-alive             n= 10  median NN distance 2.01 (orig 90th pct 2.01)  same-label 5-NN 0.04 (orig 0.41)  FAR
+  instagram / short QUIC fetch           n= 32  median NN distance 0.76 (orig 90th pct 2.01)  same-label 5-NN 0.06 (orig 0.41)  FAR
+  instagram / short TCP                  n=153  median NN distance 1.50 (orig 90th pct 2.01)  same-label 5-NN 0.02 (orig 0.41)  FAR
+  instagram / slow QUIC trickle          n= 14  median NN distance 1.78 (orig 90th pct 2.01)  same-label 5-NN 0.30 (orig 0.41)  FAR
+  label discovery: label of the nearest original flow, per captured session app (which app makes 'facebook'-like flows?)
+    facebook  -> google 50, x 23, youtube 22, instagram 15, facebook 11, mozilla 3
+    instagram -> google 126, x 65, youtube 29, mozilla 18, instagram 17, facebook 17
+    youtube   -> google 129, youtube 50, x 41, instagram 21, mozilla 17, facebook 2
+  adversarial AUC original vs captured: 0.947 (gate <= 0.70)
+  Gate 2 FAIL (per-app rows and AUC decide; type rows are diagnostics)

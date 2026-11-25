@@ -1,0 +1,93 @@
+{
+  "submitted_task2_counts": {
+    "youtube": 12,
+    "x": 24,
+    "google": 32,
+    "instagram": 4,
+    "facebook": 2,
+    "mozilla": 7
+  },
+  "P": {
+    "predicted_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "changed_vs_submitted": 0,
+    "transitions": {}
+  },
+  "F0": {
+    "predicted_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "changed_vs_submitted": 0,
+    "transitions": {}
+  },
+  "F1S": {
+    "predicted_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "changed_vs_submitted": 0,
+    "transitions": {}
+  },
+  "F1I": {
+    "predicted_counts": {
+      "youtube": 12,
+      "x": 24,
+      "google": 32,
+      "instagram": 4,
+      "facebook": 2,
+      "mozilla": 7
+    },
+    "changed_vs_submitted": 0,
+    "transitions": {}
+  },
+  "F2S-S": {
+    "predicted_counts": {
+      "youtube": 13,
+      "facebook": 3,
+      "x": 18,
+      "instagram": 5,
+      "google": 32,
+      "mozilla": 10
+    },
+    "changed_vs_submitted": 6,
+    "transitions": {
+      "x -> facebook": 1,
+      "x -> instagram": 1,
+      "x -> youtube": 1,
+      "x -> mozilla": 3
+    }
+  },
+  "F2I-S": {
+    "predicted_counts": {
+      "youtube": 13,
+      "google": 32,
+      "x": 18,
+      "instagram": 5,
+      "mozilla": 10,
+      "facebook": 3
+    },
+    "changed_vs_submitted": 7,
+    "transitions": {
+      "x -> google": 1,
+      "x -> instagram": 1,
+      "x -> mozilla": 3,
+      "google -> youtube": 1,
+      "x -> facebook": 1
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "margin": 0.25,
+  "tasks": {
+    "task1_static": {
+      "macro_f1": {
+        "B0": [
+          0.8591,
+          0.0492
+        ],
+        "B1": [
+          0.9156,
+          0.0442
+        ],
+        "B2": [
+          0.8728,
+          0.0523
+        ]
+      },
+      "errors_total": 162,
+      "reachable_top2": 77,
+      "reachable_top2_close": 19,
+      "unreachable": 85,
+      "reachable_close_by_true_class": {
+        "google": 9,
+        "youtube": 5,
+        "facebook": 2,
+        "x": 2,
+        "instagram": 1
+      },
+      "reachable_close_by_pair": {
+        "google->youtube": 5,
+        "youtube->google": 5,
+        "facebook->google": 2,
+        "google->x": 2,
+        "instagram->mozilla": 1,
+        "x->google": 1,
+        "x->mozilla": 1,
+        "google->instagram": 1
+      },
+      "reachable_top2_by_true_class": {
+        "google": 34,
+        "youtube": 20,
+        "x": 10,
+        "instagram": 6,
+        "facebook": 5,
+        "mozilla": 2
+      }
+    },
+    "task2_realtime_prefix5": {
+      "macro_f1": {
+        "B0": [
+          0.7588,
+          0.0707
+        ],
+        "B1": [
+          0.913,
+          0.0508
+        ],
+        "B2": [
+          0.768,
+          0.0687
+        ]
+      },
+      "errors_total": 253,
+      "reachable_top2": 158,
+      "reachable_top2_close": 16,
+      "unreachable": 95,
+      "reachable_close_by_true_class": {
+        "google": 7,
+        "youtube": 6,
+        "x": 2,
+        "instagram": 1
+      },
+      "reachable_close_by_pair": {
+        "youtube->google": 6,
+        "google->youtube": 5,
+        "x->facebook": 2,
+        "google->mozilla": 2,
+        "instagram->facebook": 1
+      },
+      "reachable_top2_by_true_class": {
+        "google": 50,
+        "youtube": 38,
+        "mozilla": 32,
+        "facebook": 23,
+        "instagram": 10,
+        "x": 5
+      }
+    }
+  },
+  "total_score": {
+    "B0": [
+      80.896,
+      4.738
+    ],
+    "B1": [
+      91.432,
+      3.795
+    ],
+    "B2": [
+      82.039,
+      4.772
+    ]
+  },
+  "reading": "headroom >= 1 point: propose a rule under its own protocol"
+}

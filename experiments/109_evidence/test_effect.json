@@ -1,0 +1,48 @@
+{
+  "P": {
+    "changed_vs_submitted": 0,
+    "changes": {},
+    "specialist_columns": [
+      "transport",
+      "packet_count_up",
+      "packet_count_down",
+      "bytes_up",
+      "bytes_down",
+      "mean_pkt_size_up",
+      "mean_pkt_size_down",
+      "std_pkt_size_up",
+      "std_pkt_size_down",
+      "burst_count",
+      "up_down_packet_ratio",
+      "up_down_byte_ratio"
+    ]
+  },
+  "A": {
+    "changed_vs_submitted": 0,
+    "changes": {},
+    "specialist_columns": [
+      "transport",
+      "packet_count_up",
+      "packet_count_down",
+      "bytes_up",
+      "bytes_down",
+      "mean_pkt_size_up",
+      "mean_pkt_size_down",
+      "std_pkt_size_up",
+      "std_pkt_size_down",
+      "burst_count",
+      "up_down_packet_ratio",
+      "up_down_byte_ratio",
+      "s_up_max"
+    ]
+  },
+  "B": {
+    "changed_vs_submitted": 1,
+    "changes": {
+      "flow_001187": "instagram -> facebook"
+    },
+    "specialist_columns": [
+      "s_up_min"
+    ]
+  }
+}

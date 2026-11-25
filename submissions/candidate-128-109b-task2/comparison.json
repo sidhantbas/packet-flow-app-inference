@@ -1,0 +1,75 @@
+{
+  "base": "candidate 127 (upload 10)",
+  "task2_model": "109 B SelectSpecialist(seed=0), 30 Task 2 columns",
+  "specialist_columns": [
+    "s_up_min"
+  ],
+  "task2_changes_vs_upload_10": [
+    {
+      "flow_id": "flow_001187",
+      "upload_10": "instagram",
+      "candidate": "facebook"
+    }
+  ],
+  "predicted_counts": {
+    "task1_static": {
+      "google": 32,
+      "x": 20,
+      "youtube": 13,
+      "mozilla": 9,
+      "instagram": 5,
+      "facebook": 2
+    },
+    "task2_realtime_prefix5": {
+      "google": 32,
+      "x": 24,
+      "youtube": 12,
+      "mozilla": 7,
+      "instagram": 3,
+      "facebook": 3
+    }
+  },
+  "differs_from_uploads": {
+    "1": {
+      "task1_static": 11,
+      "task2_realtime_prefix5": 1
+    },
+    "2": {
+      "task1_static": 8,
+      "task2_realtime_prefix5": 1
+    },
+    "3": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 1
+    },
+    "4": {
+      "task1_static": 4,
+      "task2_realtime_prefix5": 1
+    },
+    "5": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 1
+    },
+    "6": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 1
+    },
+    "7": {
+      "task1_static": 3,
+      "task2_realtime_prefix5": 1
+    },
+    "8": {
+      "task1_static": 3,
+      "task2_realtime_prefix5": 1
+    },
+    "9": {
+      "task1_static": 5,
+      "task2_realtime_prefix5": 1
+    },
+    "10": {
+      "task1_static": 0,
+      "task2_realtime_prefix5": 1
+    }
+  },
+  "cv_evidence": "109 B on never-used seeds 2136-2140: mean \u0394 +0.0197, \u0394 > 0 on 5 of 5, BETTER on 3 of 5; grouped folds (117) +0.031, BETTER 5 of 5, but a two-value size rule resting on two near-identical facebook pairs"
+}

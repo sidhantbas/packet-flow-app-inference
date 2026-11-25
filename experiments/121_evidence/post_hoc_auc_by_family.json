@@ -1,0 +1,8 @@
+{
+  "post_hoc_adversarial_auc_by_family": {
+    "sizes and counts (no timing)": 0.923,
+    "timing only (duration, gaps, bursts)": 0.862,
+    "min_iat alone": 0.635,
+    "all 17": 0.96
+  }
+}

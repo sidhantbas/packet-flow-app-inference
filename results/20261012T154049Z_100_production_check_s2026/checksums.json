@@ -1,0 +1,10 @@
+{
+  "checks.json": "891e483b0c15c916a41d4d741fb6191ac1c970d6ec522720337ade977f0c8978",
+  "comparison.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+  "manifest.json": "97defb00480a2e3c40ec54e15a6ec8b31595224ded2f62cebb1cd641f7d3eb1d",
+  "report.md": "000e61de19d0b2c3684d3cc4aab896181a1f6cdd8315774ebbd3efbfd5a235c3",
+  "task1_static/confusion.csv": "9fca5ca719077afab21c2639d74e85ee875257ccb998c90a07ea0e825627a4ff",
+  "task1_static/folds.csv": "22c7255dc4d35a6cea973a3796670956eddc0ae7b0602c8c33af00371db9a4df",
+  "task1_static/oof.csv": "e0e7ccd236d14b4dc69afe8f0c6be6e39632eccec9989f2efa4be5bf555351f1",
+  "task1_static/summary.json": "0a7f6d9e1ad10180453be0108a06997dc735d96bfbd7756f22a6eaf7478ffaf6"
+}

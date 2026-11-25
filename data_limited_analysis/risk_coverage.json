@@ -1,0 +1,223 @@
+{
+  "reject_shares": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "tasks": {
+    "task1_static": [
+      {
+        "reject": 0.0,
+        "accuracy": [
+          0.9018181818181817,
+          0.036625738907708885
+        ],
+        "macro_f1": [
+          0.8590719948839236,
+          0.049238667169420686
+        ],
+        "share_of_errors_abstained": 0.0,
+        "abstained_by_class": {}
+      },
+      {
+        "reject": 0.05,
+        "accuracy": [
+          0.9167741935483871,
+          0.04077169245085336
+        ],
+        "macro_f1": [
+          0.8772373016832582,
+          0.06316959973854155
+        ],
+        "share_of_errors_abstained": 0.22796581196581195,
+        "abstained_by_class": {
+          "google": 38,
+          "youtube": 18,
+          "facebook": 17,
+          "mozilla": 11,
+          "x": 10,
+          "instagram": 6
+        }
+      },
+      {
+        "reject": 0.1,
+        "accuracy": [
+          0.9301694915254237,
+          0.039543986880445456
+        ],
+        "macro_f1": [
+          0.8841234680486467,
+          0.07116238297592435
+        ],
+        "share_of_errors_abstained": 0.39518315018315014,
+        "abstained_by_class": {
+          "google": 72,
+          "youtube": 34,
+          "facebook": 23,
+          "x": 19,
+          "mozilla": 18,
+          "instagram": 9
+        }
+      },
+      {
+        "reject": 0.2,
+        "accuracy": [
+          0.9492307692307692,
+          0.0346153846153846
+        ],
+        "macro_f1": [
+          0.8921786365351076,
+          0.07456166816412278
+        ],
+        "share_of_errors_abstained": 0.6203137973137973,
+        "abstained_by_class": {
+          "google": 146,
+          "youtube": 84,
+          "x": 36,
+          "facebook": 35,
+          "mozilla": 30,
+          "instagram": 19
+        }
+      },
+      {
+        "reject": 0.3,
+        "accuracy": [
+          0.9608695652173913,
+          0.039190774733304255
+        ],
+        "macro_f1": [
+          0.9280644531353066,
+          0.07669144577089186
+        ],
+        "share_of_errors_abstained": 0.7623137973137973,
+        "abstained_by_class": {
+          "google": 204,
+          "youtube": 114,
+          "x": 63,
+          "mozilla": 53,
+          "facebook": 38,
+          "instagram": 28
+        }
+      }
+    ],
+    "task2_realtime_prefix5": [
+      {
+        "reject": 0.0,
+        "accuracy": [
+          0.8466666666666667,
+          0.04531122185324623
+        ],
+        "macro_f1": [
+          0.7588399405918616,
+          0.07074179193963122
+        ],
+        "share_of_errors_abstained": 0.0,
+        "abstained_by_class": {}
+      },
+      {
+        "reject": 0.05,
+        "accuracy": [
+          0.8541935483870966,
+          0.0447756189541011
+        ],
+        "macro_f1": [
+          0.7507088634236766,
+          0.0672085260982564
+        ],
+        "share_of_errors_abstained": 0.10608474858474859,
+        "abstained_by_class": {
+          "google": 34,
+          "instagram": 29,
+          "youtube": 19,
+          "x": 13,
+          "facebook": 3,
+          "mozilla": 2
+        }
+      },
+      {
+        "reject": 0.1,
+        "accuracy": [
+          0.8610169491525422,
+          0.042372881355932215
+        ],
+        "macro_f1": [
+          0.7466143686231408,
+          0.06887309850172527
+        ],
+        "share_of_errors_abstained": 0.18505405705405706,
+        "abstained_by_class": {
+          "google": 59,
+          "x": 44,
+          "instagram": 35,
+          "youtube": 28,
+          "mozilla": 5,
+          "facebook": 4
+        }
+      },
+      {
+        "reject": 0.2,
+        "accuracy": [
+          0.8738461538461537,
+          0.052395759197229344
+        ],
+        "macro_f1": [
+          0.771513645231445,
+          0.08952779854642513
+        ],
+        "share_of_errors_abstained": 0.3621410811410811,
+        "abstained_by_class": {
+          "x": 160,
+          "google": 78,
+          "youtube": 47,
+          "instagram": 36,
+          "mozilla": 22,
+          "facebook": 7
+        }
+      },
+      {
+        "reject": 0.3,
+        "accuracy": [
+          0.8982608695652173,
+          0.05314613492263451
+        ],
+        "macro_f1": [
+          0.8020219120773655,
+          0.09839090052214085
+        ],
+        "share_of_errors_abstained": 0.5512296037296037,
+        "abstained_by_class": {
+          "x": 186,
+          "google": 138,
+          "youtube": 85,
+          "instagram": 44,
+          "mozilla": 38,
+          "facebook": 9
+        }
+      }
+    ]
+  },
+  "total": {
+    "0.0": [
+      80.89559677378926,
+      4.737924127879471
+    ],
+    "0.05": [
+      81.39730825534674,
+      5.20565472376263
+    ],
+    "0.1": [
+      81.53689183358937,
+      5.431596240550237
+    ],
+    "0.2": [
+      83.18461408832763,
+      6.774742059348661
+    ],
+    "0.3": [
+      86.50431826063361,
+      7.347904334256185
+    ]
+  }
+}

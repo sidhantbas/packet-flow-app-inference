@@ -1,0 +1,207 @@
+{
+  "task1_static": {
+    "comparable": true,
+    "candidate": "20260930T173836Z_014_fi_same_nocw",
+    "reference": "20260930T161714Z_006_softvote",
+    "n_folds": 50,
+    "delta_mean": -0.007102693602693606,
+    "delta_std": 0.05312766286632443,
+    "wins": 5,
+    "losses": 10,
+    "ties": 35,
+    "wins_needed": 35,
+    "delta_over_fold_std": -0.10008147001610702,
+    "verdict": "INCONCLUSIVE",
+    "per_class": {
+      "facebook": {
+        "delta": -0.04666666666666666,
+        "wins": 4,
+        "losses": 10
+      },
+      "google": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "instagram": {
+        "delta": 0.004050505050505052,
+        "wins": 6,
+        "losses": 8
+      },
+      "mozilla": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "x": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "youtube": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "flows_fixed": [
+      {
+        "flow_id": "flow_000368",
+        "app": "facebook",
+        "was": "instagram"
+      }
+    ],
+    "flows_broken": [],
+    "confusion_improved": [
+      {
+        "true": "instagram",
+        "pred": "facebook",
+        "reference": 14,
+        "candidate": 11,
+        "change": -3
+      },
+      {
+        "true": "google",
+        "pred": "instagram",
+        "reference": 22,
+        "candidate": 21,
+        "change": -1
+      },
+      {
+        "true": "x",
+        "pred": "instagram",
+        "reference": 5,
+        "candidate": 4,
+        "change": -1
+      },
+      {
+        "true": "youtube",
+        "pred": "facebook",
+        "reference": 2,
+        "candidate": 1,
+        "change": -1
+      }
+    ],
+    "confusion_worsened": [
+      {
+        "true": "facebook",
+        "pred": "instagram",
+        "reference": 12,
+        "candidate": 17,
+        "change": 5
+      },
+      {
+        "true": "youtube",
+        "pred": "instagram",
+        "reference": 11,
+        "candidate": 12,
+        "change": 1
+      },
+      {
+        "true": "x",
+        "pred": "facebook",
+        "reference": 0,
+        "candidate": 1,
+        "change": 1
+      },
+      {
+        "true": "google",
+        "pred": "facebook",
+        "reference": 4,
+        "candidate": 5,
+        "change": 1
+      }
+    ],
+    "same_device": true
+  },
+  "task2_realtime_prefix5": {
+    "comparable": true,
+    "candidate": "20260930T173836Z_014_fi_same_nocw",
+    "reference": "20260930T170446Z_007_t2_drop_timing5",
+    "n_folds": 50,
+    "delta_mean": 0.018203703703703708,
+    "delta_std": 0.02630322892301319,
+    "wins": 18,
+    "losses": 1,
+    "ties": 31,
+    "wins_needed": 35,
+    "delta_over_fold_std": 0.27984496713762635,
+    "verdict": "INCONCLUSIVE",
+    "per_class": {
+      "facebook": {
+        "delta": 0.026047619047619045,
+        "wins": 11,
+        "losses": 1
+      },
+      "google": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "instagram": {
+        "delta": 0.08317460317460316,
+        "wins": 19,
+        "losses": 0
+      },
+      "mozilla": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "x": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      },
+      "youtube": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "flows_fixed": [
+      {
+        "flow_id": "flow_000379",
+        "app": "instagram",
+        "was": "facebook"
+      },
+      {
+        "flow_id": "flow_000604",
+        "app": "instagram",
+        "was": "facebook"
+      },
+      {
+        "flow_id": "flow_001323",
+        "app": "instagram",
+        "was": "facebook"
+      }
+    ],
+    "flows_broken": [],
+    "confusion_improved": [
+      {
+        "true": "instagram",
+        "pred": "facebook",
+        "reference": 46,
+        "candidate": 27,
+        "change": -19
+      },
+      {
+        "true": "google",
+        "pred": "instagram",
+        "reference": 5,
+        "candidate": 0,
+        "change": -5
+      }
+    ],
+    "confusion_worsened": [
+      {
+        "true": "google",
+        "pred": "facebook",
+        "reference": 5,
+        "candidate": 10,
+        "change": 5
+      }
+    ],
+    "same_device": true
+  }
+}
