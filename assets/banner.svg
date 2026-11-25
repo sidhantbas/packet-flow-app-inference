@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-labelledby="t d">
+  <title id="t">packet-flow-app-inference</title>
+  <desc id="d">Encrypted packet flows from a phone pass through a classifier and are labelled as one of six apps: facebook, google, instagram, mozilla, x, youtube.</desc>
+  <style>
+    :root { color-scheme: dark; }
+    .title { font: 700 46px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #f1f5f9; letter-spacing: -0.5px; }
+    .sub   { font: 500 19px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+    .tag   { font: 600 13px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #c7d2fe; letter-spacing: 1.5px; }
+    .app   { font: 600 14px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #e2e8f0; }
+    .lab   { font: 600 12px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 1px; }
+    .score { font: 800 34px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #6ee7b7; }
+    @media (prefers-reduced-motion: reduce) { animateMotion, animate { display: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#062e2a"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#312e81">
+        <animate attributeName="stop-color" values="#312e81;#4338ca;#312e81" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#065f46">
+        <animate attributeName="stop-color" values="#065f46;#047857;#065f46" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.35"/>
+    </pattern>
+    <!-- flow paths: phone -> classifier -> apps -->
+    <path id="in1" d="M640 150 C 700 150, 720 185, 770 185"/>
+    <path id="in2" d="M640 185 C 700 185, 720 185, 770 185"/>
+    <path id="in3" d="M640 220 C 700 220, 720 185, 770 185"/>
+    <path id="o1" d="M930 185 C 990 185, 1000 80, 1060 80"/>
+    <path id="o2" d="M930 185 C 990 185, 1000 125, 1060 125"/>
+    <path id="o3" d="M930 185 C 990 185, 1000 170, 1060 170"/>
+    <path id="o4" d="M930 185 C 990 185, 1000 215, 1060 215"/>
+    <path id="o5" d="M930 185 C 990 185, 1000 260, 1060 260"/>
+    <path id="o6" d="M930 185 C 990 185, 1000 305, 1060 305"/>
+  </defs>
+
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+
+  <!-- left: text block -->
+  <text x="56" y="70" class="tag">ITU AI/ML CHALLENGE 2026 · TEAM TELEX</text>
+  <text x="56" y="128" class="title">Packet Flow</text>
+  <text x="56" y="180" class="title">App Inference</text>
+  <text x="56" y="222" class="sub">Which app made this encrypted flow?</text>
+  <text x="56" y="248" class="sub">Six apps, flow statistics only, no payload, no SNI.</text>
+  <text x="56" y="304" class="score">90.85</text>
+  <text x="166" y="292" class="lab">/ 100 · FINAL TEST PHASE</text>
+  <text x="166" y="310" class="lab">5TH ON THE LEADERBOARD (21 OCT)</text>
+
+  <!-- phone -->
+  <rect x="566" y="118" width="62" height="118" rx="12" fill="#111827" stroke="#64748b" stroke-width="2"/>
+  <rect x="574" y="132" width="46" height="88" rx="4" fill="#1e1b4b"/>
+  <circle cx="597" cy="228" r="3" fill="#64748b"/>
+  <text x="597" y="182" text-anchor="middle" font-size="22">📱</text>
+  <text x="597" y="262" text-anchor="middle" class="lab">FLOWS</text>
+
+  <!-- wires -->
+  <g fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="3 5">
+    <use href="#in1"/><use href="#in2"/><use href="#in3"/>
+    <use href="#o1"/><use href="#o2"/><use href="#o3"/><use href="#o4"/><use href="#o5"/><use href="#o6"/>
+  </g>
+
+  <!-- classifier core -->
+  <rect x="770" y="135" width="160" height="100" rx="16" fill="url(#core)" stroke="#a5b4fc" stroke-width="1.5"/>
+  <text x="850" y="176" text-anchor="middle" class="app">🌲 RF · ET</text>
+  <text x="850" y="198" text-anchor="middle" class="app">⚡ LightGBM</text>
+  <text x="850" y="222" text-anchor="middle" class="lab">SOFT VOTE + GATES</text>
+
+  <!-- apps -->
+  <g class="app">
+    <rect x="1060" y="66" width="150" height="28" rx="8" fill="#1e3a8a" stroke="#3b82f6"/><text x="1076" y="85">facebook</text>
+    <rect x="1060" y="111" width="150" height="28" rx="8" fill="#14532d" stroke="#22c55e"/><text x="1076" y="130">google</text>
+    <rect x="1060" y="156" width="150" height="28" rx="8" fill="#4a044e" stroke="#c026d3"/><text x="1076" y="175">instagram</text>
+    <rect x="1060" y="201" width="150" height="28" rx="8" fill="#431407" stroke="#ea580c"/><text x="1076" y="220">mozilla</text>
+    <rect x="1060" y="246" width="150" height="28" rx="8" fill="#1c1917" stroke="#a8a29e"/><text x="1076" y="265">x</text>
+    <rect x="1060" y="291" width="150" height="28" rx="8" fill="#7f1d1d" stroke="#ef4444"/><text x="1076" y="310">youtube</text>
+  </g>
+
+  <!-- moving packets (static view still shows the full diagram) -->
+  <g filter="url(#glow)">
+    <circle r="5" fill="#a5b4fc"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#in1"/></animateMotion></circle>
+    <circle r="5" fill="#7dd3fc"><animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath href="#in2"/></animateMotion></circle>
+    <circle r="5" fill="#c4b5fd"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#in3"/></animateMotion></circle>
+    <circle r="5" fill="#60a5fa"><animateMotion dur="3s" begin="0.2s" repeatCount="indefinite"><mpath href="#o1"/></animateMotion></circle>
+    <circle r="5" fill="#4ade80"><animateMotion dur="3s" begin="0.7s" repeatCount="indefinite"><mpath href="#o2"/></animateMotion></circle>
+    <circle r="5" fill="#f0abfc"><animateMotion dur="3s" begin="1.2s" repeatCount="indefinite"><mpath href="#o3"/></animateMotion></circle>
+    <circle r="5" fill="#fdba74"><animateMotion dur="3s" begin="1.7s" repeatCount="indefinite"><mpath href="#o4"/></animateMotion></circle>
+    <circle r="5" fill="#d6d3d1"><animateMotion dur="3s" begin="2.2s" repeatCount="indefinite"><mpath href="#o5"/></animateMotion></circle>
+    <circle r="5" fill="#fca5a5"><animateMotion dur="3s" begin="2.7s" repeatCount="indefinite"><mpath href="#o6"/></animateMotion></circle>
+  </g>
+</svg>
